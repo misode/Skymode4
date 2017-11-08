@@ -1,0 +1,34 @@
+{
+  "criteria": {
+    "place1": {
+      "trigger": "minecraft:placed_block",
+      "conditions":{
+        "block":"minecraft:white_glazed_terracotta"
+      }
+    },
+    "place2": {
+      "trigger": "minecraft:placed_block",
+      "conditions":{
+        "block":"minecraft:magenta_glazed_terracotta"
+      }
+    },
+    "place3": {
+      "trigger": "minecraft:placed_block",
+      "conditions":{
+        "block":"minecraft:light_blue_glazed_terracotta"
+      }
+    },
+    "place4": {
+      "trigger": "minecraft:placed_block",
+      "conditions":{
+        "block":"minecraft:yellow_glazed_terracotta"
+      }
+    }
+  },
+  "rewards":{
+    "function":"skymode4:modules/barrel/place_barrel"
+  },
+  "requirements":[
+    ["place1","place2","place3","place4"]
+  ]
+}

@@ -1,0 +1,11 @@
+fill ~-8 0 ~-8 ~9 63 ~9 air 0 replace lava
+fill ~-8 0 ~-8 ~9 63 ~9 air 0 replace flowing_lava
+fill ~-8 64 ~-8 ~9 127 ~9 air 0 replace lava
+fill ~-8 64 ~-8 ~9 127 ~9 air 0 replace flowing_lava
+fill ~-7 0 ~-7 ~8 127 ~8 air 0 replace gravel
+fill ~-7 0 ~-7 ~8 127 ~8 air 0 replace soul_sand
+fill ~-7 0 ~-7 ~8 127 ~8 air 0 replace glowstone
+fill ~-7 0 ~-7 ~8 127 ~8 air 0 replace magma
+fill ~-7 0 ~-7 ~8 127 ~8 air 0 replace quartz_ore
+fill ~-7 0 ~-7 ~8 127 ~8 air 0 replace netherrack
+fill ~-7 0 ~-7 ~8 127 ~8 air 0 replace bedrock

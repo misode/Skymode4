@@ -1,0 +1,18 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:lava_bucket"
+    },
+    "title": "Hot Stuff",
+    "description":"Make lava with a stone barrel\n▶ Island\n▶ Water Source"
+  },
+  "parent":"skymode4:stone_age/stone_barrel",
+  "criteria": {
+    "make_lava": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards":{
+    "function":"skymode4:advancements/reward/stone_age/make_lava"
+  }
+}

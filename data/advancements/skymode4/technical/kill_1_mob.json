@@ -1,0 +1,10 @@
+{
+  "criteria": {
+    "kill": {
+      "trigger": "minecraft:player_killed_entity"
+    }
+  },
+  "rewards":{
+    "function":"skymode4:advancements/reward/technical/s_kill_1_mob"
+  }
+}

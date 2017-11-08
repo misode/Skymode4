@@ -1,0 +1,18 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:yellow_glazed_terracotta"
+		},
+		"title": "Casting Table",
+		"description":"Craft a seared cast"
+	},
+	"parent":"skymode4:metal_age/root",
+	"criteria": {
+		"craft": {
+			"trigger": "minecraft:impossible"
+		}
+	},
+	"rewards":{
+		"function":"skymode4:advancements/reward/metal_age/seared_cast"
+	}
+}

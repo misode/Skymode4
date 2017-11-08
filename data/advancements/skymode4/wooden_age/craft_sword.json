@@ -1,0 +1,48 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:wooden_sword"
+    },
+    "title": "Ready to Fight?",
+    "description":"Craft a sword\n▶ Island\n▶ §r§kSurprise"
+  },
+  "parent":"skymode4:wooden_age/craft_table",
+  "criteria": {
+    "craft1": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions":{
+        "items":[
+          {
+            "item":"minecraft:wooden_sword"
+          }
+        ]
+      }
+    },
+    "craft2": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions":{
+        "items":[
+          {
+            "item":"minecraft:stone_sword"
+          }
+        ]
+      }
+    },
+    "craft3": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions":{
+        "items":[
+          {
+            "item":"minecraft:iron_sword"
+          }
+        ]
+      }
+    }
+  },
+  "rewards":{
+    "function":"skymode4:advancements/reward/wooden_age/craft_sword"
+  },
+  "requirements": [
+    ["craft1","craft2","craft3"]
+  ]
+}

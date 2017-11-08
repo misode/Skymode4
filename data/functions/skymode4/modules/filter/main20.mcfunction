@@ -1,0 +1,1 @@
+execute @e[type=armor_stand,tag=filter] ~ ~ ~ function skymode4:modules/filter/remove

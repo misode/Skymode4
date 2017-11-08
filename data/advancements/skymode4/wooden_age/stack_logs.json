@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:log"
+    },
+    "title": "Serious Choppage",
+    "description":"Collect a stack of logs\n▶ Island\n▶ Custom Crafter"
+  },
+  "parent":"skymode4:wooden_age/root",
+  "criteria": {
+    "pickup": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions":{
+        "items":[
+          {
+            "item": "minecraft:log",
+            "count": 64
+          }
+        ]
+      }
+    }
+  },
+  "rewards":{
+    "function":"skymode4:advancements/reward/wooden_age/stack_logs"
+  }
+}

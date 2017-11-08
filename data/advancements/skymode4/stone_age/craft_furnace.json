@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:furnace"
+    },
+    "title": "Hot Topic",
+    "description":"Craft a furnace\n▶ Island"
+  },
+  "parent":"skymode4:stone_age/root",
+  "criteria": {
+    "craft": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions":{
+        "items":[
+          {
+            "item":"minecraft:furnace"
+          }
+        ]
+      }
+    }
+  },
+  "rewards":{
+    "function":"skymode4:advancements/reward/stone_age/craft_furnace"
+  }
+}

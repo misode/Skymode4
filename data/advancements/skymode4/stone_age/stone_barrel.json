@@ -1,0 +1,25 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:magenta_glazed_terracotta"
+		},
+		"title": "Stone Barrel",
+		"description":"Craft a stone barrel\n▶ Island"
+	},
+	"parent":"skymode4:stone_age/craft_furnace",
+	"criteria": {
+		"craft": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions":{
+				"items":[
+					{
+						"item":"minecraft:magenta_glazed_terracotta"
+					}
+				]
+			}
+		}
+	},
+	"rewards":{
+		"function":"skymode4:advancements/reward/stone_age/stone_barrel"
+	}
+}

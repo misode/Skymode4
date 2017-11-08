@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:bread"
+    },
+    "title": "A Proper Meal",
+    "description":"Eat bread"
+  },
+  "parent":"skymode4:farming_age/root",
+  "criteria": {
+    "pickup": {
+      "trigger": "minecraft:consume_item",
+      "conditions":{
+        "item":{
+          "item": "minecraft:bread"
+        }
+      }
+    }
+  },
+  "rewards":{
+    "function":"skymode4:advancements/reward/farming_age/eat_bread"
+  }
+}

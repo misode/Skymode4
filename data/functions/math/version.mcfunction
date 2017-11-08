@@ -1,0 +1,2 @@
+#Created using http://minecraft.tools/en/tellraw.php
+tellraw @s ["",{"text":"\n----------------------------------\n"},{"text":"Math:","color":"aqua","bold":"true"},{"text":" Version 1.3","color":"yellow"},{"text":"\nby "},{"text":"emeraldfyr3","underlined":true,"color":"green","clickEvent":{"action":"open_url","value":"https://www.youtube.com/emeraldfyr3"}},{"text":" <- Click for More\n----------------------------------"}]

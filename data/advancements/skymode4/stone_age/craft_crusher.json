@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:orange_glazed_terracotta"
+    },
+    "title": "Crushed!",
+    "description":"Craft a crusher\n▶ Island"
+  },
+  "parent":"skymode4:stone_age/root",
+  "criteria": {
+    "craft": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions":{
+        "items":[
+          {
+            "item":"minecraft:orange_glazed_terracotta"
+          }
+        ]
+      }
+    }
+  },
+  "rewards":{
+    "function":"skymode4:advancements/reward/stone_age/craft_crusher"
+  }
+}

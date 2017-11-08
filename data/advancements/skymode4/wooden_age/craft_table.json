@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:crafting_table"
+    },
+    "title": "Benchmarking",
+    "description":"Craft a standard crafting table\n▶ Island"
+  },
+  "parent":"skymode4:wooden_age/root",
+  "criteria": {
+    "craft": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions":{
+        "items":[
+          {
+            "item":"minecraft:crafting_table"
+          }
+        ]
+      }
+    }
+  },
+  "rewards":{
+    "function":"skymode4:advancements/reward/wooden_age/craft_table"
+  }
+}

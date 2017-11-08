@@ -1,0 +1,18 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:stone_sword"
+    },
+    "title": "A Real Champion",
+    "description":"Kill 100 mobs"
+  },
+  "parent":"skymode4:wooden_age/craft_sword",
+  "criteria": {
+    "kill": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards":{
+    "function":"skymode4:advancements/reward/wooden_age/kill_100_mobs"
+  }
+}

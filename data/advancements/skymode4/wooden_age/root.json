@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:log"
+    },
+    "title": "Wooden Age",
+    "description":"Punch a tree\n▶ Island",
+    "background":"minecraft:textures/blocks/planks_oak.png"
+  },
+  "criteria": {
+    "pickup": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions":{
+        "items":[
+          {
+            "item":"minecraft:log"
+          }
+        ]
+      }
+    }
+  },
+  "rewards":{
+    "function":"skymode4:advancements/reward/wooden_age/root"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:sapling"
+    },
+    "title": "Skymode 4",
+    "description":"Join the world\n▶ Spawn Island\n▶ Manual",
+    "background":"minecraft:textures/blocks/dirt.png"
+  },
+  "criteria": {
+    "join": {
+      "trigger": "minecraft:location"
+    }
+  },
+  "rewards":{
+    "function":"skymode4:advancements/reward/main/root"
+  },
+  "requirements": [
+    ["join"]
+  ]
+}

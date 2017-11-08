@@ -1,0 +1,21 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:obsidian"
+    },
+    "title": "Nether Age",
+    "description":"Visit the nether dimension\n▶ Resistance",
+    "background":"minecraft:textures/blocks/netherrack.png"
+  },
+  "criteria": {
+    "pickup": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions":{
+        "to": "the_nether"
+      }
+    }
+  },
+  "rewards":{
+    "function":"skymode4:advancements/reward/nether_age/root"
+  }
+}

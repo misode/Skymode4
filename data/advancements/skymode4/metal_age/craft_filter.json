@@ -1,0 +1,25 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:pink_glazed_terracotta"
+		},
+		"title": "It's Sorting Time!",
+		"description":"Craft a filter"
+	},
+	"parent":"skymode4:metal_age/root",
+	"criteria": {
+		"craft": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions":{
+				"items":[
+					{
+						"item":"minecraft:pink_glazed_terracotta"
+					}
+				]
+			}
+		}
+	},
+	"rewards":{
+		"function":"skymode4:advancements/reward/metal_age/craft_filter"
+	}
+}
