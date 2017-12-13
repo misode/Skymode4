@@ -29,6 +29,12 @@
     },
     "done": true
   },
+  "skymode4:farming_age/eat_bread": {
+    "criteria": {
+      "pickup": "2017-12-13 16:31:07 +0100"
+    },
+    "done": true
+  },
   "skymode4:wooden_age/compost": {
     "criteria": {
       "dirt": "2017-12-13 14:16:45 +0100"

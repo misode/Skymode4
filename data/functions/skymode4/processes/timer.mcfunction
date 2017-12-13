@@ -4,15 +4,16 @@ scoreboard players set @s[score_timer_min=39] timer 0
 
 #tellraw @a ["TICK ",{"score":{"name":"@e[type=bat,tag=main]","objective":"timer"}}]
 
-# RESET:		     40
-# CRAFTER:		   20
-# BARREL:		     20
-# CRUSHER:		   20
-# TWERK:		     10
-# FILTER:		      8
-# FORGE:		      8
-# GRAVES:		      1
-# WRENCH:		      1
+# RESET          40
+# CRAFTER:       20
+# BARREL:        20
+# CRUSHER        20
+# COBBLE GEN:		 20
+# TWERK          10
+# FILTER:         8
+# FORGE:          8
+# GRAVES:         1
+# WRENCH:         1
 # INVIS.MINECART:	1
 
 execute @s[score_timer_min=0,score_timer=0] ~ ~ ~ function skymode4:processes/reset
@@ -34,7 +35,7 @@ execute @s[score_timer_min=12,score_timer=12] ~ ~ ~ function skymode4:modules/fo
 execute @s[score_timer_min=15,score_timer=15] ~ ~ ~ function skymode4:modules/crusher/main
 execute @s[score_timer_min=16,score_timer=16] ~ ~ ~ function skymode4:modules/filter/main
 #execute @s[score_timer_min=17,score_timer=17] ~ ~ ~ function
-#execute @s[score_timer_min=18,score_timer=18] ~ ~ ~ function
+execute @s[score_timer_min=18,score_timer=18] ~ ~ ~ function skymode4:modules/cobble_gen/main
 #execute @s[score_timer_min=19,score_timer=19] ~ ~ ~ function
 execute @s[score_timer_min=20,score_timer=20] ~ ~ ~ function skymode4:modules/forge/main
 execute @s[score_timer_min=21,score_timer=21] ~ ~ ~ function skymode4:modules/twerk/main
@@ -54,7 +55,7 @@ execute @s[score_timer_min=32,score_timer=32] ~ ~ ~ function skymode4:modules/fi
 execute @s[score_timer_min=35,score_timer=35] ~ ~ ~ function skymode4:modules/crusher/main
 execute @s[score_timer_min=36,score_timer=36] ~ ~ ~ function skymode4:modules/forge/main
 #execute @s[score_timer_min=37,score_timer=37] ~ ~ ~ function
-#execute @s[score_timer_min=38,score_timer=38] ~ ~ ~ function
+execute @s[score_timer_min=38,score_timer=38] ~ ~ ~ function skymode4:modules/cobble_gen/main
 #execute @s[score_timer_min=39,score_timer=39] ~ ~ ~ function
 
 function skymode4:modules/invisible_minecarts/main
@@ -63,3 +64,4 @@ function skymode4:modules/wrench/main
 function skymode4:modules/barrel/main20
 function skymode4:modules/crusher/main20
 function skymode4:modules/filter/main20
+function skymode4:modules/cobble_gen/main20

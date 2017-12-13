@@ -8,3 +8,5 @@ scoreboard players tag @e[type=bat,tag=main] remove runningCustomCrafter
 scoreboard players tag @e[type=bat,tag=main] remove runningGraves
 scoreboard players tag @e[type=bat,tag=main] remove runningManual
 scoreboard players tag @e[type=bat,tag=main] remove runningWrench
+scoreboard players tag @e[type=bat,tag=main] remove runningNetherVoid
+scoreboard players tag @e[type=bat,tag=main] remove runningCobbleGen

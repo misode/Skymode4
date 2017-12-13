@@ -40,3 +40,7 @@ execute @s[score_success_min=1] ~ ~ ~ blockdata ~ ~ ~ {Items:[{Slot:4b,id:"minec
 #filter
 execute @s ~ ~ ~ testforblock ~ ~ ~ minecraft:dropper -1 {CustomName:"Custom Crafter",Items:[{Slot:1b,id:"minecraft:iron_bars",Count:1b},{Slot:3b,id:"minecraft:iron_bars",Count:1b},{Slot:4b,id:"minecraft:stone_slab",Count:1b},{Slot:5b,id:"minecraft:iron_bars",Count:1b},{Slot:7b,id:"minecraft:hopper",Count:1b}]}
 execute @s[score_success_min=1] ~ ~ ~ blockdata ~ ~ ~ {Items:[{Slot:4b,id:"minecraft:pink_glazed_terracotta",Count:1b}]}
+
+#cobble gen
+execute @s ~ ~ ~ testforblock ~ ~ ~ minecraft:dropper -1 {CustomName:"Custom Crafter",Items:[{Slot:0b,id:"minecraft:cobblestone",Count:1b},{Slot:1b,id:"minecraft:cobblestone",Count:1b},{Slot:2b,id:"minecraft:cobblestone",Count:1b},{id:"minecraft:water_bucket",Count:1b},{Slot:4b,id:"minecraft:iron_pickaxe",Count:1b},{id:"minecraft:lava_bucket",Count:1b},{Slot:6b,id:"minecraft:cobblestone",Count:1b},{Slot:7b,id:"minecraft:cobblestone",Count:1b},{Slot:8b,id:"minecraft:cobblestone",Count:1b}]}
+execute @s[score_success_min=1] ~ ~ ~ blockdata ~ ~ ~ {Items:[{Slot:3b,id:"minecraft:bucket",Count:1b},{Slot:4b,id:"minecraft:gray_glazed_terracotta",Count:1b},{Slot:5b,id:"minecraft:bucket",Count:1b}]}
