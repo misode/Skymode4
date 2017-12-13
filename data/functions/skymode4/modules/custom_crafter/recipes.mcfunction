@@ -1,4 +1,3 @@
-title @a actionbar ["Recipes!"]
 
 #wrench
 execute @s ~ ~ ~ testforblock ~ ~ ~ minecraft:dropper -1 {CustomName:"Custom Crafter",Items:[{Slot:0b,id:"minecraft:flint",Count:1b},{Slot:2b,id:"minecraft:flint",Count:1b},{Slot:4b,id:"minecraft:stick",Count:1b},{Slot:7b,id:"minecraft:stick",Count:1b}]}

@@ -1,11 +1,7 @@
-data/capabilities.dat
-data/Fortress.dat
-data/scoreboard.dat
-data/villages.dat
-data/villages_end.dat
-data/villages_nether.dat
+data/*.dat
 DIM-1/
 DIM1/
+advancements/*
 playerdata/
 region/
 stats/

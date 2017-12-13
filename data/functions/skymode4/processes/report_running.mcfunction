@@ -7,3 +7,4 @@ execute @s[tag=runningCustomCrafter] ~ ~ ~ tellraw @a[tag=runningReport] [{"text
 execute @s[tag=runningGraves] ~ ~ ~ tellraw @a[tag=runningReport] [{"text":"• Graves","color":"green"}]
 execute @s[tag=runningManual] ~ ~ ~ tellraw @a[tag=runningReport] [{"text":"• Manual","color":"green"}]
 execute @s[tag=runningWrench] ~ ~ ~ tellraw @a[tag=runningReport] [{"text":"• Wrench","color":"green"}]
+execute @s[tag=runningNetherVoid] ~ ~ ~ tellraw @a[tag=runningReport] [{"text":"• Nether Void","color":"green"}]

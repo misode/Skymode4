@@ -4,16 +4,16 @@ scoreboard players set @s[score_timer_min=39] timer 0
 
 #tellraw @a ["TICK ",{"score":{"name":"@e[type=bat,tag=main]","objective":"timer"}}]
 
-# RESET:		40
-# CRAFTER:		20
-# BARREL:		20
-# CRUSHER:		20
-# TWERK:		10
-# FILTER:		8
-# FORGE:		8
-# GRAVES:		1
-# WRENCH:		1
-# INV.MINECART:	1
+# RESET:		     40
+# CRAFTER:		   20
+# BARREL:		     20
+# CRUSHER:		   20
+# TWERK:		     10
+# FILTER:		      8
+# FORGE:		      8
+# GRAVES:		      1
+# WRENCH:		      1
+# INVIS.MINECART:	1
 
 execute @s[score_timer_min=0,score_timer=0] ~ ~ ~ function skymode4:processes/reset
 execute @s[score_timer_min=0,score_timer=0] ~ ~ ~ function skymode4:modules/filter/main
@@ -56,3 +56,10 @@ execute @s[score_timer_min=36,score_timer=36] ~ ~ ~ function skymode4:modules/fo
 #execute @s[score_timer_min=37,score_timer=37] ~ ~ ~ function
 #execute @s[score_timer_min=38,score_timer=38] ~ ~ ~ function
 #execute @s[score_timer_min=39,score_timer=39] ~ ~ ~ function
+
+function skymode4:modules/invisible_minecarts/main
+function skymode4:modules/graves/main
+function skymode4:modules/wrench/main
+function skymode4:modules/barrel/main20
+function skymode4:modules/crusher/main20
+function skymode4:modules/filter/main20

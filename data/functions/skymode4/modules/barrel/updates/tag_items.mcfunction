@@ -11,6 +11,7 @@ scoreboard players tag @s add barrelCompost {OnGround:1b,Item:{Count:1b,id:"mine
 scoreboard players tag @s add barrelCompost {OnGround:1b,Item:{Count:1b,id:"minecraft:reeds"}}
 scoreboard players tag @s add barrelCompost {OnGround:1b,Item:{Count:1b,id:"minecraft:apple"}}
 scoreboard players tag @s add barrelCompost {OnGround:1b,Item:{Count:1b,id:"minecraft:potato"}}
+scoreboard players tag @s add barrelCompost {OnGround:1b,Item:{Count:1b,id:"minecraft:carrot"}}
 scoreboard players tag @s add barrelCobblestone {OnGround:1b,Item:{Count:1b,id:"minecraft:cobblestone"}}
 scoreboard players tag @s add barrelBucket {OnGround:1b,Item:{Count:1b,id:"minecraft:bucket"}}
 scoreboard players tag @s add barrelIron {OnGround:1b,Item:{Count:1b,id:"minecraft:iron_ore"}}

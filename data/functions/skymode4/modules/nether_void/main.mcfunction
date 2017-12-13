@@ -1,3 +1,4 @@
+scoreboard players tag @e[type=bat,tag=main] add runningNetherVoid
 scoreboard players tag @a remove inNether
 scoreboard players tag @a add inNether {Dimension:-1}
 execute @a[tag=inNether] ~ ~ ~ execute @s[tag=!startNetherVoid] ~ ~ ~ summon area_effect_cloud 0 0 0 {Duration:2000000000,Tags:[netherVoid]}
