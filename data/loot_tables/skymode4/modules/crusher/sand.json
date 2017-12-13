@@ -3,78 +3,28 @@
 		{
 			"rolls":{
 				"min":1,
-				"max":3
+				"max":2
 			},
 			"entries":[
 				{
 					"type":"item",
-					"name":"minecraft:bone",
-					"weight":2,
-					"functions":[
-						{
-                            "function":"minecraft:set_count",
-                            "count":{
-								"min":1,
-								"max":3
-							}
-                        }
-					]
+					"name":"minecraft:bone"
 				},
 				{
 					"type":"item",
-					"name":"minecraft:iron_ore",
-					"weight":1,
-					"functions":[
-						{
-                            "function":"minecraft:set_count",
-                            "count":{
-								"min":1,
-								"max":2
-							}
-                        }
-					]
+					"name":"minecraft:gold_ore"
 				},
 				{
 					"type":"item",
-					"name":"minecraft:gunpowder",
-					"weight":2,
-					"functions":[
-						{
-                            "function":"minecraft:set_count",
-                            "count":{
-								"min":1,
-								"max":3
-							}
-                        }
-					]
+					"name":"minecraft:gunpowder"
 				},
 				{
 					"type":"item",
-					"name":"minecraft:glowstone_dust",
-					"weight":2,
-					"functions":[
-						{
-                            "function":"minecraft:set_count",
-                            "count":{
-								"min":1,
-								"max":3
-							}
-                        }
-					]
+					"name":"minecraft:glowstone_dust"
 				},
 				{
 					"type":"item",
-					"name":"minecraft:redstone",
-					"weight":2,
-					"functions":[
-						{
-                            "function":"minecraft:set_count",
-                            "count":{
-								"min":1,
-								"max":3
-							}
-                        }
-					]
+					"name":"minecraft:redstone"
 				}
 			]
 		}

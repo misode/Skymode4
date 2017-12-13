@@ -5,14 +5,7 @@
 			"entries":[
 				{
 					"type":"item",
-					"name":"minecraft:sand",
-					"weight":1,
-					"functions":[
-                        {
-                            "function":"minecraft:set_count",
-                            "count":1
-                        }
-                    ]
+					"name":"minecraft:sand"
 				}
 			]
 		},
@@ -22,48 +15,21 @@
 				{
 					"type":"item",
 					"name":"minecraft:flint",
-					"weight":1,
-					"functions":[
-                        {
-                            "function":"minecraft:set_count",
-                            "count":{
-								"min":0,
-								"max":2
-							}
-                        }
-                    ]
-				}
-			]
-		},
-		{
-			"rolls":{
-				"min":0,
-				"max":2
-			},
-			"entries":[
+					"weight":1
+				},
+				{
+					"type":"item",
+					"name":"minecraft:sand",
+					"weight":1
+				},
 				{
 					"type":"item",
 					"name":"minecraft:iron_ore",
 					"weight":1
 				},
 				{
-					"type":"item",
-					"name":"minecraft:sand",
-					"weight":2
-				},
-				{
-					"type":"item",
-					"name":"minecraft:redstone",
-					"weight":1
-				},
-				{
-					"type":"item",
-					"name":"minecraft:flint",
-					"weight":1
-				},
-				{
 					"type":"empty",
-					"weight":1
+					"weight":5
 				}
 			]
 		}
