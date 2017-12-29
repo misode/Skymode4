@@ -16,3 +16,4 @@ scoreboard players tag @s add barrelCobblestone {OnGround:1b,Item:{Count:1b,id:"
 scoreboard players tag @s add barrelBucket {OnGround:1b,Item:{Count:1b,id:"minecraft:bucket"}}
 scoreboard players tag @s add barrelIron {OnGround:1b,Item:{Count:1b,id:"minecraft:iron_ore"}}
 scoreboard players tag @s add barrelGold {OnGround:1b,Item:{Count:1b,id:"minecraft:gold_ore"}}
+scoreboard players tag @s add barrelOreChunk {OnGround:1b,Item:{Count:1b,id:"minecraft:repeating_command_block"}}

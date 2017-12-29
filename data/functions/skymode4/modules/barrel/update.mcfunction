@@ -5,19 +5,25 @@ execute @s[score_barrelCount_min=1] ~ ~ ~ detect ~ ~-1 ~ packed_ice * scoreboard
 execute @s[score_barrelCount_min=1] ~ ~ ~ detect ~ ~-1 ~ ice * scoreboard players set @s[score_barrelTime=200] barrelHeat -15
 execute @s[score_barrelCount_min=1] ~ ~ ~ detect ~ ~-1 ~ ice * scoreboard players set @s[score_barrelTime=200] barrelHeat -10
 execute @s[score_barrelCount_min=1] ~ ~ ~ detect ~ ~-1 ~ torch * scoreboard players set @s[score_barrelTime=200] barrelHeat 1
-execute @s[score_barrelCount_min=1] ~ ~ ~ detect ~ ~-1 ~ fire * scoreboard players set @s[score_barrelTime=200] barrelHeat 2
-execute @s[score_barrelCount_min=1] ~ ~ ~ detect ~ ~-1 ~ lava * scoreboard players set @s[score_barrelTime=200] barrelHeat 4
-execute @s[score_barrelCount_min=1] ~ ~ ~ detect ~ ~-1 ~ flowing_lava * scoreboard players set @s[score_barrelTime=200] barrelHeat 4
+execute @s[score_barrelCount_min=1] ~ ~ ~ detect ~ ~-1 ~ lava * scoreboard players set @s[score_barrelTime=200] barrelHeat 2
+execute @s[score_barrelCount_min=1] ~ ~ ~ detect ~ ~-1 ~ flowing_lava * scoreboard players set @s[score_barrelTime=200] barrelHeat 2
+execute @s[score_barrelCount_min=1] ~ ~ ~ detect ~ ~-1 ~ fire * scoreboard players set @s[score_barrelTime=200] barrelHeat 4
 
 ## update specific content ##
 function skymode4:modules/barrel/updates/update_compost if @s[tag=barrelWooden,score_barrelContent_min=1,score_barrelContent=1,score_barrelCount_min=8]
 function skymode4:modules/barrel/updates/update_compost if @s[tag=barrelStone,score_barrelContent_min=1,score_barrelContent=1,score_barrelCount_min=8]
 function skymode4:modules/barrel/updates/update_cobblestone if @s[tag=barrelWooden,score_barrelContent_min=6,score_barrelContent=7,score_barrelCount_min=8]
 function skymode4:modules/barrel/updates/update_cobblestone if @s[tag=barrelStone,score_barrelContent_min=6,score_barrelContent=7,score_barrelCount_min=8]
+
 function skymode4:modules/barrel/updates/update_iron if @s[tag=barrelSeared,score_barrelContent_min=8,score_barrelContent=10,score_barrelCount_min=1]
 function skymode4:modules/barrel/updates/update_gold if @s[tag=barrelSeared,score_barrelContent_min=12,score_barrelContent=14,score_barrelCount_min=1]
+function skymode4:modules/barrel/updates/update_copper if @s[tag=barrelSeared,score_barrelContent_min=16,score_barrelContent=18,score_barrelCount_min=1]
+function skymode4:modules/barrel/updates/update_tin if @s[tag=barrelSeared,score_barrelContent_min=20,score_barrelContent=22,score_barrelCount_min=1]
 function skymode4:modules/barrel/updates/update_iron if @s[tag=barrelCast,score_barrelContent_min=8,score_barrelContent=10,score_barrelCount_min=1]
 function skymode4:modules/barrel/updates/update_gold if @s[tag=barrelCast,score_barrelContent_min=12,score_barrelContent=14,score_barrelCount_min=1]
+function skymode4:modules/barrel/updates/update_copper if @s[tag=barrelCast,score_barrelContent_min=16,score_barrelContent=18,score_barrelCount_min=1]
+function skymode4:modules/barrel/updates/update_tin if @s[tag=barrelCast,score_barrelContent_min=20,score_barrelContent=22,score_barrelCount_min=1]
+
 function skymode4:modules/barrel/updates/update_water if @s[tag=barrelWooden,score_barrelContent_min=3,score_barrelContent=3,score_barrelCount_min=1]
 function skymode4:modules/barrel/updates/update_water if @s[tag=barrelStone,score_barrelContent_min=3,score_barrelContent=3,score_barrelCount_min=1]
 function skymode4:modules/barrel/updates/update_lava if @s[tag=barrelWooden,score_barrelContent_min=4,score_barrelContent=4,score_barrelCount_min=1]

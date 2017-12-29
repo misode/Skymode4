@@ -14,3 +14,11 @@ execute @s[score_barrelContent_min=12,score_barrelContent=12] ~ ~-1.2 ~ entityda
 execute @s[score_barrelContent_min=13,score_barrelContent=13] ~ ~-1.2 ~ entitydata @e[c=1,r=1,tag=barrelContent] {ArmorItems:[{},{},{},{id:stone_hoe,Damage:13s,Count:1b,tag:{Unbreakable:1b}}]}
 execute @s[score_barrelContent_min=14,score_barrelContent=14] ~ ~-1.2 ~ entitydata @e[c=1,r=1,tag=barrelContent] {ArmorItems:[{},{},{},{id:stone_hoe,Damage:14s,Count:1b,tag:{Unbreakable:1b}}]}
 execute @s[score_barrelContent_min=15,score_barrelContent=15] ~ ~-1.2 ~ entitydata @e[c=1,r=1,tag=barrelContent] {ArmorItems:[{},{},{},{id:stone_hoe,Damage:15s,Count:1b,tag:{Unbreakable:1b}}]}
+execute @s[score_barrelContent_min=16,score_barrelContent=16] ~ ~-1.2 ~ entitydata @e[c=1,r=1,tag=barrelContent] {ArmorItems:[{},{},{},{id:stone_hoe,Damage:16s,Count:1b,tag:{Unbreakable:1b}}]}
+execute @s[score_barrelContent_min=17,score_barrelContent=17] ~ ~-1.2 ~ entitydata @e[c=1,r=1,tag=barrelContent] {ArmorItems:[{},{},{},{id:stone_hoe,Damage:17s,Count:1b,tag:{Unbreakable:1b}}]}
+execute @s[score_barrelContent_min=18,score_barrelContent=18] ~ ~-1.2 ~ entitydata @e[c=1,r=1,tag=barrelContent] {ArmorItems:[{},{},{},{id:stone_hoe,Damage:18s,Count:1b,tag:{Unbreakable:1b}}]}
+execute @s[score_barrelContent_min=19,score_barrelContent=19] ~ ~-1.2 ~ entitydata @e[c=1,r=1,tag=barrelContent] {ArmorItems:[{},{},{},{id:stone_hoe,Damage:19s,Count:1b,tag:{Unbreakable:1b}}]}
+execute @s[score_barrelContent_min=20,score_barrelContent=20] ~ ~-1.2 ~ entitydata @e[c=1,r=1,tag=barrelContent] {ArmorItems:[{},{},{},{id:stone_hoe,Damage:20s,Count:1b,tag:{Unbreakable:1b}}]}
+execute @s[score_barrelContent_min=21,score_barrelContent=21] ~ ~-1.2 ~ entitydata @e[c=1,r=1,tag=barrelContent] {ArmorItems:[{},{},{},{id:stone_hoe,Damage:21s,Count:1b,tag:{Unbreakable:1b}}]}
+execute @s[score_barrelContent_min=22,score_barrelContent=22] ~ ~-1.2 ~ entitydata @e[c=1,r=1,tag=barrelContent] {ArmorItems:[{},{},{},{id:stone_hoe,Damage:22s,Count:1b,tag:{Unbreakable:1b}}]}
+execute @s[score_barrelContent_min=23,score_barrelContent=23] ~ ~-1.2 ~ entitydata @e[c=1,r=1,tag=barrelContent] {ArmorItems:[{},{},{},{id:stone_hoe,Damage:23s,Count:1b,tag:{Unbreakable:1b}}]}

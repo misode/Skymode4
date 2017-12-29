@@ -10,6 +10,7 @@ execute @e[type=item,tag=barrelCobblestone] ~ ~-0.5 ~ execute @e[tag=barrelPicku
 execute @e[type=item,tag=barrelIron] ~ ~-0.5 ~ execute @e[tag=barrelPickup] ~ ~ ~ function skymode4:modules/barrel/updates/add_iron
 execute @e[type=item,tag=barrelGold] ~ ~-0.5 ~ execute @e[tag=barrelPickup] ~ ~ ~ function skymode4:modules/barrel/updates/add_gold
 execute @e[type=item,tag=barrelBucket] ~ ~-0.5 ~ execute @e[tag=barrelPickup] ~ ~ ~ function skymode4:modules/barrel/updates/remove_fluid
+execute @e[type=item,tag=barrelOreChunk] ~ ~-0.5 ~ execute @e[tag=barrelPickup] ~ ~ ~ function skymode4:modules/barrel/updates/add_ore_chunk
 
 ## remove the pickup tag after all items have been added
 scoreboard players tag @s remove barrelPickup
