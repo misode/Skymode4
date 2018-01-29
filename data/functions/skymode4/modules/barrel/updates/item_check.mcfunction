@@ -9,6 +9,8 @@ execute @e[type=item,tag=barrelCompost] ~ ~-0.5 ~ execute @e[tag=barrelPickup] ~
 execute @e[type=item,tag=barrelCobblestone] ~ ~-0.5 ~ execute @e[tag=barrelPickup] ~ ~ ~ function skymode4:modules/barrel/updates/add_cobblestone
 execute @e[type=item,tag=barrelIron] ~ ~-0.5 ~ execute @e[tag=barrelPickup] ~ ~ ~ function skymode4:modules/barrel/updates/add_iron
 execute @e[type=item,tag=barrelGold] ~ ~-0.5 ~ execute @e[tag=barrelPickup] ~ ~ ~ function skymode4:modules/barrel/updates/add_gold
+execute @e[type=item,tag=barrelCopper] ~ ~-0.5 ~ execute @e[tag=barrelPickup] ~ ~ ~ function skymode4:modules/barrel/updates/add_copper
+execute @e[type=item,tag=barrelTin] ~ ~-0.5 ~ execute @e[tag=barrelPickup] ~ ~ ~ function skymode4:modules/barrel/updates/add_tin
 execute @e[type=item,tag=barrelBucket] ~ ~-0.5 ~ execute @e[tag=barrelPickup] ~ ~ ~ function skymode4:modules/barrel/updates/remove_fluid
 execute @e[type=item,tag=barrelOreChunk] ~ ~-0.5 ~ execute @e[tag=barrelPickup] ~ ~ ~ function skymode4:modules/barrel/updates/add_ore_chunk
 
