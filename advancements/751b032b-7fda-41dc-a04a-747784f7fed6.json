@@ -82,5 +82,11 @@
       "craft": "2017-12-13 14:22:04 +0100"
     },
     "done": true
+  },
+  "skymode4:metal_age/craft_seared_barrel": {
+    "criteria": {
+      "craft": "2018-01-29 12:10:04 +0100"
+    },
+    "done": true
   }
 }
