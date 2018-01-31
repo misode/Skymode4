@@ -1,5 +1,5 @@
-entitydata @e[type=bat,tag=main] {Health:0}
-summon bat 0 0 0 {CustomName:Skymode4,NoAI:1,NoGravity:1,ActiveEffects:[{Id:14,Duration:20000000,ShowParticles:0b}],Tags:[main,nokill],AbsorptionAmount:350000000000000000000000000000000000000.0f}
+data merge entity @e[type=bat,tag=main] {Health:0}
+summon bat{CustomName:Skymode4,NoAI:1,NoGravity:1,ActiveEffects:[{Id:14,Duration:20000000,ShowParticles:0b}],Tags:[main,nokill],AbsorptionAmount:350000000000000000000000000000000000000.0f} 0 0 0
 scoreboard objectives add timer dummy
 scoreboard players set @e[type=bat,tag=main] timer 0
 
