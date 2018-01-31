@@ -1,6 +1,6 @@
 
 scoreboard players add @s timer 1
-scoreboard players set @s[score_timer_min=39] timer 0
+scoreboard players set @s[scores={timer=39..}] timer 0
 
 #tellraw @a ["TICK ",{"score":{"name":"@e[type=bat,tag=main]","objective":"timer"}}]
 
