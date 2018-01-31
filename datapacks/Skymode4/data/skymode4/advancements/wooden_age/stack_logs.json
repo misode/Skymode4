@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:log"
+      "item": "minecraft:oak_log"
     },
     "title": "Serious Choppage",
     "description":"Collect a stack of logs\n▶ Island\n▶ Custom Crafter"
@@ -13,7 +13,7 @@
       "conditions":{
         "items":[
           {
-            "item": "minecraft:log",
+            "item": "minecraft:oak_log",
             "count": 64
           }
         ]

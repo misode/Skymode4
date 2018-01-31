@@ -1,11 +1,11 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:log"
+      "item": "minecraft:oak_log"
     },
     "title": "Wooden Age",
     "description":"Punch a tree\n▶ Island",
-    "background":"minecraft:textures/blocks/planks_oak.png"
+    "background":"minecraft:textures/blocks/oak_planks.png"
   },
   "criteria": {
     "pickup": {
@@ -13,7 +13,7 @@
       "conditions":{
         "items":[
           {
-            "item":"minecraft:log"
+            "item":"minecraft:oak_log"
           }
         ]
       }
