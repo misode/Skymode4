@@ -5,16 +5,12 @@
 			"entries":[
 				{
 					"type":"item",
-					"name":"minecraft:skull",
+					"name":"minecraft:player_head",
 					"weight":1,
 					"functions":[
 						{
               "function":"minecraft:set_nbt",
               "tag":"{skymode4Rock:1b,display:{Name:\"Rock\"},SkullOwner:\"Cobble\"}"
-              },
-						{
-              "function":"minecraft:set_data",
-              "data":3
             },
             {
               "function":"minecraft:set_count",
@@ -35,47 +31,23 @@
 			"entries":[
 				{
 					"type":"item",
-					"name":"minecraft:sapling",
-					"weight":1,
-					"functions":[
-						{
-              "function":"minecraft:set_data",
-              "data":0
-            }
-					]
+					"name":"minecraft:oak_sapling",
+					"weight":1
 				},
 				{
 					"type":"item",
-					"name":"minecraft:sapling",
-					"weight":1,
-					"functions":[
-						{
-              "function":"minecraft:set_data",
-              "data":1
-            }
-					]
+					"name":"minecraft:birch_sapling",
+					"weight":1
 				},
 				{
 					"type":"item",
-					"name":"minecraft:sapling",
-					"weight":1,
-					"functions":[
-						{
-              "function":"minecraft:set_data",
-              "data":2
-            }
-					]
+					"name":"minecraft:spruce_sapling",
+					"weight":1
 				},
 				{
 					"type":"item",
-					"name":"minecraft:sapling",
-					"weight":1,
-					"functions":[
-						{
-              "function":"minecraft:set_data",
-              "data":5
-            }
-					]
+					"name":"minecraft:dark_oak_sapling",
+					"weight":1
 				},
 				{
 					"type":"item",
