@@ -1,3 +1,3 @@
 scoreboard players add @s cobbleGenTimer 1
-execute @s[score_cobbleGenTimer_min=5] ~ ~ ~ summon item ~ ~ ~ {Item:{id:"minecraft:cobblestone",Count:1b}}
-scoreboard players set @s[score_cobbleGenTimer_min=5] cobbleGenTimer 0
+execute if entity @s[scores={cobbleGenTimer=5..}] run summon item ~ ~ ~ {Item:{id:"minecraft:cobblestone",Count:1b}}
+scoreboard players set @s[scores={cobbleGenTimer=5..}] cobbleGenTimer 0

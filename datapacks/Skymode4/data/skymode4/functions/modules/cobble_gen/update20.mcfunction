@@ -1,4 +1,4 @@
 # Remove the cobble gen when hopper is broken
-execute @s ~ ~ ~ detect ~ ~ ~ air 0 scoreboard players tag @e[type=item,r=1,c=1] add hopper {Item:{id:"minecraft:hopper",Count:1b}}
-execute @s ~ ~ ~ detect ~ ~ ~ air 0 entitydata @e[type=item,tag=hopper] {Item:{id:"minecraft:gray_glazed_terracotta"},Tags:[]}
-execute @s ~ ~ ~ detect ~ ~ ~ air 0 kill @s
+execute if block ~ ~ ~ air run tag @e[type=item,distance=1,limit=1,nbt={Item:{id:"minecraft:hopper",Count:1b}}] add hopper
+execute if block ~ ~ ~ air as @e[type=item,tag=hopper] run data merge entity @s {Item:{id:"minecraft:gray_glazed_terracotta"},Tags:[]}
+execute if block ~ ~ ~ air run kill @s
