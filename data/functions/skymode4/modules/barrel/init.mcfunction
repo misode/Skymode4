@@ -1,5 +1,8 @@
-scoreboard objectives add barrelCount dummy
 scoreboard objectives add barrelContent dummy
+scoreboard objectives add barrelCount dummy
+#partial count used for alloys
+scoreboard objectives add barrelCountP dummy
+#last count and content used for correctly updating the models
 scoreboard objectives add barrelCountL dummy
 scoreboard objectives add barrelContentL dummy
 scoreboard objectives add barrelHeat dummy

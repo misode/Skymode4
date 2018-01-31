@@ -23,6 +23,7 @@ scoreboard players tag @e[type=rabbit,tag=barrelRot2Init] remove barrelRot2Init
 scoreboard players tag @e[type=rabbit,tag=barrelRot3Init] remove barrelRot3Init
 scoreboard players tag @e[type=rabbit,tag=barrelRot4Init] remove barrelRot4Init
 scoreboard players set @s barrelCount 0
+scoreboard players set @s barrelCountP 0
 scoreboard players set @s barrelTime -1
 scoreboard players set @s barrelContent 0
 scoreboard players set @s barrelHeat -5
