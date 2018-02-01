@@ -1,5 +1,3 @@
-title @p actionbar ["Draining..."]
-#kill @e[tag=barrelFlow,distance=1]
 scoreboard players set @s[scores={barrelContent=10},tag=barrelSeared] barrelDrain 2
 scoreboard players set @s[scores={barrelContent=14},tag=barrelSeared] barrelDrain 2
 scoreboard players set @s[scores={barrelContent=18},tag=barrelSeared] barrelDrain 2

@@ -1,4 +1,3 @@
-say Update drain!
 execute if entity @s[scores={barrelDrain=2,barrelContent=10}] at @e[tag=barrelFlow,limit=1,distance=..1] positioned ~ ~-1 ~ run scoreboard players set @e[sort=nearest,limit=1,tag=barrel,scores={barrelCount=0}] barrelContent 10
 execute if entity @s[scores={barrelDrain=2,barrelContent=14}] at @e[tag=barrelFlow,limit=1,distance=..1] positioned ~ ~-1 ~ run scoreboard players set @e[sort=nearest,limit=1,tag=barrel,scores={barrelCount=0}] barrelContent 14
 execute if entity @s[scores={barrelDrain=2,barrelContent=18}] at @e[tag=barrelFlow,limit=1,distance=..1] positioned ~ ~-1 ~ run scoreboard players set @e[sort=nearest,limit=1,tag=barrel,scores={barrelCount=0}] barrelContent 18
