@@ -1,0 +1,19 @@
+{
+  "type": "crafting_shaped",
+  "pattern": [
+    "P P",
+    "P P",
+    "PSP"
+  ],
+  "key": {
+    "P": {
+      "item": "minecraft:oak_planks"
+    },
+    "S": {
+      "item": "minecraft:oak_slab"
+    }
+  },
+  "result": {
+    "item": "minecraft:white_glazed_terracotta"
+  }
+}
