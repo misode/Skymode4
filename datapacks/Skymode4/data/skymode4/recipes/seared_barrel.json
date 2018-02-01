@@ -1,0 +1,16 @@
+{
+  "type": "crafting_shaped",
+  "pattern": [
+    "S S",
+    "S S",
+    "SSS"
+  ],
+  "key": {
+    "S": {
+      "item": "minecraft:red_glazed_terracotta"
+    }
+  },
+  "result": {
+    "item": "minecraft:light_blue_glazed_terracotta"
+  }
+}

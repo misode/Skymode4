@@ -1,0 +1,25 @@
+{
+  "type": "crafting_shaped",
+  "pattern": [
+    "CCC",
+    "LPW",
+    "CCC"
+  ],
+  "key": {
+    "C": {
+      "item": "minecraft:cobblestone"
+    },
+    "L": {
+      "item": "minecraft:lava_bucket"
+    },
+    "P": {
+      "item": "minecraft:iron_pickaxe"
+    },
+    "W": {
+      "item": "minecraft:water_bucket"
+    }
+  },
+  "result": {
+    "item": "minecraft:gray_glazed_terracotta"
+  }
+}

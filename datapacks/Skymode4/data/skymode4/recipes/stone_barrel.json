@@ -1,0 +1,19 @@
+{
+  "type": "crafting_shaped",
+  "pattern": [
+    "S S",
+    "S S",
+    "SsS"
+  ],
+  "key": {
+    "S": {
+      "item": "minecraft:stone"
+    },
+    "s": {
+      "item": "minecraft:stone_slab"
+    }
+  },
+  "result": {
+    "item": "minecraft:magenta_glazed_terracotta"
+  }
+}
