@@ -1,1 +1,0 @@
-scoreboard objectives add wrenchClick stat.useItem.minecraft.carrot_on_a_stick
