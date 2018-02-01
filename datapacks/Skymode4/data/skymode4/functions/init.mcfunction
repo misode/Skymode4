@@ -6,7 +6,7 @@ scoreboard players set @e[type=bat,tag=main] timer 0
 function skymode4:modules/custom_crafter/init
 function skymode4:modules/invisible_minecarts/init
 function skymode4:modules/graves/init
-function skymode4:modules/barrels/init
+function skymode4:modules/barrel/init
 function skymode4:modules/wrench/init
 function skymode4:modules/crusher/init
 function skymode4:modules/forge/init
