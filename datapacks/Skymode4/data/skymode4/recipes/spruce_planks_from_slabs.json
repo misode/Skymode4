@@ -1,11 +1,12 @@
 {
   "type": "crafting_shaped",
   "pattern": [
-    "S"
+    "#",
+    "#"
   ],
   "key": {
-    "S": {
-      "item": "minecraft:spruce_stairs"
+    "#": {
+      "item": "minecraft:spruce_slab"
     }
   },
   "result": {

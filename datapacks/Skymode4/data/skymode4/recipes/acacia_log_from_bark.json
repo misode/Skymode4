@@ -1,0 +1,15 @@
+{
+  "type": "crafting_shaped",
+  "pattern": [
+    "#"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:acacia_bark"
+    }
+  },
+  "result": {
+    "item": "minecraft:acacia_log",
+    "count": 4
+  }
+}

@@ -5,10 +5,11 @@
   ],
   "key": {
     "S": {
-      "item": "minecraft:oak_stairs"
+      "item": "minecraft:red_sandstone_slab"
     }
   },
   "result": {
-    "item": "minecraft:oak_planks"
+    "item": "minecraft:red_sand",
+    "count": 2
   }
 }

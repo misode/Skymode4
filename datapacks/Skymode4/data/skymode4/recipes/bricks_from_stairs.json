@@ -1,14 +1,14 @@
 {
   "type": "crafting_shaped",
   "pattern": [
-    "S"
+    "#"
   ],
   "key": {
-    "S": {
-      "item": "minecraft:oak_stairs"
+    "#": {
+      "item": "minecraft:brick_stairs"
     }
   },
   "result": {
-    "item": "minecraft:oak_planks"
+    "item": "minecraft:bricks"
   }
 }

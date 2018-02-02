@@ -1,11 +1,12 @@
 {
   "type": "crafting_shaped",
   "pattern": [
-    "S"
+    "#",
+    "#"
   ],
   "key": {
-    "S": {
-      "item": "minecraft:jungle_stairs"
+    "#": {
+      "item": "minecraft:jungle_slab"
     }
   },
   "result": {

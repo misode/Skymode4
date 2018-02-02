@@ -5,10 +5,10 @@
   ],
   "key": {
     "S": {
-      "item": "minecraft:oak_stairs"
+      "item": "minecraft:purpur_stairs"
     }
   },
   "result": {
-    "item": "minecraft:oak_planks"
+    "item": "minecraft:purpur_block"
   }
 }

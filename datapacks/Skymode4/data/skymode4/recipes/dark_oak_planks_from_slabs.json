@@ -1,11 +1,12 @@
 {
   "type": "crafting_shaped",
   "pattern": [
-    "S"
+    "#",
+    "#"
   ],
   "key": {
-    "S": {
-      "item": "minecraft:dark_oak_stairs"
+    "#": {
+      "item": "minecraft:dark_oak_slab"
     }
   },
   "result": {
