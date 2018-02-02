@@ -3,6 +3,9 @@ summon bat 0 0 0 {CustomName:"[\"Skymode4\"]",NoAI:1,NoGravity:1,ActiveEffects:[
 scoreboard objectives add timer dummy
 scoreboard players set @e[type=bat,tag=main] timer 0
 
+team add no_collision
+team option no_collision collisionRule never
+
 function skymode4:modules/custom_crafter/init
 function skymode4:modules/invisible_minecarts/init
 function skymode4:modules/graves/init

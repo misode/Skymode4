@@ -10,5 +10,3 @@ scoreboard objectives add barrelTemp dummy
 scoreboard objectives add barrelTime dummy
 scoreboard objectives add barrelDrain dummy
 scoreboard players set #particle barrelTemp 3
-team add no_collision
-team option no_collision collisionRule never
