@@ -34,7 +34,7 @@ execute as @s[scores={timer=12}] run function skymode4:modules/forge/main
 #execute as @s[scores={timer=14}] run function
 execute as @s[scores={timer=15}] run function skymode4:modules/crusher/main
 execute as @s[scores={timer=16}] run function skymode4:modules/filter/main
-#execute as @s[scores={timer=17}] run function
+execute as @s[scores={timer=17}] run function skymode4:modules/vertical_rails/main
 execute as @s[scores={timer=18}] run function skymode4:modules/cobble_gen/main
 #execute as @s[scores={timer=19}] run function
 execute as @s[scores={timer=20}] run function skymode4:modules/forge/main
@@ -54,7 +54,7 @@ execute as @s[scores={timer=32}] run function skymode4:modules/filter/main
 #execute as @s[scores={timer=34}] run function
 execute as @s[scores={timer=35}] run function skymode4:modules/crusher/main
 execute as @s[scores={timer=36}] run function skymode4:modules/forge/main
-#execute as @s[scores={timer=37}] run function
+execute as @s[scores={timer=37}] run function skymode4:modules/vertical_rails/main
 execute as @s[scores={timer=38}] run function skymode4:modules/cobble_gen/main
 #execute as @s[scores={timer=39}] run function
 
@@ -66,3 +66,4 @@ function skymode4:modules/crusher/main20
 function skymode4:modules/filter/main20
 function skymode4:modules/cobble_gen/main20
 function skymode4:modules/fan/main
+function skymode4:modules/vertical_rails/main20

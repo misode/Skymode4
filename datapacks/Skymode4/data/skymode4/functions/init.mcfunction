@@ -16,5 +16,6 @@ function skymode4:modules/forge/init
 function skymode4:modules/twerk/init
 function skymode4:modules/cobble_gen/init
 function skymode4:modules/fan/init
+function skymode4:modules/vertical_rails/init
 
 tellraw @a [{"text":"Done!","color":"green"}]
