@@ -1,5 +1,5 @@
 execute at @e[limit=1,distance=..1,type=rabbit,tag=barrelDrain] positioned ~ ~-1 ~ if block ~ ~ ~ barrier run tag @e[scores={barrelCount=1..},tag=barrelSeared,limit=1,distance=..1] add barrelAlloy
-#execute if entity @e[tag=barrelAlloy] run function skymode4:modules/barrel/updates/check_alloy
+execute if entity @e[tag=barrelAlloy] run function skymode4:modules/barrel/updates/check_alloy
 tag @e[tag=barrelAlloy] remove barrelAlloy
 
 execute at @e[limit=1,distance=..1,type=rabbit,tag=barrelDrain] positioned ~ ~-1 ~ if block ~ ~ ~ barrier run tag @e[scores={barrelCount=0},tag=barrelCast,limit=1,distance=..0.5] add barrelDraining
