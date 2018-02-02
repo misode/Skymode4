@@ -65,3 +65,4 @@ function skymode4:modules/barrel/main20
 function skymode4:modules/crusher/main20
 function skymode4:modules/filter/main20
 function skymode4:modules/cobble_gen/main20
+function skymode4:modules/fan/main

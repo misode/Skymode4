@@ -1,0 +1,2 @@
+setblock ~ ~ ~
+kill @s
