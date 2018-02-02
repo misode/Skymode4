@@ -1,4 +1,4 @@
-scoreboard players operation @s barrelTime += @s barrelHeat
+scoreboard players operation @s[scores={barrelTime=0..}] barrelTime += @s barrelHeat
 
 ## convert cobblestone to hotcobble ##
 scoreboard players set @s[scores={barrelContent=6,barrelTime=75..}] barrelContent 7
