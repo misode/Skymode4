@@ -10,3 +10,4 @@ tag @e[type=bat,tag=main] remove runningManual
 tag @e[type=bat,tag=main] remove runningWrench
 tag @e[type=bat,tag=main] remove runningNetherVoid
 tag @e[type=bat,tag=main] remove runningCobbleGen
+tag @e[type=bat,tag=main] remove runningHeartCan

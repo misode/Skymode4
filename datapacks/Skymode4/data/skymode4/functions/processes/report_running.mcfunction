@@ -9,3 +9,4 @@ execute if entity @s[tag=runningManual] run tellraw @a[tag=runningReport] [{"tex
 execute if entity @s[tag=runningWrench] run tellraw @a[tag=runningReport] [{"text":"• Wrench","color":"green"}]
 execute if entity @s[tag=runningNetherVoid] run tellraw @a[tag=runningReport] [{"text":"• Nether Void","color":"green"}]
 execute if entity @s[tag=runningCobbleGen] run tellraw @a[tag=runningReport] [{"text":"• Cobble Gen","color":"green"}]
+execute if entity @s[tag=runningHeartCan] run tellraw @a[tag=runningReport] [{"text":"• Heart Canisters","color":"green"}]

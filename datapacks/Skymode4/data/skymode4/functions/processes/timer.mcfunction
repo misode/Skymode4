@@ -27,7 +27,7 @@ execute as @s[scores={timer=5}] run function skymode4:modules/barrel/main
 #execute as @s[scores={timer=7}] run function
 execute as @s[scores={timer=8}] run function skymode4:modules/filter/main
 #execute as @s[scores={timer=9}] run function
-#execute as @s[scores={timer=10}] run function
+execute as @s[scores={timer=10}] run function skymode4:modules/heart_canisters/main
 execute as @s[scores={timer=11}] run function skymode4:modules/twerk/main
 execute as @s[scores={timer=12}] run function skymode4:modules/forge/main
 #execute as @s[scores={timer=13}] run function
@@ -47,7 +47,7 @@ execute as @s[scores={timer=25}] run function skymode4:modules/barrel/main
 #execute as @s[scores={timer=27}] run function
 execute as @s[scores={timer=28}] run function skymode4:modules/forge/main
 #execute as @s[scores={timer=29}] run function
-#execute as @s[scores={timer=30}] run function
+execute as @s[scores={timer=30}] run function skymode4:modules/heart_canisters/main
 execute as @s[scores={timer=31}] run function skymode4:modules/twerk/main
 execute as @s[scores={timer=32}] run function skymode4:modules/filter/main
 #execute as @s[scores={timer=33}] run function

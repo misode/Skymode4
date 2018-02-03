@@ -1,0 +1,18 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:golden_sword"
+    },
+    "title": "Can't Buy Me Love",
+    "description":"Craft a tier 1 heart canister"
+  },
+  "parent": "skymode4:main/root",
+  "criteria": {
+    "none": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards":{
+    "function":"skymode4:advancements/reward/main/heart_canister"
+  }
+}
