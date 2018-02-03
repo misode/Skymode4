@@ -1,1 +1,2 @@
-scoreboard objectives add wrenchClick minecraft.used:minecraft.carrot_on_a_stick
+scoreboard objectives add wrenchTalk minecraft.custom:minecraft.talked_to_villager
+scoreboard objectives add wrenchSneak minecraft.custom:minecraft.sneak_time
