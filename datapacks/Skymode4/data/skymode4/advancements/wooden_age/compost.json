@@ -6,7 +6,7 @@
     "title": "Composting",
     "description":"Create dirt with a barrel\n▶ Island\n▶ Stone"
   },
-  "parent": "skymode4:wooden_age/stack_logs",
+  "parent": "skymode4:wooden_age/root",
   "criteria": {
     "dirt": {
       "trigger": "minecraft:impossible"
