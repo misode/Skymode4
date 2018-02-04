@@ -17,7 +17,7 @@ execute as @s[scores={timer=10}] run function skymode4:modules/heart_canisters/m
 execute as @s[scores={timer=11}] run function skymode4:modules/twerk/main
 execute as @s[scores={timer=12}] run function skymode4:modules/forge/main
 execute as @s[scores={timer=13}] run function skymode4:modules/rocks/main
-#execute as @s[scores={timer=14}] run function
+execute as @s[scores={timer=14}] run function skymode4:modules/sweathearts/main
 execute as @s[scores={timer=15}] run function skymode4:modules/crusher/main
 execute as @s[scores={timer=16}] run function skymode4:modules/filter/main
 execute as @s[scores={timer=17}] run function skymode4:modules/vertical_rails/main
@@ -37,7 +37,7 @@ execute as @s[scores={timer=30}] run function skymode4:modules/heart_canisters/m
 execute as @s[scores={timer=31}] run function skymode4:modules/twerk/main
 execute as @s[scores={timer=32}] run function skymode4:modules/filter/main
 execute as @s[scores={timer=33}] run function skymode4:modules/rocks/main
-#execute as @s[scores={timer=34}] run function
+execute as @s[scores={timer=34}] run function skymode4:modules/sweathearts/main
 execute as @s[scores={timer=35}] run function skymode4:modules/crusher/main
 execute as @s[scores={timer=36}] run function skymode4:modules/forge/main
 execute as @s[scores={timer=37}] run function skymode4:modules/vertical_rails/main

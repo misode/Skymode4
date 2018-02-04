@@ -14,3 +14,4 @@ tag @e[type=bat,tag=main] remove runningHeartCan
 tag @e[type=bat,tag=main] remove runningBetterStands
 tag @e[type=bat,tag=main] remove runningTrappedSigns
 tag @e[type=bat,tag=main] remove runningEnderHoppers
+tag @e[type=bat,tag=main] remove runningSweathearts
