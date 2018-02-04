@@ -10,7 +10,7 @@ execute as @s[scores={timer=2}] run function skymode4:modules/custom_crafter/mai
 execute as @s[scores={timer=4}] run function skymode4:modules/forge/main
 execute as @s[scores={timer=5}] run function skymode4:modules/barrel/main
 execute as @s[scores={timer=6}] run function skymode4:modules/trapped_signs/main
-#execute as @s[scores={timer=7}] run function
+execute as @s[scores={timer=7}] run function skymode4:modules/ender_hoppers/main
 execute as @s[scores={timer=8}] run function skymode4:modules/filter/main
 #execute as @s[scores={timer=9}] run function
 execute as @s[scores={timer=10}] run function skymode4:modules/heart_canisters/main
@@ -30,7 +30,7 @@ execute as @s[scores={timer=22}] run function skymode4:modules/custom_crafter/ma
 execute as @s[scores={timer=24}] run function skymode4:modules/filter/main
 execute as @s[scores={timer=25}] run function skymode4:modules/barrel/main
 execute as @s[scores={timer=26}] run function skymode4:modules/trapped_signs/main
-#execute as @s[scores={timer=27}] run function
+execute as @s[scores={timer=27}] run function skymode4:modules/ender_hoppers/main
 execute as @s[scores={timer=28}] run function skymode4:modules/forge/main
 #execute as @s[scores={timer=29}] run function
 execute as @s[scores={timer=30}] run function skymode4:modules/heart_canisters/main
