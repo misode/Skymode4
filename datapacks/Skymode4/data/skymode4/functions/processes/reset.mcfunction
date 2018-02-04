@@ -12,3 +12,4 @@ tag @e[type=bat,tag=main] remove runningNetherVoid
 tag @e[type=bat,tag=main] remove runningCobbleGen
 tag @e[type=bat,tag=main] remove runningHeartCan
 tag @e[type=bat,tag=main] remove runningBetterStands
+tag @e[type=bat,tag=main] remove runningTrappedSigns

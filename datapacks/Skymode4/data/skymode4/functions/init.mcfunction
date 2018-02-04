@@ -19,5 +19,6 @@ function skymode4:modules/fan/init
 function skymode4:modules/vertical_rails/init
 function skymode4:modules/heart_canisters/init
 function skymode4:modules/better_armor_stands/init
+function skymode4:modules/trapped_signs/init
 
 tellraw @a [{"text":"Done!","color":"green"}]

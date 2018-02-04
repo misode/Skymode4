@@ -11,3 +11,4 @@ execute if entity @s[tag=runningNetherVoid] run tellraw @a[tag=runningReport] [{
 execute if entity @s[tag=runningCobbleGen] run tellraw @a[tag=runningReport] [{"text":"• Cobble Gen","color":"green"}]
 execute if entity @s[tag=runningHeartCan] run tellraw @a[tag=runningReport] [{"text":"• Heart Canisters","color":"green"}]
 execute if entity @s[tag=runningBetterStands] run tellraw @a[tag=runningReport] [{"text":"• Better Armor Stands","color":"green"}]
+execute if entity @s[tag=runningTrappedSigns] run tellraw @a[tag=runningReport] [{"text":"• Trapped Signs","color":"green"}]
