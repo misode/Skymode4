@@ -1,5 +1,4 @@
 advancement revoke @s only skymode4:technical/place_crusher
-summon area_effect_block ~ ~ ~ {Duration:1,Tags:[crusherSearch]}
 fill ~-6 ~-6 ~-6 ~6 ~6 ~6 structure_void keep
 fill ~-6 ~-6 ~-6 ~6 ~6 ~6 air replace orange_glazed_terracotta[facing=east]
 fill ~-6 ~-6 ~-6 ~6 ~6 ~6 command_block[facing=north]{auto:1,Command:"summon armor_stand ~ ~ ~ {Invisible:1,NoGravity:1,Marker:1,Tags:[crusherInit]}"} keep

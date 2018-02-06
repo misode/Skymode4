@@ -1,5 +1,4 @@
 advancement revoke @s only skymode4:technical/place_barrel
-summon area_effect_block ~ ~ ~ {Duration:1,Tags:[barrelSearch]}
 fill ~-6 ~-6 ~-6 ~6 ~6 ~6 structure_void keep
 fill ~-6 ~-6 ~-6 ~6 ~6 ~6 air replace white_glazed_terracotta
 fill ~-6 ~-6 ~-6 ~6 ~6 ~6 command_block[facing=up]{auto:1,Command:"summon armor_stand ~ ~ ~ {Invisible:1,NoGravity:1,Marker:1,Tags:[barrelInit,barrelWooden]}"} keep
