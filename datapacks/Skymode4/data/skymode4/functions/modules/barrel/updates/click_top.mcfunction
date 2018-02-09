@@ -1,4 +1,4 @@
-title @p actionbar ["Click Top!"]
+
 execute if entity @s[tag=!barrelHopperOut] run function skymode4:modules/barrel/updates/out_nohopper
 execute if entity @s[tag=barrelHopperOut] run function skymode4:modules/barrel/updates/out_hopper
 

@@ -6,20 +6,6 @@ scoreboard players set @e[type=bat,tag=main] timer 0
 team add no_collision
 team option no_collision collisionRule never
 
-function skymode4:modules/custom_crafter/init
-function skymode4:modules/invisible_minecarts/init
-function skymode4:modules/graves/init
-function skymode4:modules/barrel/init
-function skymode4:modules/wrench/init
-function skymode4:modules/crusher/init
-function skymode4:modules/forge/init
-function skymode4:modules/twerk/init
-function skymode4:modules/cobble_gen/init
-function skymode4:modules/fan/init
-function skymode4:modules/vertical_rails/init
-function skymode4:modules/heart_canisters/init
-function skymode4:modules/better_armor_stands/init
-function skymode4:modules/trapped_signs/init
-function skymode4:modules/sweathearts/init
+function #skymode4:init
 
 tellraw @a [{"text":"Done!","color":"green"}]

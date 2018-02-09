@@ -1,0 +1,15 @@
+{
+  "values": [
+    "skymode4:modules/invisible_minecarts/tick",
+    "skymode4:modules/graves/tick",
+    "skymode4:modules/wrench/tick",
+    "skymode4:modules/barrel/tick",
+    "skymode4:modules/crusher/tick",
+    "skymode4:modules/filter/tick",
+    "skymode4:modules/cobble_gen/tick",
+    "skymode4:modules/fan/tick",
+    "skymode4:modules/vertical_rails/tick",
+    "skymode4:modules/better_armor_stands/tick",
+    "skymode4:modules/trapped_signs/tick"
+  ]
+}

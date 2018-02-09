@@ -1,57 +1,23 @@
 
 scoreboard players add @s timer 1
-scoreboard players set @s[scores={timer=39..}] timer 0
+scoreboard players set @s[scores={timer=16..}] timer 0
 
-execute as @s[scores={timer=0}] run function skymode4:processes/reset
-execute as @s[scores={timer=0}] run function skymode4:modules/filter/main
-execute as @s[scores={timer=1}] run function skymode4:modules/twerk/main
-execute as @s[scores={timer=2}] run function skymode4:modules/custom_crafter/main
-#execute as @s[scores={timer=3}] run function
-execute as @s[scores={timer=4}] run function skymode4:modules/forge/main
-execute as @s[scores={timer=5}] run function skymode4:modules/barrel/main
-execute as @s[scores={timer=6}] run function skymode4:modules/trapped_signs/main
-execute as @s[scores={timer=7}] run function skymode4:modules/ender_hoppers/main
-execute as @s[scores={timer=8}] run function skymode4:modules/filter/main
-#execute as @s[scores={timer=9}] run function
-execute as @s[scores={timer=10}] run function skymode4:modules/heart_canisters/main
-execute as @s[scores={timer=11}] run function skymode4:modules/twerk/main
-execute as @s[scores={timer=12}] run function skymode4:modules/forge/main
-execute as @s[scores={timer=13}] run function skymode4:modules/rocks/main
-execute as @s[scores={timer=14}] run function skymode4:modules/sweathearts/main
-execute as @s[scores={timer=15}] run function skymode4:modules/crusher/main
-execute as @s[scores={timer=16}] run function skymode4:modules/filter/main
-execute as @s[scores={timer=17}] run function skymode4:modules/vertical_rails/main
-execute as @s[scores={timer=18}] run function skymode4:modules/cobble_gen/main
-execute as @s[scores={timer=19}] run function skymode4:modules/better_armor_stands/main
-execute as @s[scores={timer=20}] run function skymode4:modules/forge/main
-execute as @s[scores={timer=21}] run function skymode4:modules/twerk/main
-execute as @s[scores={timer=22}] run function skymode4:modules/custom_crafter/main
-#execute as @s[scores={timer=23}] run function
-execute as @s[scores={timer=24}] run function skymode4:modules/filter/main
-execute as @s[scores={timer=25}] run function skymode4:modules/barrel/main
-execute as @s[scores={timer=26}] run function skymode4:modules/trapped_signs/main
-execute as @s[scores={timer=27}] run function skymode4:modules/ender_hoppers/main
-execute as @s[scores={timer=28}] run function skymode4:modules/forge/main
-#execute as @s[scores={timer=29}] run function
-execute as @s[scores={timer=30}] run function skymode4:modules/heart_canisters/main
-execute as @s[scores={timer=31}] run function skymode4:modules/twerk/main
-execute as @s[scores={timer=32}] run function skymode4:modules/filter/main
-execute as @s[scores={timer=33}] run function skymode4:modules/rocks/main
-execute as @s[scores={timer=34}] run function skymode4:modules/sweathearts/main
-execute as @s[scores={timer=35}] run function skymode4:modules/crusher/main
-execute as @s[scores={timer=36}] run function skymode4:modules/forge/main
-execute as @s[scores={timer=37}] run function skymode4:modules/vertical_rails/main
-execute as @s[scores={timer=38}] run function skymode4:modules/cobble_gen/main
-execute as @s[scores={timer=39}] run function skymode4:modules/better_armor_stands/main
+execute if entity @s[scores={timer=0}] run function skymode4:processes/reset
+execute if entity @s[scores={timer=0}] run function #skymode4:timer/tick0
+execute if entity @s[scores={timer=1}] run function #skymode4:timer/tick1
+execute if entity @s[scores={timer=2}] run function #skymode4:timer/tick2
+execute if entity @s[scores={timer=3}] run function #skymode4:timer/tick3
+execute if entity @s[scores={timer=4}] run function #skymode4:timer/tick4
+execute if entity @s[scores={timer=5}] run function #skymode4:timer/tick5
+execute if entity @s[scores={timer=6}] run function #skymode4:timer/tick6
+execute if entity @s[scores={timer=7}] run function #skymode4:timer/tick7
+execute if entity @s[scores={timer=8}] run function #skymode4:timer/tick8
+execute if entity @s[scores={timer=9}] run function #skymode4:timer/tick9
+execute if entity @s[scores={timer=10}] run function #skymode4:timer/tick10
+execute if entity @s[scores={timer=11}] run function #skymode4:timer/tick11
+execute if entity @s[scores={timer=12}] run function #skymode4:timer/tick12
+execute if entity @s[scores={timer=13}] run function #skymode4:timer/tick13
+execute if entity @s[scores={timer=14}] run function #skymode4:timer/tick14
+execute if entity @s[scores={timer=15}] run function #skymode4:timer/tick15
 
-function skymode4:modules/invisible_minecarts/main
-function skymode4:modules/graves/main
-function skymode4:modules/wrench/main
-function skymode4:modules/barrel/main20
-function skymode4:modules/crusher/main20
-function skymode4:modules/filter/main20
-function skymode4:modules/cobble_gen/main20
-function skymode4:modules/fan/main
-function skymode4:modules/vertical_rails/main20
-function skymode4:modules/better_armor_stands/main20
-function skymode4:modules/trapped_signs/main20
+function #skymode4:tick

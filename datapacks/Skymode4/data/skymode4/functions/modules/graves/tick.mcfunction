@@ -1,4 +1,5 @@
 # Graves module by misode (@misoloo)
+# Needs to be optimized
 tag @e[type=bat,tag=main] add runningGraves
 
 # flag item
@@ -6,7 +7,7 @@ tag @e[tag=main] remove graveDeath
 execute as @a[scores={graveDeaths=1..}] run tag @e[tag=main] add graveDeath
 execute as @e[tag=main,tag=!graveDeath] run tag @e[type=item,tag=!graveFlag] add graveFlag
 
-# build grave           old = 0.469
+# build grave
 tag @e[tag=graveInit] remove graveInit
 execute at @a[scores={graveDeaths=1..}] align xyz positioned ~0.5 ~-0.469 ~0.5 run function skymode4:modules/graves/create
 

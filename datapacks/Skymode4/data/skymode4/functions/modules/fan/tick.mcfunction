@@ -6,6 +6,3 @@ execute as @e[type=armor_stand,tag=fanInit] at @s run function skymode4:modules/
 
 # update fan
 execute as @e[type=armor_stand,tag=fan] at @s run function skymode4:modules/fan/update
-
-# destroy fan
-execute as @e[type=armor_stand,tag=fan] at @s if block ~ ~ ~ air run function skymode4:modules/fan/remove
