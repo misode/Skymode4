@@ -1,5 +1,5 @@
-
-scoreboard players operation @s[scores={barrelHeat=0..}] barrelTime += @s barrelHeat
+scoreboard players operation @s[scores={barrelHeat=1..}] barrelTime += @s barrelHeat
+scoreboard players operation @s[scores={barrelTime=0..}] barrelTime += @s barrelHeat
 
 # spawn smoke particles //previously explode
 scoreboard players operation @s[scores={barrelTime=0..25}] barrelTemp = @s barrelTime
