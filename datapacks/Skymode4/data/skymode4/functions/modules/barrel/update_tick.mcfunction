@@ -23,11 +23,12 @@ execute if entity @s[scores={barrelDrain=-1}] if entity @e[limit=1,distance=..1,
 ## update rendering ##
 scoreboard players operation @s barrelCountL -= @s barrelCount
 scoreboard players operation @s barrelContentL -= @s barrelContent
-execute if entity @s[scores={barrelCountL=1..}] run function skymode4:modules/barrel/updates/render_count
-execute if entity @s[scores={barrelCountL=..-1}] run function skymode4:modules/barrel/updates/render_count
-execute if entity @s[scores={barrelContentL=1..}] run function skymode4:modules/barrel/updates/render_content
-execute if entity @s[scores={barrelContentL=..-1}] run function skymode4:modules/barrel/updates/render_content
+scoreboard players operation @s[tag=barrelCast] barrelMoldL -= @s barrelMold
+execute unless entity @s[scores={barrelCountL=0}] run function skymode4:modules/barrel/updates/render_count
+execute unless entity @s[scores={barrelContentL=0}] run function skymode4:modules/barrel/updates/render_content
+execute unless entity @s[tag=barrelCast,scores={barrelMoldL=0}] run function skymode4:modules/barrel/updates/render_mold
 
 ## store last count and content ##
 scoreboard players operation @s barrelCountL = @s barrelCount
 scoreboard players operation @s barrelContentL = @s barrelContent
+scoreboard players operation @s[tag=barrelCast] barrelMoldL = @s barrelMold

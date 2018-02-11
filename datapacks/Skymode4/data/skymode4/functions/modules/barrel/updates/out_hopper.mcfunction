@@ -1,5 +1,9 @@
-execute if entity @s[scores={barrelContent=2,barrelCount=8}] run summon item ~ ~-0.75 ~ {Item:{id:dirt,Count:8b}}
-execute if entity @s[scores={barrelContent=5,barrelCount=8}] run summon item ~ ~-0.75 ~ {Item:{id:obsidian,Count:1b}}
-execute if entity @s[scores={barrelContent=6,barrelCount=1..}] run summon item ~ ~-0.75 ~ {Item:{id:cobblestone,Count:1b}}
-execute if entity @s[scores={barrelContent=11,barrelCount=1..}] run summon item ~ ~-0.75 ~ {Item:{id:iron_ingot,Count:1b}}
-execute if entity @s[scores={barrelContent=15,barrelCount=1..}] run summon item ~ ~-0.75 ~ {Item:{id:iron_ingot,Count:1b}}
+execute if entity @s[scores={barrelMold=0,barrelContent=2,barrelCount=8}] run summon item ~ ~-0.75 ~ {Item:{id:dirt,Count:8b}}
+execute if entity @s[scores={barrelMold=0,barrelContent=5,barrelCount=8}] run summon item ~ ~-0.75 ~ {Item:{id:obsidian,Count:1b}}
+execute if entity @s[scores={barrelMold=0,barrelContent=6,barrelCount=1..}] run summon item ~ ~-0.75 ~ {Item:{id:cobblestone,Count:1b}}
+execute if entity @s[scores={barrelMold=0,barrelContent=11,barrelCount=1..}] run summon item ~ ~-0.75 ~ {Item:{id:iron_ingot,Count:1b}}
+execute if entity @s[scores={barrelMold=0,barrelContent=15,barrelCount=1..}] run summon item ~ ~-0.75 ~ {Item:{id:iron_ingot,Count:1b}}
+
+execute if entity @s[scores={barrelMold=17,barrelContent=11,barrelCount=1..}] run summon item ~ ~-0.75 ~ {Item:{id:diamond_sword,Count:1b,tag:{Unbreakable:1b,Damage:33s,PartPickaxe:1b,Iron:1b,display:{Name:"{\"text\":\"Iron Pickaxe Head\",\"italic\":false}"},HideFlags:6,AttributeModifiers:[{AttributeName:"generic.attackDamage",Name:"generic.attackDamage",Amount:0.1,Operation:1,UUIDLeast:894654,UUIDMost:2872}]}}}
+execute if entity @s[scores={barrelMold=17,barrelContent=19,barrelCount=1..}] run summon item ~ ~-0.75 ~ {Item:{id:diamond_sword,Count:1b,tag:{Unbreakable:1b,Damage:65s,PartPickaxe:1b,Copper:1b,display:{Name:"{\"text\":\"Copper Pickaxe Head\",\"italic\":false}"},HideFlags:6,AttributeModifiers:[{AttributeName:"generic.attackDamage",Name:"generic.attackDamage",Amount:0.1,Operation:1,UUIDLeast:894654,UUIDMost:2872}]}}}
+execute if entity @s[scores={barrelMold=17,barrelContent=27,barrelCount=1..}] run summon item ~ ~-0.75 ~ {Item:{id:diamond_sword,Count:1b,tag:{Unbreakable:1b,Damage:97s,PartPickaxe:1b,Bronze:1b,display:{Name:"{\"text\":\"Bronze Pickaxe Head\",\"italic\":false}"},HideFlags:6,AttributeModifiers:[{AttributeName:"generic.attackDamage",Name:"generic.attackDamage",Amount:0.1,Operation:1,UUIDLeast:894654,UUIDMost:2872}]}}}

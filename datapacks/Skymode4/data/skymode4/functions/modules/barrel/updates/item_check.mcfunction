@@ -10,3 +10,5 @@ execute if entity @e[type=item,tag=barrelCopper] run function skymode4:modules/b
 execute if entity @e[type=item,tag=barrelTin] run function skymode4:modules/barrel/updates/add_tin
 execute if entity @e[type=item,tag=barrelBucket] run function skymode4:modules/barrel/updates/remove_fluid
 execute if entity @e[type=item,tag=barrelOreChunk] run function skymode4:modules/barrel/updates/add_ore_chunk
+execute if entity @e[type=item,tag=barrelPartPickaxe] run function skymode4:modules/barrel/updates/add_part_pickaxe
+execute if entity @e[type=item,tag=barrelMoldPickaxe] run function skymode4:modules/barrel/updates/add_mold_pickaxe

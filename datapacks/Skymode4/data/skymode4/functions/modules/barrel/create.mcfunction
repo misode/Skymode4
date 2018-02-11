@@ -28,5 +28,6 @@ scoreboard players set @s barrelTime -1
 scoreboard players set @s barrelContent 0
 scoreboard players set @s barrelHeat -5
 scoreboard players set @s barrelDrain -1
+scoreboard players set @s[tag=barrelMold] barrelMold 0
 tag @s remove barrelInit
 tag @s add barrel
