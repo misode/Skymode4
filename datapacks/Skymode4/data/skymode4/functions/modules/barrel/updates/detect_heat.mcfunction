@@ -5,3 +5,5 @@ execute if block ~ ~-1 ~ torch run scoreboard players set @s barrelHeat 1
 execute if block ~ ~-1 ~ lava run scoreboard players set @s barrelHeat 2
 execute if block ~ ~-1 ~ flowing_lava run scoreboard players set @s barrelHeat 2
 execute if block ~ ~-1 ~ fire run scoreboard players set @s barrelHeat 4
+# set extremely high for debugginng
+execute if block ~ ~-1 ~ magma_block run scoreboard players set @s barrelHeat 16
