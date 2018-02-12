@@ -13,6 +13,10 @@
 			"rolls":1,
 			"entries":[
 				{
+					"type":"empty",
+					"weight":5
+				},
+				{
 					"type":"item",
 					"name":"minecraft:flint",
 					"weight":1
@@ -24,12 +28,36 @@
 				},
 				{
 					"type":"item",
-					"name":"minecraft:iron_ore",
-					"weight":1
+					"name":"minecraft:repeating_command_block",
+					"weight":1,
+					"functions":[
+						{
+              "function":"minecraft:set_nbt",
+              "tag":"{display:{Lore:[\"Contains iron\"]},Iron:1b}"
+            }
+					]
 				},
 				{
-					"type":"empty",
-					"weight":5
+					"type":"item",
+					"name":"minecraft:repeating_command_block",
+					"weight":1,
+					"functions":[
+						{
+              "function":"minecraft:set_nbt",
+              "tag":"{display:{Lore:[\"Contains copper\"]},Copper:1b}"
+            }
+					]
+				},
+				{
+					"type":"item",
+					"name":"minecraft:repeating_command_block",
+					"weight":1,
+					"functions":[
+						{
+              "function":"minecraft:set_nbt",
+              "tag":"{display:{Lore:[\"Contains tin\"]},Tin:1b}"
+            }
+					]
 				}
 			]
 		}
