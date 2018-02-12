@@ -18,7 +18,7 @@ execute if entity @s[scores={barrelContent=15},tag=barrelHopperOut] run data mer
 execute if entity @e[limit=1,distance=..1,type=slime,tag=barrelTop,nbt={HurtTime:9s}] run function skymode4:modules/barrel/updates/click_top
 
 ## click drain ##
-execute if entity @s[scores={barrelDrain=-1}] if entity @e[limit=1,distance=..1,type=rabbit,tag=barrelDrain,nbt={HurtTime:9s}] run function skymode4:modules/barrel/updates/click_drain
+execute if entity @s[scores={barrelDrain=-1}] positioned ~ ~-0.25 ~ if entity @e[sort=nearest,limit=1,distance=..1,type=rabbit,tag=barrelDrain,nbt={HurtTime:9s}] run function skymode4:modules/barrel/updates/click_drain
 
 ## update rendering ##
 scoreboard players operation @s barrelCountL -= @s barrelCount
