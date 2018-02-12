@@ -14,4 +14,5 @@ scoreboard players remove @s barrelCount 1
 scoreboard players set @s[scores={barrelCount=0}] barrelContent 0
 scoreboard players set @s[scores={barrelCount=0}] barrelTime -1
 
+say FLOW: @e[tag=barrelFlow,sort=nearest]
 kill @e[tag=barrelFlow,limit=1,sort=nearest]
