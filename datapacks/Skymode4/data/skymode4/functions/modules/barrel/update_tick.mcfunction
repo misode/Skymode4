@@ -1,6 +1,6 @@
 
 ## item check ##
-execute positioned ~ ~1 ~ if entity @e[type=item,distance=..1] run function skymode4:modules/barrel/check_items
+execute positioned ~ ~0.5 ~ if entity @e[type=item,distance=..1] run function skymode4:modules/barrel/check_items
 
 ## add fluid ##
 execute if entity @s[scores={barrelContent=0}] if block ~ ~1 ~ flowing_water run function skymode4:modules/barrel/add/water
