@@ -1,3 +1,5 @@
+function skymode4:modules/barrel/top/click
+function skymode4:modules/barrel/top/click
 tp @e[limit=1,distance=..1,type=slime,tag=barrelTop] ~ -1000 ~
 execute at @s[tag=barrelSeared] positioned ~ ~-0.5 ~ at @e[limit=1,distance=..1,type=rabbit,tag=barrelDrain] run kill @e[limit=1,distance=..1,type=armor_stand,tag=barrelFlow]
 execute at @s[tag=barrelSeared] positioned ~ ~-0.5 ~ run tp @e[limit=1,distance=..1,type=rabbit,tag=barrelDrain] ~ -1000 ~
