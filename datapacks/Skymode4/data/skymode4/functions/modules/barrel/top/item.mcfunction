@@ -1,4 +1,4 @@
-execute if entity @s[tag=!barrelCast,scores={barrelContent=2,barrelCount=8}] run give @p dirt 8
+execute if entity @s[tag=!barrelCast,scores={barrelContent=2,barrelCount=8}] run function skymode4:modules/barrel/remove/dirt
 execute if entity @s[tag=!barrelCast,scores={barrelContent=2,barrelCount=8}] run advancement grant @p only skymode4:wooden_age/compost
 execute if entity @s[tag=!barrelCast,scores={barrelContent=5,barrelCount=8}] run give @p obsidian
 execute if entity @s[tag=!barrelCast,scores={barrelContent=6,barrelCount=1..}] run give @p cobblestone
