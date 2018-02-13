@@ -1,13 +1,13 @@
 
 ## detect heat ##
 scoreboard players set @s barrelHeat -5
-execute if entity @s[scores={barrelCount=1..,barrelTime=..200}] run function skymode4:modules/barrel/updates/detect_heat
+execute if entity @s[scores={barrelCount=1..,barrelTime=..200}] run function skymode4:modules/barrel/detect_heat
 
 ## update specific content ##
-execute if entity @s[tag=barrelWooden] run function skymode4:modules/barrel/updates/update_wooden
-execute if entity @s[tag=barrelStone] run function skymode4:modules/barrel/updates/update_stone
-execute if entity @s[tag=barrelSeared] run function skymode4:modules/barrel/updates/update_seared
-execute if entity @s[tag=barrelCast] run function skymode4:modules/barrel/updates/update_cast
+execute if entity @s[tag=barrelWooden] run function skymode4:modules/barrel/update/wooden
+execute if entity @s[tag=barrelStone] run function skymode4:modules/barrel/update/stone
+execute if entity @s[tag=barrelSeared] run function skymode4:modules/barrel/update/seared
+execute if entity @s[tag=barrelCast] run function skymode4:modules/barrel/update/cast
 
 ## break barrel ##
 tag @s add barrelBreak

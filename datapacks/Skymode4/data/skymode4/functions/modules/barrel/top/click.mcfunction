@@ -1,6 +1,6 @@
 
-execute if entity @s[tag=!barrelHopperOut] run function skymode4:modules/barrel/updates/out_item
-execute if entity @s[tag=barrelHopperOut] run function skymode4:modules/barrel/updates/out_hopper
+execute if entity @s[tag=!barrelHopperOut] run function skymode4:modules/barrel/top/item
+execute if entity @s[tag=barrelHopperOut] run function skymode4:modules/barrel/top/hopper
 
 scoreboard players remove @s[tag=!barrelCast,scores={barrelContent=2,barrelCount=8}] barrelCount 8
 scoreboard players remove @s[tag=!barrelCast,scores={barrelContent=5,barrelCount=8}] barrelCount 8

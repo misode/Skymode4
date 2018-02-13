@@ -5,4 +5,4 @@ execute if entity @s[tag=!barrelCast,scores={barrelContent=6,barrelCount=1..}] r
 execute if entity @s[tag=!barrelCast,scores={barrelContent=11,barrelCount=1..}] run give @p iron_ingot
 execute if entity @s[tag=!barrelCast,scores={barrelContent=15,barrelCount=1..}] run give @p gold_ingot
 
-execute if entity @s[tag=barrelCast] run function skymode4:modules/barrel/updates/out_item_cast
+execute if entity @s[tag=barrelCast] run function skymode4:modules/barrel/top/item_cast
