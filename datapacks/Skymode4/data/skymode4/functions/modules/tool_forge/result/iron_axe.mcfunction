@@ -1,0 +1,2 @@
+execute if entity @s[scores={toolSpeed=000}] run data merge block ~ ~ ~ {Items:[{Slot:4b,id:"minecraft:iron_axe",Count:1b,tag:{HideFlags:6,Damage:1s,Unbreakable:1b,CustomTool:1b,MaxDurability:0,Durability:0,ToolSpeed:0,ToolHasSpeed:0b,ToolLuck:0,ToolHasLuck:0b}}]}
+execute if entity @s[scores={toolSpeed=1..}] run data merge block ~ ~ ~ {Items:[{Slot:4b,id:"minecraft:iron_axe",Count:1b,tag:{HideFlags:6,Damage:1s,Unbreakable:1b,CustomTool:1b,MaxDurability:0,Durability:0,ToolSpeed:0,ToolHasSpeed:1b,ToolLuck:0,ToolHasLuck:0b}}]}

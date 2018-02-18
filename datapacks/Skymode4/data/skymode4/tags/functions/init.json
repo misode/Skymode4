@@ -10,6 +10,7 @@
     "skymode4:modules/vertical_rails/init",
     "skymode4:modules/heart_canisters/init",
     "skymode4:modules/trapped_signs/init",
-    "skymode4:modules/sweathearts/init"
+    "skymode4:modules/sweathearts/init",
+    "skymode4:modules/tool_forge/init"
   ]
 }
