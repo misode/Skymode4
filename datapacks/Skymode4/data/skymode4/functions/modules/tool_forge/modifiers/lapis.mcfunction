@@ -11,6 +11,12 @@ execute if entity @s[scores={toolSlot=2}] store result block ~ ~ ~ Items[2].tag.
 execute if entity @s[scores={toolSlot=3}] store result block ~ ~ ~ Items[3].tag.ToolLuck int 1 run scoreboard players add @s toolLuck 1
 execute if entity @s[scores={toolSlot=4}] store result block ~ ~ ~ Items[4].tag.ToolLuck int 1 run scoreboard players add @s toolLuck 1
 
+execute if entity @s[scores={toolSlot=0,toolLuck=1..}] run data remove block ~ ~ ~ Items[0].tag.ench[0]
+execute if entity @s[scores={toolSlot=1,toolLuck=1..}] run data remove block ~ ~ ~ Items[1].tag.ench[0]
+execute if entity @s[scores={toolSlot=2,toolLuck=1..}] run data remove block ~ ~ ~ Items[2].tag.ench[0]
+execute if entity @s[scores={toolSlot=3,toolLuck=1..}] run data remove block ~ ~ ~ Items[3].tag.ench[0]
+execute if entity @s[scores={toolSlot=4,toolLuck=1..}] run data remove block ~ ~ ~ Items[4].tag.ench[0]
+
 execute if entity @s[scores={toolSlot=0}] store result block ~ ~ ~ Items[0].tag.ToolHasLuck byte -1 run scoreboard players get #one toolTemp
 execute if entity @s[scores={toolSlot=1}] store result block ~ ~ ~ Items[1].tag.ToolHasLuck byte -1 run scoreboard players get #one toolTemp
 execute if entity @s[scores={toolSlot=2}] store result block ~ ~ ~ Items[2].tag.ToolHasLuck byte -1 run scoreboard players get #one toolTemp
