@@ -1,0 +1,19 @@
+{
+  "type": "crafting_shaped",
+  "pattern": [
+    "SSS",
+    "SCS",
+    "SSS"
+  ],
+  "key": {
+    "C": {
+      "item": "minecraft:crafting_table"
+    },
+    "S": {
+      "item": "minecraft:red_glazed_terracotta"
+    }
+  },
+  "result": {
+    "item": "minecraft:lime_glazed_terracotta"
+  }
+}
