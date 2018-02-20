@@ -1,4 +1,5 @@
 ## convert lava to obsidian ##
+execute if block ~ ~1 ~ water run tag @s add barrelTemp
 execute if block ~ ~1 ~ flowing_water run tag @s add barrelTemp
 scoreboard players set @s[tag=barrelTemp] barrelContent 5
 scoreboard players set @s[tag=barrelTemp] barrelTime -1
