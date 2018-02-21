@@ -1,9 +1,9 @@
 {
   "type": "crafting_shaped",
   "pattern": [
-    "SSS",
+    "ISI",
     "SCS",
-    "SSS"
+    "ISI"
   ],
   "key": {
     "C": {
@@ -11,6 +11,9 @@
     },
     "S": {
       "item": "minecraft:red_glazed_terracotta"
+    },
+    "I": {
+      "item": "minecraft:iron_ingot"
     }
   },
   "result": {
