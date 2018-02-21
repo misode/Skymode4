@@ -10,7 +10,7 @@
 					"functions":[
 						{
               "function":"minecraft:set_nbt",
-              "tag":"{skymode4Rock:1b,display:{Name:\"\\\"Rock\\\"}\"},SkullOwner:\"Cobble\"}"
+              "tag":"{skymode4Rock:1b,display:{Name:\"{\\\"text\\\":\\\"Rock\\\",\\\"italic\\\":false}\"},SkullOwner:\"Cobble\"}"
             },
             {
               "function":"minecraft:set_count",
