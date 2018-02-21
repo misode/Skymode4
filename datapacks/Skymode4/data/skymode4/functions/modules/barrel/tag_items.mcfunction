@@ -21,6 +21,7 @@ tag @s[nbt={OnGround:1b,Item:{Count:1b,id:"minecraft:reeds"}}] add barrelCompost
 tag @s[nbt={OnGround:1b,Item:{Count:1b,id:"minecraft:apple"}}] add barrelCompost
 tag @s[nbt={OnGround:1b,Item:{Count:1b,id:"minecraft:potato"}}] add barrelCompost
 tag @s[nbt={OnGround:1b,Item:{Count:1b,id:"minecraft:carrot"}}] add barrelCompost
+tag @s[nbt={OnGround:1b,Item:{Count:1b,id:"minecraft:sand"}}] add barrelSand
 tag @s[nbt={OnGround:1b,Item:{Count:1b,id:"minecraft:cobblestone"}}] add barrelCobblestone
 tag @s[nbt={OnGround:1b,Item:{Count:1b,id:"minecraft:bucket"}}] add barrelBucket
 tag @s[nbt={OnGround:1b,Item:{Count:1b,id:"minecraft:iron_ore"}}] add barrelIron
