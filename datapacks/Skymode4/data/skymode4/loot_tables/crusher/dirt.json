@@ -24,10 +24,7 @@
 			]
 		},
 		{
-			"rolls":{
-				"min":0,
-				"max":1
-			},
+			"rolls":1,
 			"entries":[
 				{
 					"type":"item",
@@ -81,7 +78,7 @@
 				},
 				{
 					"type":"empty",
-					"weight":5
+					"weight":10
 				}
 			]
 		}
