@@ -15,3 +15,5 @@ execute if entity @s[nbt={Item:{tag:{pages:["turn right"]}}}] run tag @e[limit=1
 execute if entity @s[nbt={Item:{tag:{pages:["turn right"]}}}] run tag @e[limit=1,distance=..1,type=armor_stand,tag=!GM4_noEdit] remove GM4_cturn
 execute if entity @s[nbt={Item:{tag:{pages:["no turn"]}}}] run tag @e[limit=1,distance=..1,type=armor_stand,tag=!GM4_noEdit] remove GM4_cturn
 execute if entity @s[nbt={Item:{tag:{pages:["no turn"]}}}] run tag @e[limit=1,distance=..1,type=armor_stand,tag=!GM4_noEdit] remove GM4_aturn
+
+execute if entity @s[nbt={Item:{tag:{pages:["arms"]}}}] run advancement grant @a[distance=..4] only skymode4:wooden_age/armor_stand

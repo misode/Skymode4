@@ -2,12 +2,12 @@
   "criteria": {
     "place": {
       "trigger": "minecraft:placed_block",
-      "conditions":{
-        "block":"minecraft:light_gray_glazed_terracotta"
+      "conditions": {
+        "block": "minecraft:light_gray_glazed_terracotta"
       }
     }
   },
-  "rewards":{
-    "function":"skymode4:modules/fan/place_fan"
+  "rewards": {
+    "function": "skymode4:modules/fan/place_fan"
   }
 }

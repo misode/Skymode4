@@ -1,10 +1,13 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:wooden_sword"
+      "item": "minecraft:wooden_hoe"
     },
-    "title": "Ready to Fight?",
-    "description": "Craft a sword\n▶ Island\n▶ §r§kSurprise"
+    "title": "Ready to Farm?",
+    "description": "Craft a hoe to farm\n▶ Farming Age",
+    "frame": "goal",
+    "show_toast": false,
+    "announce_to_chat": false
   },
   "parent": "skymode4:wooden_age/craft_table",
   "criteria": {
@@ -13,7 +16,7 @@
       "conditions": {
         "items": [
           {
-            "item": "minecraft:wooden_sword"
+            "item": "minecraft:wooden_hoe"
           }
         ]
       }
@@ -23,7 +26,7 @@
       "conditions": {
         "items": [
           {
-            "item": "minecraft:stone_sword"
+            "item": "minecraft:stone_hoe"
           }
         ]
       }
@@ -33,14 +36,14 @@
       "conditions": {
         "items": [
           {
-            "item": "minecraft:iron_sword"
+            "item": "minecraft:iron_hoe"
           }
         ]
       }
     }
   },
   "rewards": {
-    "function": "skymode4:advancements/reward/wooden_age/craft_sword"
+    "function": "skymode4:advancements/reward/wooden_age/craft_hoe"
   },
   "requirements": [
     ["craft1","craft2","craft3"]

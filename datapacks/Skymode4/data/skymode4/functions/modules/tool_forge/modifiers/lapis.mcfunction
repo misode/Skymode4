@@ -1,3 +1,5 @@
+advancement grant @s only skymode4:metal_age/add_modifier
+
 function skymode4:modules/tool_forge/modifiers/get_slot
 execute store result score @s[scores={toolSlot=0}] toolLuck run data get block ~ ~ ~ Items[0].tag.ToolLuck
 execute store result score @s[scores={toolSlot=1}] toolLuck run data get block ~ ~ ~ Items[1].tag.ToolLuck

@@ -4,22 +4,23 @@
       "item": "minecraft:crafting_table"
     },
     "title": "Benchmarking",
-    "description":"Craft a standard crafting table\n▶ Island"
+    "description": "Craft a crafting table\n▶ Island"
   },
-  "parent":"skymode4:wooden_age/root",
+  "parent": "skymode4:wooden_age/root",
   "criteria": {
     "craft": {
       "trigger": "minecraft:inventory_changed",
-      "conditions":{
-        "items":[
+      "conditions": {
+        "items": [
           {
-            "item":"minecraft:crafting_table"
+            "item": "minecraft:crafting_table"
           }
         ]
       }
     }
   },
-  "rewards":{
-    "function":"skymode4:advancements/reward/wooden_age/craft_table"
+  "rewards": {
+    "function": "skymode4:advancements/reward/wooden_age/craft_table",
+    "recipe": ["minecraft:white_glazed_terracotta"]
   }
 }

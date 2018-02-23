@@ -1,5 +1,6 @@
 {
   "values": [
+    "skymode4:advancements/triggers/init",
     "skymode4:modules/graves/init",
     "skymode4:modules/barrel/init",
     "skymode4:modules/wrench/init",

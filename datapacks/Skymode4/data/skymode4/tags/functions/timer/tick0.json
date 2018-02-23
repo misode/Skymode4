@@ -1,5 +1,6 @@
 {
   "values": [
+    "#skymode4:advancements/triggers",
     "skymode4:modules/filter/main"
   ]
 }

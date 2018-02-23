@@ -4,7 +4,8 @@
       "item": "minecraft:white_glazed_terracotta"
     },
     "title": "Composting",
-    "description":"Create dirt with a barrel\n▶ Island\n▶ Stone"
+    "description": "Create dirt with a barrel\n▶ Island\n▶ Stone Age",
+    "frame": "goal"
   },
   "parent": "skymode4:wooden_age/craft_table",
   "criteria": {
@@ -12,7 +13,7 @@
       "trigger": "minecraft:impossible"
     }
   },
-  "rewards":{
-    "function":"skymode4:advancements/reward/wooden_age/compost"
+  "rewards": {
+    "function": "skymode4:advancements/reward/wooden_age/compost"
   }
 }

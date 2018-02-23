@@ -1,19 +1,19 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:orange_glazed_terracotta"
+      "item": "minecraft:light_gray_glazed_terracotta"
     },
-    "title": "Crushed!",
-    "description": "Craft a crusher\n▶ Island"
+    "title": "Away, I Say!",
+    "description": "Craft a fan"
   },
-  "parent": "skymode4:stone_age/root",
+  "parent": "skymode4:stone_age/craft_crusher",
   "criteria": {
     "craft": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "item": "minecraft:orange_glazed_terracotta"
+            "item": "minecraft:light_gray_glazed_terracotta"
           }
         ]
       }

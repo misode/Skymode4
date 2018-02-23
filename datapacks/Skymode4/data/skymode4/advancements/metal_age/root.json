@@ -4,14 +4,14 @@
       "item": "minecraft:brick"
     },
     "title": "Metal Age",
-    "description":"Craft a seared brick\n▶ Island",
-    "background":"minecraft:textures/blocks/skymode4/seared_bricks.png"
+    "description": "Craft a seared brick\n▶ Island",
+    "background": "minecraft:textures/blocks/skymode4/seared_bricks.png"
   },
   "criteria": {
     "craft": {
       "trigger": "minecraft:inventory_changed",
-      "conditions":{
-        "items":[
+      "conditions": {
+        "items": [
           {
             "item": "minecraft:red_glazed_terracotta"
           }
@@ -19,7 +19,7 @@
       }
     }
   },
-  "rewards":{
-    "function":"skymode4:advancements/reward/metal_age_root"
+  "rewards": {
+    "function": "skymode4:advancements/reward/metal_age_root"
   }
 }

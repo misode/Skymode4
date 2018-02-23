@@ -4,14 +4,14 @@
       "item": "minecraft:oak_log"
     },
     "title": "Serious Choppage",
-    "description":"Collect a stack of logs\n▶ Island\n▶ Wrench"
+    "description": "Collect a stack of logs\n▶ Island\n▶ Wrench"
   },
-  "parent":"skymode4:wooden_age/root",
+  "parent": "skymode4:wooden_age/root",
   "criteria": {
     "pickup": {
       "trigger": "minecraft:inventory_changed",
-      "conditions":{
-        "items":[
+      "conditions": {
+        "items": [
           {
             "item": "minecraft:oak_log",
             "count": 64
@@ -20,7 +20,7 @@
       }
     }
   },
-  "rewards":{
-    "function":"skymode4:advancements/reward/wooden_age/stack_logs"
+  "rewards": {
+    "function": "skymode4:advancements/reward/wooden_age/stack_logs"
   }
 }

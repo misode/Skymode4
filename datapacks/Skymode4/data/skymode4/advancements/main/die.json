@@ -1,0 +1,18 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:coarse_dirt"
+    },
+    "title": "Risen",
+    "description": "Die and spawn a grave"
+  },
+  "parent": "skymode4:main/root",
+  "criteria": {
+    "criteria": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "skymode4:advancements/reward/main/die"
+  }
+}

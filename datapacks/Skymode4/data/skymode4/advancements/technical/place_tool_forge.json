@@ -2,12 +2,12 @@
   "criteria": {
     "place": {
       "trigger": "minecraft:placed_block",
-      "conditions":{
-        "block":"minecraft:lime_glazed_terracotta"
+      "conditions": {
+        "block": "minecraft:lime_glazed_terracotta"
       }
     }
   },
-  "rewards":{
-    "function":"skymode4:modules/tool_forge/place_tool_forge"
+  "rewards": {
+    "function": "skymode4:modules/tool_forge/place_tool_forge"
   }
 }

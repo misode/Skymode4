@@ -1,3 +1,5 @@
+advancement grant @s only skymode4:metal_age/add_modifier
+
 function skymode4:modules/tool_forge/modifiers/get_slot
 execute store result score @s[nbt={Items:[{Slot:4b,tag:{AttributeModifiers:[{AttributeName:"generic.attackSpeed"}]}}]},scores={toolSlot=0}] toolSpeed run data get block ~ ~ ~ Items[0].tag.ToolSpeed
 execute store result score @s[nbt={Items:[{Slot:4b,tag:{AttributeModifiers:[{AttributeName:"generic.attackSpeed"}]}}]},scores={toolSlot=1}] toolSpeed run data get block ~ ~ ~ Items[1].tag.ToolSpeed

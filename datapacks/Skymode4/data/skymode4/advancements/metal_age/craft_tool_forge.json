@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:lime_glazed_terracotta"
+    },
+    "title": "Better tools",
+    "description": "Craft a tool forge"
+  },
+  "parent": "skymode4:metal_age/root",
+  "criteria": {
+    "craft": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:lime_glazed_terracotta"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "skymode4:advancements/reward/stone_age/craft_tool_forge"
+  }
+}

@@ -4,45 +4,15 @@
       "item": "minecraft:wheat"
     },
     "title": "Farming Age",
-    "description":"Craft a hoe to farm crops\n▶ Island\n▶ Water Source",
-    "background":"minecraft:textures/blocks/farmland_wet.png"
+    "description": "Craft a hoe to farm crops\n▶ Island\n▶ Water Source",
+    "background": "minecraft:textures/blocks/farmland_wet.png"
   },
   "criteria": {
-    "craft1": {
-      "trigger": "minecraft:inventory_changed",
-      "conditions":{
-        "items":[
-          {
-            "item":"minecraft:wooden_hoe"
-          }
-        ]
-      }
-    },
-    "craft2": {
-      "trigger": "minecraft:inventory_changed",
-      "conditions":{
-        "items":[
-          {
-            "item":"minecraft:stone_hoe"
-          }
-        ]
-      }
-    },
-    "craft3": {
-      "trigger": "minecraft:inventory_changed",
-      "conditions":{
-        "items":[
-          {
-            "item":"minecraft:iron_hoe"
-          }
-        ]
-      }
+    "impossible": {
+      "trigger": "minecraft:impossible"
     }
   },
-  "rewards":{
-    "function":"skymode4:advancements/reward/farming_age/root"
-  },
-  "requirements": [
-    ["craft1","craft2","craft3"]
-  ]
+  "rewards": {
+    "function": "skymode4:advancements/reward/farming_age/root"
+  }
 }

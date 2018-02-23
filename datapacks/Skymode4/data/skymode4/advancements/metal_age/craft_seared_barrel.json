@@ -4,22 +4,22 @@
 			"item": "minecraft:light_blue_glazed_terracotta"
 		},
 		"title": "My Own Little Smeltery",
-		"description":"Craft a seared barrel"
+		"description": "Craft a seared barrel"
 	},
-	"parent":"skymode4:metal_age/root",
+	"parent": "skymode4:metal_age/root",
 	"criteria": {
 		"craft": {
 			"trigger": "minecraft:inventory_changed",
-			"conditions":{
-				"items":[
+			"conditions": {
+				"items": [
 					{
-						"item":"minecraft:light_blue_glazed_terracotta"
+						"item": "minecraft:light_blue_glazed_terracotta"
 					}
 				]
 			}
 		}
 	},
-	"rewards":{
-		"function":"skymode4:advancements/reward/metal_age/craft_seared_barrel"
+	"rewards": {
+		"function": "skymode4:advancements/reward/metal_age/craft_seared_barrel"
 	}
 }

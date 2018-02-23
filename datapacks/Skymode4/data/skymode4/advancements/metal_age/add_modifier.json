@@ -1,0 +1,18 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:redstone"
+		},
+		"title": "Add a modifier",
+		"description": "Add a modifier to your custom tool"
+	},
+	"parent": "skymode4:metal_age/cast_mold",
+	"criteria": {
+		"craft": {
+			"trigger": "minecraft:impossible"
+		}
+	},
+	"rewards": {
+		"function": "skymode4:advancements/reward/metal_age/add_modifier"
+	}
+}

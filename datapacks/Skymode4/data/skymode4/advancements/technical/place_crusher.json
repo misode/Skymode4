@@ -2,12 +2,12 @@
   "criteria": {
     "place": {
       "trigger": "minecraft:placed_block",
-      "conditions":{
-        "block":"minecraft:orange_glazed_terracotta"
+      "conditions": {
+        "block": "minecraft:orange_glazed_terracotta"
       }
     }
   },
-  "rewards":{
-    "function":"skymode4:modules/crusher/place_crusher"
+  "rewards": {
+    "function": "skymode4:modules/crusher/place_crusher"
   }
 }

@@ -4,14 +4,14 @@
       "item": "minecraft:cobblestone"
     },
     "title": "Stone Age",
-    "description":"Mine cobblestone\n▶ Stone Pickaxe",
-    "background":"minecraft:textures/blocks/stone.png"
+    "description": "Mine cobblestone\n▶ Stone Pickaxe",
+    "background": "minecraft:textures/blocks/stone.png"
   },
   "criteria": {
     "craft": {
       "trigger": "minecraft:inventory_changed",
-      "conditions":{
-        "items":[
+      "conditions": {
+        "items": [
           {
             "item": "minecraft:cobblestone"
           }
@@ -19,7 +19,7 @@
       }
     }
   },
-  "rewards":{
-    "function":"skymode4:advancements/reward/stone_age/root"
+  "rewards": {
+    "function": "skymode4:advancements/reward/stone_age/root"
   }
 }

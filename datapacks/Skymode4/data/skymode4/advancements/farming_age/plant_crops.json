@@ -1,0 +1,47 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:melon_seeds"
+    },
+    "title": "Replanting",
+    "description": "Plant all types of seeds"
+  },
+  "parent": "skymode4:farming_age/root",
+  "criteria": {
+    "place1": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "item": {
+          "block": "minecraft:wheat"
+        }
+      }
+    },
+    "place2": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "item": {
+          "block": "minecraft:beetroots"
+        }
+      }
+    },
+    "place3": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "item": {
+          "block": "minecraft:melon_stem"
+        }
+      }
+    },
+    "place4": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "item": {
+          "block": "minecraft:pumpkin_stem"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "skymode4:advancements/reward/farming_age/eat_bread"
+  }
+}
