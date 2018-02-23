@@ -10,7 +10,6 @@ execute if entity @e[type=item,distance=..1,tag=barrelGold] run function skymode
 execute if entity @e[type=item,distance=..1,tag=barrelCopper] run function skymode4:modules/barrel/add/copper
 execute if entity @e[type=item,distance=..1,tag=barrelTin] run function skymode4:modules/barrel/add/tin
 execute if entity @e[type=item,distance=..1,tag=barrelBucket] run function skymode4:modules/barrel/remove/fluid
-execute if entity @e[type=item,distance=..1,tag=barrelOreChunk] run function skymode4:modules/barrel/add/ore_chunk
 execute if entity @e[type=item,distance=..1,tag=barrelPartPickaxe] run function skymode4:modules/barrel/add/part_pickaxe
 execute if entity @e[type=item,distance=..1,tag=barrelPartAxe] run function skymode4:modules/barrel/add/part_axe
 execute if entity @e[type=item,distance=..1,tag=barrelPartShovel] run function skymode4:modules/barrel/add/part_shovel
