@@ -1,5 +1,4 @@
 # Tool Forge module by Misode (@misoloo)
-tag @e[type=bat,tag=main] add runningToolForge
 
 # create tool forge
 execute as @e[type=armor_stand,tag=toolForgeInit] at @s run function skymode4:modules/tool_forge/create

@@ -1,5 +1,4 @@
 ## Trapped Signs by Fyid - updated by Misode
-tag @e[type=bat,tag=main] add runningTrappedSigns
 
 scoreboard players enable @a signTrigger
 

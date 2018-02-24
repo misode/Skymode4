@@ -1,5 +1,4 @@
 # Fan module by Misode (@misoloo)
-tag @e[type=bat,tag=main] add runningFan
 
 # create fan
 execute as @e[type=armor_stand,tag=fanInit] at @s run function skymode4:modules/fan/create

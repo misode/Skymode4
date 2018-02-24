@@ -1,5 +1,4 @@
 ## Heart Canisters by Sparks and SpiderRobotMan - Updated by Misode
-tag @e[type=bat,tag=main] add runningHeartCan
 
 scoreboard players set @a[scores={heartCanValue=1..}] heartCanValue 0
 execute as @a[nbt={Inventory:[{id:"minecraft:player_head",tag:{display:{Name:"\"Heart Canister\""}}}]}] run function skymode4:modules/heart_canisters/check

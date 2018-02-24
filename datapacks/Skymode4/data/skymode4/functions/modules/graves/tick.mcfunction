@@ -1,6 +1,5 @@
 # Graves module by misode (@misoloo)
 # Needs to be optimized
-tag @e[type=bat,tag=main] add runningGraves
 
 # flag item
 tag @e[tag=main] remove graveDeath

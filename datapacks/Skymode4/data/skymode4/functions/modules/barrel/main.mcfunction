@@ -1,5 +1,4 @@
 # Barrels module by misode (@misoloo)
-tag @e[type=bat,tag=main] add runningBarrel
 
 # update the fire and air of content armorstands, drain and top
 execute as @e[tag=barrelContent] run data merge entity @s {Fire:50}
