@@ -6,4 +6,3 @@ tp @e[type=item,tag=!graveFlag,distance=..4] ~ ~ ~
 scoreboard players set @e[type=area_effect_cloud,tag=graveInit] graveTime 0
 team join no_collision @e[type=slime,tag=graveInit]
 tag @e[tag=graveInit] remove graveInit
-scoreboard players set @a[scores={graveDeaths=1..}] graveDeaths 0

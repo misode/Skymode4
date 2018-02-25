@@ -9,7 +9,7 @@ execute as @e[tag=main,tag=!graveDeath] run tag @e[type=item,tag=!graveFlag] add
 # build grave
 tag @e[tag=graveInit] remove graveInit
 execute as @a[scores={graveDeaths=1..}] at @s if entity @s[y=0,dy=256] align xyz positioned ~0.5 ~-0.469 ~0.5 run function skymode4:modules/graves/create
-execute at @a[scores={graveDeaths=1..}] align xyz positioned ~0.5 0.531 ~0.5 run function skymode4:modules/graves/create
+scoreboard players set @a[scores={graveDeaths=1..}] graveDeath 0
 
 # update graves
 execute as @e[type=area_effect_cloud,tag=grave] at @s run data merge entity @e[limit=1,distance=..1,type=falling_block,tag=grave] {Time:1}
