@@ -1,4 +1,3 @@
-function skymode4:reset
 gamemode survival @s
 tp @s 0 64 0
 clear @s
