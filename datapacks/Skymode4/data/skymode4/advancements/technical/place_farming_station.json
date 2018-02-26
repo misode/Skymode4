@@ -1,0 +1,13 @@
+{
+  "criteria": {
+    "place": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "block": "minecraft:cyan_glazed_terracotta"
+      }
+    }
+  },
+  "rewards": {
+    "function": "skymode4:modules/farming_station/place_farming_station"
+  }
+}

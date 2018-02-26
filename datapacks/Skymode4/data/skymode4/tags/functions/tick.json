@@ -11,6 +11,7 @@
     "skymode4:modules/vertical_rails/tick",
     "skymode4:modules/better_armor_stands/tick",
     "skymode4:modules/trapped_signs/tick",
-    "skymode4:modules/tool_forge/tick"
+    "skymode4:modules/tool_forge/tick",
+    "skymode4:modules/farming_station/tick"
   ]
 }
