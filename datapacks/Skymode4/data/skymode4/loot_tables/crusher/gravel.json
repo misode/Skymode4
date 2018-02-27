@@ -28,14 +28,8 @@
 				},
 				{
 					"type":"item",
-					"name":"minecraft:repeating_command_block",
-					"weight":1,
-					"functions":[
-						{
-              "function":"minecraft:set_nbt",
-              "tag":"{display:{Lore:[\"Contains iron\"]},Iron:1b}"
-            }
-					]
+					"name":"minecraft:iron_ore",
+					"weight":1
 				},
 				{
 					"type":"item",
