@@ -20,6 +20,7 @@
     }
   },
   "rewards": {
-    "function": "skymode4:advancements/reward/stone_age/craft_crusher"
+    "function": "skymode4:advancements/reward/stone_age/craft_crusher",
+    "recipes": ["skymode4:fan","skymode4:cobble_gen"]
   }
 }

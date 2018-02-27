@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:red_glazed_terracotta"
+    },
+    "title": "Smeltery?",
+    "description": "Craft seared bricks\n▶ Metal Age",
+    "frame": "goal"
+  },
+  "parent": "skymode4:stone_age/make_lava",
+  "criteria": {
+    "craft": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:red_glazed_terracotta"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "skymode4:advancements/reward/stone_age/craft_seared_bricks"
+  }
+}

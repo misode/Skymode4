@@ -20,6 +20,7 @@
     }
   },
   "rewards": {
-    "function": "skymode4:advancements/reward/stone_age/root"
+    "function": "skymode4:advancements/reward/stone_age/root",
+    "recipes": ["skymode4:crusher"]
   }
 }

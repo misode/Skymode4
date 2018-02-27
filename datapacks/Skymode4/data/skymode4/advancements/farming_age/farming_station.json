@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:orange_glazed_terracotta"
+    },
+    "title": "Farming Station",
+    "description": "Craft a farming station"
+  },
+  "parent": "skymode4:farming_age/root",
+  "criteria": {
+    "craft": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:cyan_glazed_terracotta"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "skymode4:advancements/reward/stone_age/tool_forge"
+  }
+}

@@ -4,7 +4,7 @@
       "item": "minecraft:brick"
     },
     "title": "Metal Age",
-    "description": "Craft a seared brick\n▶ Island",
+    "description": "Craft seared bricks\n▶ Island",
     "background": "minecraft:textures/blocks/skymode4/seared_bricks.png"
   },
   "criteria": {
@@ -20,6 +20,7 @@
     }
   },
   "rewards": {
-    "function": "skymode4:advancements/reward/metal_age_root"
+    "function": "skymode4:advancements/reward/metal_age_root",
+    "recipes": ["skymode4:seared_barrel","skymode4:seared_cast","skymode4:filter","skymode4:tool_forge","skymode4:farming_station"]
   }
 }

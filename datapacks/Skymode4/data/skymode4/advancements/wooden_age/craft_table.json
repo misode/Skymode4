@@ -21,6 +21,6 @@
   },
   "rewards": {
     "function": "skymode4:advancements/reward/wooden_age/craft_table",
-    "recipe": ["minecraft:white_glazed_terracotta"]
+    "recipes": ["skymode4:wooden_barrel"]
   }
 }

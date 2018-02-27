@@ -13,6 +13,7 @@
     }
   },
   "rewards": {
-    "function": "skymode4:advancements/reward/farming_age/root"
+    "function": "skymode4:advancements/reward/farming_age/root",
+    "recipes": ["skymode4:farming_station"]
   }
 }

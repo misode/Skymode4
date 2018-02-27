@@ -20,6 +20,7 @@
     }
   },
   "rewards": {
-    "function": "skymode4:advancements/reward/stone_age/craft_furnace"
+    "function": "skymode4:advancements/reward/stone_age/craft_furnace",
+    "recipes": ["skymode4:stone_barrel"]
   }
 }
