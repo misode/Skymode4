@@ -8,4 +8,8 @@ team option no_collision collisionRule never
 
 function #skymode4:init
 
+# https://bugs.mojang.com/browse/MC-122940
+recipe give @a *
+recipe take @a *
+
 tellraw @a [{"text":"Done!","color":"green"}]
