@@ -4,3 +4,6 @@ execute as @a[nbt={SelectedItem:{tag:{CustomTool:1b}}}] unless entity @s[scores=
 # update haste effect
 execute as @a[tag=toolHaste,nbt=!{SelectedItem:{tag:{CustomTool:1b,ToolHasSpeed:1b}}}] run function skymode4:modules/tool_forge/tool/clear_haste
 execute as @a[tag=!toolHaste,nbt={SelectedItem:{tag:{CustomTool:1b,ToolHasSpeed:1b}}}] run function skymode4:modules/tool_forge/tool/give_haste
+
+#break block
+execute as @e[tag=toolForge] at @s unless block ~ ~ ~ dropper run function skymode4:modules/tool_forge/remove
