@@ -1,2 +1,4 @@
-summon area_effect_cloud ~ ~ ~ {Tags:["enderHopperBroken"],Radius:0.001f,Duration:5,Particle:explosion,Passengers:[{id:item,Item:{id:ender_eye,Count:1b}},{id:item,Item:{id:iron_block,Count:4b}},{id:item,Item:{id:diamond_block,Count:1b}},{id:item,Item:{id:ender_pearl,Count:4b}}]}
+setblock ~ ~ ~ air destroy
+data merge entity @e[type=item,distance=..1,limit=1,nbt={Item:{id:"minecraft:hopper",tag:{display:{Name:"{\"text\":\"Ender Hopper\"}"}}}}] {Item:{id:"minecraft:purple_glazed_terracotta"}}
+data remove entity @e[type=item,distance=..1,limit=1,nbt={Item:{id:"minecraft:purple_glazed_terracotta",Count:1b}}] Item.tag
 kill @s

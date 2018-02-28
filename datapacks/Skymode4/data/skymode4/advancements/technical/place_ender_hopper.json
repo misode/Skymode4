@@ -1,0 +1,13 @@
+{
+  "criteria": {
+    "place": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "block": "minecraft:purple_glazed_terracotta"
+      }
+    }
+  },
+  "rewards": {
+    "function": "skymode4:modules/ender_hoppers/place_ender_hopper"
+  }
+}
