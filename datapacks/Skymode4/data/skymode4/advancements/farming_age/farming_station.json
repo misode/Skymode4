@@ -20,6 +20,6 @@
     }
   },
   "rewards": {
-    "function": "skymode4:advancements/reward/stone_age/tool_forge"
+    "function": "skymode4:advancements/reward/farming_age/farming_station"
   }
 }

@@ -4,7 +4,7 @@
       "item": "minecraft:melon_seeds"
     },
     "title": "Replanting",
-    "description": "Plant all types of seeds"
+    "description": "Plant all types of seeds\n▶ Island"
   },
   "parent": "skymode4:farming_age/root",
   "criteria": {
@@ -34,6 +34,6 @@
     }
   },
   "rewards": {
-    "function": "skymode4:advancements/reward/farming_age/eat_bread"
+    "function": "skymode4:advancements/reward/farming_age/plant_crops"
   }
 }
