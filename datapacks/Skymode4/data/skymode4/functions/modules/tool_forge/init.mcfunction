@@ -9,36 +9,7 @@ scoreboard players set #one toolTemp 1
 scoreboard players set #two toolTemp 2
 scoreboard players set #three toolTemp 3
 
-## config ##
-scoreboard players set #ironTool toolSpeed 1
-scoreboard players set #copperTool toolSpeed 4
-scoreboard players set #bronzeTool toolSpeed 2
-scoreboard players set #ironBinding toolSpeed 1
-scoreboard players set #copperBinding toolSpeed 1
-scoreboard players set #bronzeBinding toolSpeed 1
-scoreboard players set #ironRod toolSpeed 2
-scoreboard players set #copperRod toolSpeed 2
-scoreboard players set #bronzeRod toolSpeed 3
-
-scoreboard players set #ironTool toolDurability 200
-scoreboard players set #copperTool toolDurability 150
-scoreboard players set #bronzeTool toolDurability 300
-scoreboard players set #ironBinding toolDurability 10
-scoreboard players set #copperBinding toolDurability 10
-scoreboard players set #bronzeBinding toolDurability 10
-scoreboard players set #ironRod toolDurability 80
-scoreboard players set #copperRod toolDurability 70
-scoreboard players set #bronzeRod toolDurability 100
-
-scoreboard players set #ironTool toolDamage 4
-scoreboard players set #copperTool toolDamage 2
-scoreboard players set #bronzeTool toolDamage 4
-scoreboard players set #ironBinding toolDamage 1
-scoreboard players set #copperBinding toolDamage 1
-scoreboard players set #bronzeBinding toolDamage 1
-scoreboard players set #ironRod toolDamage 3
-scoreboard players set #copperRod toolDamage 2
-scoreboard players set #bronzeRod toolDamage 4
+function skymode4:modules/tool_forge/config
 
 ## tool used detection
 scoreboard objectives add toolShovel1 minecraft.used:minecraft.wooden_shovel
