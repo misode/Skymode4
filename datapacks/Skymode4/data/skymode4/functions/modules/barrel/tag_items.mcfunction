@@ -30,6 +30,7 @@ tag @s[nbt={OnGround:1b,Item:{Count:1b,id:"minecraft:repeating_command_block",ta
 tag @s[nbt={OnGround:1b,Item:{Count:1b,id:"minecraft:repeating_command_block",tag:{Gold:1b}}}] add barrelGold
 tag @s[nbt={OnGround:1b,Item:{Count:1b,id:"minecraft:repeating_command_block",tag:{Copper:1b}}}] add barrelCopper
 tag @s[nbt={OnGround:1b,Item:{Count:1b,id:"minecraft:repeating_command_block",tag:{Tin:1b}}}] add barrelTin
+tag @s[nbt={OnGround:1b,Item:{Count:1b,id:"minecraft:repeating_command_block",tag:{Zinc:1b}}}] add barrelZinc
 tag @s[nbt={OnGround:1b,Item:{Count:1b,id:"minecraft:diamond_sword",tag:{Stone:1b,PartPickaxe:1b}}}] add barrelPartPickaxe
 tag @s[nbt={OnGround:1b,Item:{Count:1b,id:"minecraft:diamond_sword",tag:{Stone:1b,PartAxe:1b}}}] add barrelPartAxe
 tag @s[nbt={OnGround:1b,Item:{Count:1b,id:"minecraft:diamond_sword",tag:{Stone:1b,PartShovel:1b}}}] add barrelPartShovel

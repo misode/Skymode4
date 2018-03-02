@@ -52,6 +52,17 @@
               "tag":"{display:{Lore:[\"Contains tin\"]},Tin:1b}"
             }
 					]
+				},
+				{
+					"type":"item",
+					"name":"minecraft:repeating_command_block",
+					"weight":1,
+					"functions":[
+						{
+              "function":"minecraft:set_nbt",
+              "tag":"{display:{Lore:[\"Contains zinc\"]},Zinc:1b}"
+            }
+					]
 				}
 			]
 		}
