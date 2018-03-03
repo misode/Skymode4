@@ -10,12 +10,8 @@ execute store result score @s[scores={toolSlot=6}] toolSpeed run data get entity
 execute store result score @s[scores={toolSlot=7}] toolSpeed run data get entity @s Inventory[7].tag.ToolSpeed
 execute store result score @s[scores={toolSlot=8}] toolSpeed run data get entity @s Inventory[8].tag.ToolSpeed
 
-effect give @s[scores={toolSpeed=1..4}] haste 999999 0 true
-effect give @s[scores={toolSpeed=5..9}] haste 999999 1 true
-effect give @s[scores={toolSpeed=10..14}] haste 999999 2 true
-effect give @s[scores={toolSpeed=15..19}] haste 999999 3 true
-effect give @s[scores={toolSpeed=20..29}] haste 999999 4 true
-effect give @s[scores={toolSpeed=30..39}] haste 999999 5 true
-effect give @s[scores={toolSpeed=40..49}] haste 999999 6 true
-effect give @s[scores={toolSpeed=50..}] haste 999999 7 true
+effect give @s[scores={toolSpeed=10..20}] haste 999999 0 true
+effect give @s[scores={toolSpeed=21..64}] haste 999999 1 true
+effect give @s[scores={toolSpeed=65..128}] haste 999999 2 true
+effect give @s[scores={toolSpeed=129..}] haste 999999 3 true
 tag @s add toolHaste
