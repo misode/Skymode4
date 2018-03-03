@@ -4,7 +4,7 @@
       "item": "minecraft:oak_log"
     },
     "title": "Serious Choppage",
-    "description": "Collect a stack of logs\n▶ Island\n▶ Wrench"
+    "description": "Collect 16 logs\n▶ Island\n▶ Wrench"
   },
   "parent": "skymode4:wooden_age/root",
   "criteria": {
@@ -14,7 +14,9 @@
         "items": [
           {
             "item": "minecraft:oak_log",
-            "count": 64
+            "count": {
+              "min":16
+            }
           }
         ]
       }
