@@ -1,0 +1,9 @@
+{
+  "type": "smelting",
+  "ingredient": {
+    "item": "minecraft:mob_spawner"
+  },
+  "result": "minecraft:mob_spawner",
+  "experience": 0,
+  "cookingtime": 16
+}

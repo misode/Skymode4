@@ -1,0 +1,13 @@
+{
+  "criteria": {
+    "place": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "block": "minecraft:blue_glazed_terracotta"
+      }
+    }
+  },
+  "rewards": {
+    "function": "skymode4:modules/stirling_generator/place_stirling_generator"
+  }
+}

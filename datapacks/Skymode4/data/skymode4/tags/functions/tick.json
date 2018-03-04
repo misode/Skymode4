@@ -13,6 +13,7 @@
     "skymode4:modules/trapped_signs/tick",
     "skymode4:modules/tool_forge/tick",
     "skymode4:modules/farming_station/tick",
-    "skymode4:modules/ender_hoppers/tick"
+    "skymode4:modules/ender_hoppers/tick",
+    "skymode4:modules/stirling_generator/tick"
   ]
 }

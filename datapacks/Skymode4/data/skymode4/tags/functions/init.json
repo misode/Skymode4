@@ -13,6 +13,7 @@
     "skymode4:modules/trapped_signs/init",
     "skymode4:modules/sweathearts/init",
     "skymode4:modules/tool_forge/init",
-    "skymode4:modules/farming_station/init"
+    "skymode4:modules/farming_station/init",
+    "skymode4:modules/energy/init"
   ]
 }
