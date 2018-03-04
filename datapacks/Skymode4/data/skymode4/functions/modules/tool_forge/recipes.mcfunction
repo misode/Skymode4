@@ -1,6 +1,6 @@
 ## Tools ##
 # Wrench
-execute if block ~ ~ ~ dropper{Items:[{Slot:1b,id:"minecraft:flint",Count:1b},{Slot:4b,id:"minecraft:stick",Count:1b},{Slot:5b,id:"minecraft:flint",Count:1b},{Slot:6b,id:"minecraft:stick",Count:1b}]} run data merge block ~ ~ ~ {Items:[{Slot:4b,id:"minecraft:carrot_on_a_stick",Count:1b,tag:{display:{Name:"{\"text\":\"Wrench\",\"italic\":false}"},HideFlags:4,Damage:1s,Unbreakable:1b}}]}
+execute if block ~ ~ ~ dropper{Items:[{Slot:1b,id:"minecraft:flint",Count:1b},{Slot:4b,id:"minecraft:stick",Count:1b},{Slot:5b,id:"minecraft:flint",Count:1b},{Slot:6b,id:"minecraft:stick",Count:1b}]} run data merge block ~ ~ ~ {Items:[{Slot:4b,id:"minecraft:carrot_on_a_stick",Count:1b,tag:{display:{Name:"{\"text\":\"Wrench\",\"italic\":false}"},HideFlags:4,Wrench:1b,Damage:1s,Unbreakable:1b}}]}
 # Pickaxe
 execute if block ~ ~ ~ dropper{Items:[{Slot:1b,id:"minecraft:diamond_sword",Count:1b,tag:{PartPickaxe:1b}},{Slot:4b,id:"minecraft:diamond_sword",Count:1b,tag:{PartRod:1b}}]} run function skymode4:modules/tool_forge/result/pickaxe
 execute if block ~ ~ ~ dropper{Items:[{Slot:1b,id:"minecraft:diamond_sword",Count:1b,tag:{PartPickaxe:1b}},{Slot:4b,id:"minecraft:stick",Count:1b}]} run function skymode4:modules/tool_forge/result/pickaxe

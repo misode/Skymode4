@@ -13,5 +13,6 @@ scoreboard players remove @s[scores={barrelMold=17..32,barrelContent=11,barrelCo
 scoreboard players remove @s[scores={barrelMold=17..32,barrelContent=19,barrelCount=1..}] barrelCount 1
 scoreboard players remove @s[scores={barrelMold=17..32,barrelContent=27,barrelCount=1..}] barrelCount 1
 scoreboard players remove @s[scores={barrelMold=17..32,barrelContent=35,barrelCount=1..}] barrelCount 1
+scoreboard players remove @s[scores={barrelMold=17..32,barrelContent=39,barrelCount=1..}] barrelCount 1
 
 scoreboard players set @s[scores={barrelCount=..0}] barrelContent 0
