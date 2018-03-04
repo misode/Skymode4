@@ -1,5 +1,4 @@
 tellraw @a[tag=debug] ["drain init"]
-particle dust 1 0 0 4
 scoreboard players set @s barrelDrain 2
 
 execute if entity @s[scores={barrelContent=10}] run summon armor_stand ~ ~1000 ~ {Invisible:1,NoGravity:1,Marker:1,Tags:[barrelFlowInit],ArmorItems:[{},{},{},{id:stone_hoe,Count:1,tag:{Damage:64s,Unbreakable:1b}}]}
@@ -9,6 +8,7 @@ execute if entity @s[scores={barrelContent=22}] run summon armor_stand ~ ~1000 ~
 execute if entity @s[scores={barrelContent=26}] run summon armor_stand ~ ~1000 ~ {Invisible:1,NoGravity:1,Marker:1,Tags:[barrelFlowInit],ArmorItems:[{},{},{},{id:stone_hoe,Count:1,tag:{Damage:68s,Unbreakable:1b}}]}
 execute if entity @s[scores={barrelContent=30}] run summon armor_stand ~ ~1000 ~ {Invisible:1,NoGravity:1,Marker:1,Tags:[barrelFlowInit],ArmorItems:[{},{},{},{id:stone_hoe,Count:1,tag:{Damage:69s,Unbreakable:1b}}]}
 execute if entity @s[scores={barrelContent=34}] run summon armor_stand ~ ~1000 ~ {Invisible:1,NoGravity:1,Marker:1,Tags:[barrelFlowInit],ArmorItems:[{},{},{},{id:stone_hoe,Count:1,tag:{Damage:70s,Unbreakable:1b}}]}
+execute if entity @s[scores={barrelContent=38}] run summon armor_stand ~ ~1000 ~ {Invisible:1,NoGravity:1,Marker:1,Tags:[barrelFlowInit],ArmorItems:[{},{},{},{id:stone_hoe,Count:1,tag:{Damage:71s,Unbreakable:1b}}]}
 
 execute if entity @s[tag=barrelRot1] positioned ~ ~1000 ~ run tp @e[tag=barrelFlowInit,limit=1,distance=..1] ~-1 ~-999.75 ~ ~ ~
 execute if entity @s[tag=barrelRot2] positioned ~ ~1000 ~ run tp @e[tag=barrelFlowInit,limit=1,distance=..1] ~ ~-999.75 ~-1 ~ ~

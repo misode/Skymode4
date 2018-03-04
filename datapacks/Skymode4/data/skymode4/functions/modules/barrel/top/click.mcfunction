@@ -7,6 +7,7 @@ scoreboard players remove @s[tag=!barrelCast,scores={barrelContent=5,barrelCount
 scoreboard players remove @s[tag=!barrelCast,scores={barrelContent=6,barrelCount=1..}] barrelCount 1
 scoreboard players remove @s[scores={barrelMold=0,barrelContent=11,barrelCount=1..}] barrelCount 1
 scoreboard players remove @s[scores={barrelMold=0,barrelContent=15,barrelCount=1..}] barrelCount 1
+scoreboard players remove @s[scores={barrelMold=0,barrelContent=39,barrelCount=1..}] barrelCount 1
 
 scoreboard players remove @s[scores={barrelMold=17..32,barrelContent=11,barrelCount=1..}] barrelCount 1
 scoreboard players remove @s[scores={barrelMold=17..32,barrelContent=19,barrelCount=1..}] barrelCount 1

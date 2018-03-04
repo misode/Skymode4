@@ -7,6 +7,7 @@ execute at @e[tag=barrelFlow,tag=barrelTin,limit=1,distance=..1.1] positioned ~ 
 execute at @e[tag=barrelFlow,tag=barrelBronze,limit=1,distance=..1.1] positioned ~ ~-1 ~ run scoreboard players set @e[sort=nearest,limit=1,tag=barrel] barrelContent 26
 execute at @e[tag=barrelFlow,tag=barrelZinc,limit=1,distance=..1.1] positioned ~ ~-1 ~ run scoreboard players set @e[sort=nearest,limit=1,tag=barrel] barrelContent 30
 execute at @e[tag=barrelFlow,tag=barrelBrass,limit=1,distance=..1.1] positioned ~ ~-1 ~ run scoreboard players set @e[sort=nearest,limit=1,tag=barrel] barrelContent 34
+execute at @e[tag=barrelFlow,tag=barrelZinc,limit=1,distance=..1.1] positioned ~ ~-1 ~ run scoreboard players set @e[sort=nearest,limit=1,tag=barrel] barrelContent 38
 
 execute at @e[tag=barrelFlow,limit=1,distance=..1.1] positioned ~ ~-1 ~ run scoreboard players add @e[sort=nearest,limit=1,tag=barrel] barrelCount 1
 execute at @e[tag=barrelFlow,tag=barrelAlloyP,limit=1,distance=..1.1] positioned ~ ~-1 ~ run scoreboard players add @e[sort=nearest,limit=1,tag=barrel] barrelCountP 1
