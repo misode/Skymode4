@@ -5,9 +5,11 @@
 /playerdata
 /region
 /stats
+/generated
 /forcedchunks.dat
 /level.dat
 /level.dat_old
 /mcedit_waypoints.dat
 /session.lock
-*.zip
+/Skymode4.zip
+/datapacks/Skymode4/Skymode4_Data_Pack.zip
