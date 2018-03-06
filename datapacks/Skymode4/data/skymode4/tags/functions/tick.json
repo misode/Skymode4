@@ -15,6 +15,7 @@
     "skymode4:modules/farming_station/tick",
     "skymode4:modules/ender_hoppers/tick",
     "skymode4:modules/stirling_generator/tick",
-    "skymode4:modules/electric_furnace/tick"
+    "skymode4:modules/electric_furnace/tick",
+    "skymode4:modules/capacitor_bank/tick"
   ]
 }

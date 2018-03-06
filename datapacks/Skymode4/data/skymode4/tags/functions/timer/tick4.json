@@ -1,5 +1,6 @@
 {
   "values": [
-    "skymode4:modules/ender_hoppers/main"
+    "skymode4:modules/ender_hoppers/main",
+    "skymode4:modules/capacitor_bank/main"
   ]
 }
