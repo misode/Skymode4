@@ -5,6 +5,7 @@ execute if entity @s[tag=electricFurnaceRot2] run setblock ~ ~ ~ furnace[facing=
 data merge entity @s {Fire:50,ArmorItems:[{},{},{},{id:"minecraft:brown_glazed_terracotta",Count:1b}]}
 scoreboard players set @s energy 0
 scoreboard players set @s energyMax 1000
+scoreboard players set @s energyIn 10
 scoreboard players set @s furnaceTime 0
 tag @s remove electricFurnaceInit
 tag @s add electricFurnace
