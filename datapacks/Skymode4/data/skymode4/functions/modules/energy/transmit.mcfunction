@@ -1,10 +1,9 @@
-tag @e[sort=nearest,limit=1,distance=..0.0001] add energyReceiveing
-scoreboard players operation @e[tag=energyReceiveing] energyTemp = @e[tag=energyReceiveing] energyMax
-scoreboard players operation @e[tag=energyReceiveing] energyTemp -= @e[tag=energyReceiveing] energy
-scoreboard players operation @e[tag=energyReceiveing] energyTemp < @s energyBuffer
-scoreboard players operation @e[tag=energyReceiveing] energyTemp < @e[tag=energyReceiveing] energyIn
-scoreboard players operation @e[tag=energyReceiveing] energy += @e[tag=energyReceiveing] energyTemp
-scoreboard players operation @s energy -= @e[tag=energyReceiveing] energyTemp
-scoreboard players operation @s energyBuffer -= @e[tag=energyReceiveing] energyTemp
-tag @e[tag=energyReceiveing] add energyRender
-tag @e[tag=energyReceiveing] remove energyReceiveing
+scoreboard players operation @s energyTemp = @s energyBufferIn
+scoreboard players operation @s energyTemp < @e[tag=energyTransmitting] energyBufferOut
+execute if entity @a[tag=debug,distance=..16] if entity @s[scores={energyTemp=1..}] at @e[tag=energyTransmitting] run particle dust 1 0 0 2 ~ ~0.5 ~
+execute if entity @a[tag=debug,distance=..16] if entity @s[scores={energyTemp=1..}] at @s run particle dust 0 1 0 2 ~ ~0.5 ~
+scoreboard players operation @s energy += @s energyTemp
+scoreboard players operation @e[tag=energyTransmitting] energy -= @s energyTemp
+scoreboard players operation @e[tag=energyTransmitting] energyBufferOut -= @s energyTemp
+scoreboard players operation @s energyBufferIn -= @s energyTemp
+tag @s add energyRender
