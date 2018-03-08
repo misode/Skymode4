@@ -5,4 +5,4 @@ scoreboard players operation @e[tag=energyReceiveing] energy += @e[tag=energyRec
 scoreboard players operation @s energy -= @e[tag=energyReceiveing] energyTemp
 scoreboard players operation @s energyBuffer -= @e[tag=energyReceiveing] energyTemp
 tag @e[tag=energyReceiveing] add energyRender
-tag @e[tag=energyReceiveing] remove energyReceiveings
+tag @e[tag=energyReceiveing] remove energyReceiveing
