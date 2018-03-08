@@ -1,0 +1,22 @@
+{
+  "type": "crafting_shaped",
+  "pattern": [
+    "SSS",
+    "SGS",
+    "SRS"
+  ],
+  "key": {
+    "S": {
+      "item": "minecraft:prismarine"
+    },
+    "G": {
+      "item": "minecraft:glass"
+    },
+    "R": {
+      "item": "minecraft:redstone"
+    }
+  },
+  "result": {
+    "item": "minecraft:green_glazed_terracotta"
+  }
+}

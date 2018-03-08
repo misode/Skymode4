@@ -1,0 +1,25 @@
+{
+  "type": "crafting_shaped",
+  "pattern": [
+    "SSS",
+    "SFS",
+    "RPR"
+  ],
+  "key": {
+    "S": {
+      "item": "minecraft:prismarine"
+    },
+    "R": {
+      "item": "minecraft:redstone"
+    },
+    "P": {
+      "item": "minecraft:piston"
+    },
+    "F": {
+      "item": "minecraft:furnace"
+    }
+  },
+  "result": {
+    "item": "minecraft:blue_glazed_terracotta"
+  }
+}
