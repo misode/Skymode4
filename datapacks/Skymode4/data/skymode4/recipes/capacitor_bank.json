@@ -1,8 +1,8 @@
 {
   "type": "crafting_shaped",
   "pattern": [
-    "SSS",
-    "SGS",
+    "SCS",
+    "CGC",
     "SRS"
   ],
   "key": {
@@ -14,6 +14,9 @@
     },
     "R": {
       "item": "minecraft:redstone"
+    },
+    "C": {
+      "item": "minecraft:command_block"
     }
   },
   "result": {
