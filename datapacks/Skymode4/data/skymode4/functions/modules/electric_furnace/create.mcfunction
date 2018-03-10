@@ -6,6 +6,7 @@ data merge entity @s {Fire:50,ArmorItems:[{},{},{},{id:"minecraft:brown_glazed_t
 scoreboard players set @s energy 0
 scoreboard players set @s energyMax 1000
 scoreboard players set @s energyIn 10
+scoreboard players set @s energyNetwork -1
 scoreboard players set @s furnaceTime 0
 tag @s remove electricFurnaceInit
 tag @s add electricFurnace

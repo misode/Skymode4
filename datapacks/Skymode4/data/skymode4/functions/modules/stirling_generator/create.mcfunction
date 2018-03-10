@@ -6,6 +6,7 @@ data merge entity @s {Fire:50,ArmorItems:[{},{},{},{id:"minecraft:blue_glazed_te
 scoreboard players set @s energy 0
 scoreboard players set @s energyMax 10000
 scoreboard players set @s energyOut 10
+scoreboard players set @s energyNetwork -1
 tag @s remove stirlingGeneratorInit
 tag @s add stirlingGenerator
 tag @s add energyTransmit
