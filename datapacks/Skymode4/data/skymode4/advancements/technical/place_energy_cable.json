@@ -1,0 +1,13 @@
+{
+  "criteria": {
+    "place": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "block": "minecraft:structure_void"
+      }
+    }
+  },
+  "rewards": {
+    "function": "skymode4:modules/energy_cable/place_energy_cable"
+  }
+}
