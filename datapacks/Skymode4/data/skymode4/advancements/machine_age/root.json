@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:structure_void"
+    },
+    "title": "Age of Machines",
+    "description": "Craft a steel block",
+    "background": "minecraft:textures/blocks/skymode4/steel_block.png"
+  },
+  "criteria": {
+    "craft": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:prismarine"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "skymode4:advancements/reward/machine_age/root",
+    "recipes": ["skymode4:farming_station","skymode4:capacitor_bank","skymode4:stirling_generator","skymode4:electric_furnace","skymode4:energy_cable"]
+  }
+}

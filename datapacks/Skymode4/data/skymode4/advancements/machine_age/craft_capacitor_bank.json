@@ -1,0 +1,25 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:green_glazed_terracotta"
+		},
+		"title": "Increased Capacity",
+		"description": "Craft a capacitor bank"
+	},
+	"parent": "skymode4:machine_age/root",
+	"criteria": {
+		"craft": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:green_glazed_terracotta"
+					}
+				]
+			}
+		}
+	},
+	"rewards": {
+		"function": "skymode4:advancements/reward/machine_age/craft_capacitor_bank"
+	}
+}

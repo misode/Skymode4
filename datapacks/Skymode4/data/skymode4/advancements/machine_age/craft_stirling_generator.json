@@ -1,0 +1,25 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:blue_glazed_terracotta"
+		},
+		"title": "Producing Energy",
+		"description": "Craft a stirling generator"
+	},
+	"parent": "skymode4:machine_age/root",
+	"criteria": {
+		"craft": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:blue_glazed_terracotta"
+					}
+				]
+			}
+		}
+	},
+	"rewards": {
+		"function": "skymode4:advancements/reward/machine_age/craft_stirling_generator"
+	}
+}

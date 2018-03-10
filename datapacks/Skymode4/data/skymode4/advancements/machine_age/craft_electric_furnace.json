@@ -1,0 +1,25 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:brown_glazed_terracotta"
+		},
+		"title": "Faster Cooking",
+		"description": "Craft an electric furnace"
+	},
+	"parent": "skymode4:machine_age/root",
+	"criteria": {
+		"craft": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:brown_glazed_terracotta"
+					}
+				]
+			}
+		}
+	},
+	"rewards": {
+		"function": "skymode4:advancements/reward/machine_age/craft_electric_furnace"
+	}
+}
