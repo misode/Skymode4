@@ -1,4 +1,4 @@
-particle dust 1 0.5 0 1 ~ ~0.5 ~
+execute if entity @a[tag=debug,distance=..16] run particle dust 1 0.5 0 1 ~ ~0.5 ~
 summon area_effect_cloud ~ ~ ~ {Tags:["energyNetworkScan"]}
 
 execute positioned ~-1 ~ ~ run tag @e[distance=..0.0001,scores={energy=0..}] add energyNetwork

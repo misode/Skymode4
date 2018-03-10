@@ -7,4 +7,4 @@ scoreboard objectives add energyBufferIn dummy
 scoreboard objectives add energyBufferOut dummy
 scoreboard objectives add energyNetwork dummy
 
-scoreboard players set #networks energyNetwork 0
+scoreboard players add #networks energyNetwork 0
