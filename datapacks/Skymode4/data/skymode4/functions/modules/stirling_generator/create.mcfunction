@@ -10,3 +10,4 @@ scoreboard players set @s energyNetwork -1
 tag @s remove stirlingGeneratorInit
 tag @s add stirlingGenerator
 tag @s add energyTransmit
+function skymode4:modules/energy/update_network

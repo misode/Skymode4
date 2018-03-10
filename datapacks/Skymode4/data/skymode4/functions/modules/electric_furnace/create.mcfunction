@@ -11,3 +11,4 @@ scoreboard players set @s furnaceTime 0
 tag @s remove electricFurnaceInit
 tag @s add electricFurnace
 tag @s add energyReceive
+function skymode4:modules/energy/update_network
