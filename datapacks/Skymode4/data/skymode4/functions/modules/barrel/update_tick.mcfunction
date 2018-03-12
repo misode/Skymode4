@@ -3,8 +3,8 @@
 execute positioned ~ ~0.5 ~ if entity @e[type=item,distance=..1] run function skymode4:modules/barrel/check_items
 
 ## add fluid ##
-execute if entity @s[scores={barrelContent=0}] if block ~ ~1 ~ flowing_water run function skymode4:modules/barrel/add/water
-execute if entity @s[scores={barrelContent=0}] if block ~ ~1 ~ flowing_lava run function skymode4:modules/barrel/add/lava
+execute if entity @s[scores={barrelContent=0}] if block ~ ~1 ~ water run function skymode4:modules/barrel/add/water
+execute if entity @s[scores={barrelContent=0}] if block ~ ~1 ~ lava run function skymode4:modules/barrel/add/lava
 
 ## remove items ##
 execute if entity @e[limit=1,distance=..1,type=slime,tag=barrelTop,nbt={HurtTime:9s}] run function skymode4:modules/barrel/top/click

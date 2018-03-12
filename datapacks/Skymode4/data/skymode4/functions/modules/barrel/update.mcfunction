@@ -25,7 +25,5 @@ execute if entity @s[tag=barrelCast,scores={barrelContent=27},tag=barrelHopperOu
 tag @s add barrelBreak
 execute if block ~ ~ ~ barrier if block ~ ~1 ~ air run tag @s remove barrelBreak
 execute if block ~ ~ ~ barrier if block ~ ~1 ~ lava run tag @s remove barrelBreak
-execute if block ~ ~ ~ barrier if block ~ ~1 ~ flowing_lava run tag @s remove barrelBreak
 execute if block ~ ~ ~ barrier if block ~ ~1 ~ water run tag @s remove barrelBreak
-execute if block ~ ~ ~ barrier if block ~ ~1 ~ flowing_water run tag @s remove barrelBreak
 execute if entity @s[tag=barrelBreak] run function skymode4:modules/barrel/remove
