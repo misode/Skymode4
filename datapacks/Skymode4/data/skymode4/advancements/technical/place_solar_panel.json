@@ -1,0 +1,13 @@
+{
+  "criteria": {
+    "place": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "block": "minecraft:prismarine_bricks"
+      }
+    }
+  },
+  "rewards": {
+    "function": "skymode4:modules/solar_panel/place_solar_panel"
+  }
+}
