@@ -14,3 +14,4 @@ execute if block ~ ~ ~ wall_sign[facing=east] run fill ~-1 ~ ~1 ~-1 ~ ~-1 redsto
 execute if block ~ ~ ~ wall_sign[facing=east] run fill ~-2 ~ ~ ~-2 ~ ~ redstone_wire[power=1] replace redstone_wire[power=0]
 execute if block ~ ~ ~ wall_sign[facing=east] run fill ~-1 ~-2 ~ ~-1 ~1 ~ redstone_wire[power=1] replace redstone_wire[power=0]
 tag @s add signPulsed
+tag @s remove signNeedPulse
