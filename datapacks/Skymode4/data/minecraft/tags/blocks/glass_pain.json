@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:glass_pain",
+    "#minecraft:stained_glass_pain"
+  ]
+}

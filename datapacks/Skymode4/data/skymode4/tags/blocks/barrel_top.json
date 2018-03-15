@@ -1,0 +1,18 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:air",
+    "minecraft:water",
+    "minecraft:lava",
+    "#minecraft:leaves",
+    "minecraft:wall_torch",
+    "minecraft:wall_sign",
+    "minecraft:redstone_wall_torch",
+    "minecraft:redstone_wall_sign",
+    "#minecraft:glass",
+    "#minecraft:buttons",
+    "minecraft:lever",
+    "minecraft:tripwire",
+    "minecraft:cobweb"
+  ]
+}

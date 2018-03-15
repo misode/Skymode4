@@ -22,8 +22,5 @@ execute if entity @s[tag=barrelCast,scores={barrelContent =23},tag=barrelHopperO
 execute if entity @s[tag=barrelCast,scores={barrelContent=27},tag=barrelHopperOut] run data merge entity @e[tag=barrelTop,limit=1,distance=..1] {HurtTime:9s}
 
 ## break barrel ##
-tag @s add barrelBreak
-execute if block ~ ~ ~ barrier if block ~ ~1 ~ air run tag @s remove barrelBreak
-execute if block ~ ~ ~ barrier if block ~ ~1 ~ lava run tag @s remove barrelBreak
-execute if block ~ ~ ~ barrier if block ~ ~1 ~ water run tag @s remove barrelBreak
-execute if entity @s[tag=barrelBreak] run function skymode4:modules/barrel/remove
+execute unless block ~ ~ ~ barrier run function skymode4:modules/barrel/remove
+execute unless block ~ ~1 ~ #minecraft:transparent run function skymode4:modules/barrel/remove
