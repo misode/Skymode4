@@ -1,4 +1,4 @@
-# Twerking module by misode (@misoloo)
+## Twerking module by misode
 
 execute at @a[scores={twerkSneak=1..}] run function skymode4:modules/twerk/mark
 scoreboard players set @a[scores={twerkSneak=1..}] twerkSneak 0

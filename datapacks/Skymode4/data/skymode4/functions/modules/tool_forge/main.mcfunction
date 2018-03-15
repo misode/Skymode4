@@ -1,10 +1,8 @@
-# Tool Forge module by Misode (@misoloo)
+## Tool Forge module by Misode
 
-# create tool forge
-execute as @e[type=armor_stand,tag=toolForgeInit] at @s run function skymode4:modules/tool_forge/create
-
-# update tool forge
+# Update tool forge
 execute as @e[type=armor_stand,tag=toolForge] at @s run function skymode4:modules/tool_forge/update
 
-# update enchantments
+# Update enchantments
+# Made this way because enchantments cannot be added in the tool forge
 execute as @a[nbt={SelectedItem:{tag:{CustomTool:1b,ToolHasLuck:-1b}}}] run function skymode4:modules/tool_forge/tool/give_luck

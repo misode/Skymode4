@@ -1,5 +1,4 @@
-# Invisible Minecarts made by Wilux
-# https://www.youtube.com/channel/UCHoXWysCrJ8kI_0gb41wf7g
+## Invisible Minecarts made by Wilux
 
 execute as @e[type=minecart,tag=!invisible_cart] run data merge entity @s {CustomDisplayTile:1,DisplayTile:command_block,DisplayData:8,DisplayOffset:4}
 tag @e[type=minecart,tag=!invisible_cart] add invisible_cart
