@@ -1,20 +1,20 @@
 {
-	"pools":[
+	"pools": [
 		{
-			"rolls":{
-				"min":0,
-				"max":2
+			"rolls": {
+				"min": 0,
+				"max": 2
 			},
-			"entries":[
+			"entries": [
 				{
-					"type":"item",
-					"name":"minecraft:stick",
-					"weight":1
+					"type": "item",
+					"name": "minecraft:stick",
+					"weight": 1
 				},
 				{
-					"type":"item",
-					"name":"minecraft:dirt",
-					"weight":1
+					"type": "item",
+					"name": "minecraft:dirt",
+					"weight": 1
 				}
 			]
 		}

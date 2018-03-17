@@ -1,66 +1,66 @@
 {
-	"pools":[
+	"pools": [
 		{
-			"rolls":1,
-			"entries":[
+			"rolls": 1,
+			"entries": [
 				{
-					"type":"item",
-					"name":"minecraft:sand"
+					"type": "item",
+					"name": "minecraft:sand"
 				}
 			]
 		},
 		{
-			"rolls":1,
-			"entries":[
+			"rolls": 1,
+			"entries": [
 				{
-					"type":"empty",
-					"weight":11
+					"type": "empty",
+					"weight": 11
 				},
 				{
-					"type":"item",
-					"name":"minecraft:flint",
-					"weight":5
+					"type": "item",
+					"name": "minecraft:flint",
+					"weight": 5
 				},
 				{
-					"type":"item",
-					"name":"minecraft:sand",
-					"weight":5
+					"type": "item",
+					"name": "minecraft:sand",
+					"weight": 5
 				},
 				{
-					"type":"item",
-					"name":"minecraft:iron_ore",
-					"weight":1
+					"type": "item",
+					"name": "minecraft:iron_ore",
+					"weight": 1
 				},
 				{
-					"type":"item",
-					"name":"minecraft:repeating_command_block",
-					"weight":1,
-					"functions":[
+					"type": "item",
+					"name": "minecraft:repeating_command_block",
+					"weight": 1,
+					"functions": [
 						{
-              "function":"minecraft:set_nbt",
-              "tag":"{display:{Lore:[\"Contains copper\"]},Copper:1b}"
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Lore:[\"Contains copper\"]},Copper:1b}"
             }
 					]
 				},
 				{
-					"type":"item",
-					"name":"minecraft:repeating_command_block",
-					"weight":1,
-					"functions":[
+					"type": "item",
+					"name": "minecraft:repeating_command_block",
+					"weight": 1,
+					"functions": [
 						{
-              "function":"minecraft:set_nbt",
-              "tag":"{display:{Lore:[\"Contains tin\"]},Tin:1b}"
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Lore:[\"Contains tin\"]},Tin:1b}"
             }
 					]
 				},
 				{
-					"type":"item",
-					"name":"minecraft:repeating_command_block",
-					"weight":1,
-					"functions":[
+					"type": "item",
+					"name": "minecraft:repeating_command_block",
+					"weight": 1,
+					"functions": [
 						{
-              "function":"minecraft:set_nbt",
-              "tag":"{display:{Lore:[\"Contains zinc\"]},Zinc:1b}"
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Lore:[\"Contains zinc\"]},Zinc:1b}"
             }
 					]
 				}

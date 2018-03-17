@@ -1,30 +1,35 @@
 {
-	"pools":[
+	"pools": [
 		{
-			"rolls":{
-				"min":1,
-				"max":2
+			"rolls": {
+				"min": 1,
+				"max": 2
 			},
-			"entries":[
+			"entries": [
 				{
-					"type":"item",
-					"name":"minecraft:bone"
+					"type": "item",
+					"name": "minecraft:bone",
+					"weight": 6
 				},
 				{
-					"type":"item",
-					"name":"minecraft:gold_ore"
+					"type": "item",
+					"name": "minecraft:gold_ore",
+					"weight": 6
 				},
 				{
-					"type":"item",
-					"name":"minecraft:clay_ball"
+					"type": "item",
+					"name": "minecraft:clay_ball",
+					"weight": 6
 				},
 				{
-					"type":"item",
-					"name":"minecraft:coal"
+					"type": "item",
+					"name": "minecraft:coal",
+					"weight": 1
 				},
 				{
-					"type":"item",
-					"name":"minecraft:redstone"
+					"type": "item",
+					"name": "minecraft:redstone",
+					"weight": 6
 				}
 			]
 		}
