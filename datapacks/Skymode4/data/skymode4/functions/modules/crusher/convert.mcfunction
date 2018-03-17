@@ -3,6 +3,7 @@ execute at @s[scores={crusherType=2}] run summon zombie ~ ~1000 ~ {NoGravity:1b,
 execute at @s[scores={crusherType=3}] run summon zombie ~ ~1000 ~ {NoGravity:1b,DeathLootTable:"skymode4:crusher/gravel",Tags:[crusherResult]}
 execute at @s[scores={crusherType=4}] run summon zombie ~ ~1000 ~ {NoGravity:1b,DeathLootTable:"skymode4:crusher/sand",Tags:[crusherResult]}
 execute at @s[scores={crusherType=5..10}] run summon zombie ~ ~1000 ~ {NoGravity:1b,DeathLootTable:"skymode4:crusher/log",Tags:[crusherResult]}
+execute at @s[scores={crusherType=11}] run summon zombie ~ ~1000 ~ {NoGravity:1b,DeathLootTable:"skymode4:crusher/coal",Tags:[crusherResult]}
 kill @e[type=zombie,tag=crusherResult]
 execute positioned ~ ~1000 ~ run tp @e[type=item,distance=..1] @s
 scoreboard players set @s crusherTimer 0

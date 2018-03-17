@@ -8,5 +8,6 @@ execute if block ~ ~ ~ hopper{Items:[{Slot:0b,id:"minecraft:spruce_log"}]} run s
 execute if block ~ ~ ~ hopper{Items:[{Slot:0b,id:"minecraft:jungle_log"}]} run scoreboard players set @s crusherType 8
 execute if block ~ ~ ~ hopper{Items:[{Slot:0b,id:"minecraft:acacia_log"}]} run scoreboard players set @s crusherType 9
 execute if block ~ ~ ~ hopper{Items:[{Slot:0b,id:"minecraft:dark_oak_log"}]} run scoreboard players set @s crusherType 10
+execute if block ~ ~ ~ hopper{Items:[{Slot:0b,id:"minecraft:coal"}]} run scoreboard players set @s crusherType 11
 
 execute store result score @s crusherCount run data get block ~ ~ ~ Items[0].Count
