@@ -1,5 +1,5 @@
-execute if block ~ ~-1 ~ packed_ice run scoreboard players set @s barrelHeat -20
-execute if block ~ ~-1 ~ ice run scoreboard players set @s barrelHeat -15
+execute if block ~ ~-1 ~ blue_ice run scoreboard players set @s barrelHeat -20
+execute if block ~ ~-1 ~ packed_ice run scoreboard players set @s barrelHeat -15
 execute if block ~ ~-1 ~ ice run scoreboard players set @s barrelHeat -10
 execute if block ~ ~-1 ~ torch run scoreboard players set @s barrelHeat 1
 execute if block ~ ~-1 ~ wall_torch run scoreboard players set @s barrelHeat 1
