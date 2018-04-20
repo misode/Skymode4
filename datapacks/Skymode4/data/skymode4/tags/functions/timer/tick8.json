@@ -1,5 +1,6 @@
 {
   "values": [
-    "skymode4:modules/filter/main"
+    "skymode4:modules/filter/main",
+    "skymode4:modules/xp_collector/main"
   ]
 }

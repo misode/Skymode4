@@ -1,0 +1,13 @@
+{
+  "criteria": {
+    "place": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "block": "minecraft:dark_prismarine"
+      }
+    }
+  },
+  "rewards": {
+    "function": "skymode4:modules/xp_collector/place_xp_collector"
+  }
+}

@@ -18,6 +18,7 @@
     "skymode4:modules/electric_furnace/tick",
     "skymode4:modules/capacitor_bank/tick",
     "skymode4:modules/energy/tick",
-    "skymode4:modules/solar_panel/tick"
+    "skymode4:modules/solar_panel/tick",
+    "skymode4:modules/xp_collector/tick"
   ]
 }
