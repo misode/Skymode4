@@ -1,4 +1,4 @@
-execute unless entity @e[type=bat,tag=main,tag=main_root] run function skymode4:reset
+execute unless entity @e[type=bat,tag=main,tag=main_root] run function skymode4:init
 gamemode survival @s
 tp @s 0 64 0
 clear @s

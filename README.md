@@ -4,7 +4,7 @@ Skymode4 is a project started by [misode](https://twitter.com/misoloo) in 2017. 
 
 ### Installation
 * Download the latest data pack and resource pack [here](https://github.com/misode/Skymode4/releases)
-* Create a new void world
+* Create a new superflat world with as custom preset `minecraft:air`
 * Place the resource pack inside `/.minecraft/resourcepacks/`
 * Place the data pack inside `/.minecraft/saves/(your world)/datapacks/`
 * Move the `.Skymode4` resource pack to the selected resource packs
