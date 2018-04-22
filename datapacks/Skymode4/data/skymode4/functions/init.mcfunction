@@ -3,7 +3,7 @@ gamerule logAdminCommands false
 setworldspawn 0 64 0
 
 execute as @e[type=bat,tag=main] run data merge entity @s {Health:0}
-summon bat 0 0 0 {CustomName:"[\"Skymode4\"]",NoAI:1,NoGravity:1,ActiveEffects:[{Id:14,Duration:20000000,ShowParticles:0b}],Tags:[main,nokill],AbsorptionAmount:350000000000000000000000000000000000000.0f}
+summon bat 0 0 0 {Silent:1b,CustomName:"[\"Skymode4\"]",NoAI:1,NoGravity:1,ActiveEffects:[{Id:14,Duration:20000000,ShowParticles:0b}],Tags:[main,nokill],AbsorptionAmount:350000000000000000000000000000000000000.0f}
 scoreboard objectives add timer dummy
 scoreboard players set @e[type=bat,tag=main] timer 0
 
