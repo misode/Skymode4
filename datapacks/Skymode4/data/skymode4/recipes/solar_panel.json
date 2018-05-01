@@ -1,0 +1,22 @@
+{
+  "type": "crafting_shaped",
+  "pattern": [
+    "GGG",
+    "SgS",
+    "SSS"
+  ],
+  "key": {
+    "S": {
+      "item": "minecraft:chain_command_block"
+    },
+    "G": {
+      "item": "minecraft:glass"
+    },
+    "g": {
+      "item": "minecraft:gold_block"
+    }
+  },
+  "result": {
+    "item": "minecraft:prismarine_bricks"
+  }
+}

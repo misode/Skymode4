@@ -1,0 +1,25 @@
+{
+  "type": "crafting_shaped",
+  "pattern": [
+    " s ",
+    "GCG",
+    "sSs"
+  ],
+  "key": {
+    "S": {
+      "item": "minecraft:prismarine"
+    },
+    "s": {
+      "item": "minecraft:chain_command_block"
+    },
+    "G": {
+      "item": "minecraft:glass"
+    },
+    "C": {
+      "item": "minecraft:command_block"
+    }
+  },
+  "result": {
+    "item": "minecraft:dark_prismarine"
+  }
+}
