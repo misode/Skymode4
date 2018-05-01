@@ -1,0 +1,26 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:prismarine"
+		},
+		"title": "Steel Block",
+		"description": "Craft a steel block\n▶ Age of Machines",
+    "frame": "goal"
+	},
+	"parent": "skymode4:metal_age/craft_seared_barrel",
+	"criteria": {
+		"craft": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:prismarine"
+					}
+				]
+			}
+		}
+	},
+	"rewards": {
+		"function": "skymode4:advancements/reward/metal_age/craft_steel_bock"
+	}
+}

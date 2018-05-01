@@ -1,0 +1,25 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:purple_glazed_terracotta"
+		},
+		"title": "Ender Hopper",
+		"description": "Craft an ender hopper"
+	},
+	"parent": "skymode4:metal_age/craft_seared_barrel",
+	"criteria": {
+		"craft": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:purple_glazed_terracotta"
+					}
+				]
+			}
+		}
+	},
+	"rewards": {
+		"function": "skymode4:advancements/reward/metal_age/craft_ender_hopper"
+	}
+}
