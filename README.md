@@ -5,8 +5,8 @@ Skymode4 is a project started by [misode](https://twitter.com/misoloo) in 2017. 
 ### Installation
 * Download the latest data pack and resource pack [here](https://github.com/misode/Skymode4/releases)
 * Create a new superflat world with as custom preset `minecraft:air`
+* Leave the world when you join
 * Place the resource pack inside `/.minecraft/resourcepacks/`
 * Place the data pack inside `/.minecraft/saves/(your world)/datapacks/`
 * Move the `.Skymode4` resource pack to the selected resource packs
-* Run `/reload`
-* Done! All new players that join will be put in the correct gamemode and be teleported to the spawn island
+* Reopen the world. Done! All new players that join will be put in the correct gamemode and be teleported to the spawn island
