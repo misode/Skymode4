@@ -12,6 +12,9 @@ team option no_collision collisionRule never
 
 function #skymode4:init
 
+# https://bugs.mojang.com/browse/MC-129620
+gamerule doMobSpawning false
+
 # https://bugs.mojang.com/browse/MC-122940
 recipe give @a *
 recipe take @a *
