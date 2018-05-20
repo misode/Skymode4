@@ -1,0 +1,28 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:structure_block"
+    },
+    "title": "Mystic Age",
+    "description": "Obtain mystic crystal",
+    "background": "minecraft:textures/blocks/skymode4/mystic_stone.png"
+  },
+  "criteria": {
+    "craft": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:red_glazed_terracotta"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "skymode4:mystic_stone",
+      "skymode4:mystic_core"
+    ]
+  }
+}

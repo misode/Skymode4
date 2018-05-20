@@ -1,5 +1,6 @@
 {
   "values": [
-    "skymode4:modules/twerk/main"
+    "skymode4:modules/twerk/main",
+    "skymode4:modules/mystic_core/main"
   ]
 }

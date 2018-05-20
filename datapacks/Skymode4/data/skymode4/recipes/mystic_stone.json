@@ -1,0 +1,19 @@
+{
+  "type": "crafting_shaped",
+  "pattern": [
+    "MSM",
+    "SMS",
+    "MSM"
+  ],
+  "key": {
+    "M": {
+      "item": "minecraft:structure_block"
+    },
+    "S": {
+      "item": "minecraft:stone"
+    }
+  },
+  "result": {
+    "item": "minecraft:dead_tube_coral_block"
+  }
+}
