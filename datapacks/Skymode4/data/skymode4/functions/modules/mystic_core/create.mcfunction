@@ -7,5 +7,6 @@ summon slime ~ ~1000 ~ {Tags:["mysticCoreClick","mysticCoreClickInit"],NoAI:1b,A
 tp @e[type=slime,tag=mysticCoreClickInit] ~ ~0.35 ~
 tag @e[type=slime,tag=mysticCoreClickInit] remove mysticCoreClickInit
 
+tag @s add mysticFlower
 scoreboard players set @s mysticPower 0
 scoreboard players set @s mysticRandom 731031
