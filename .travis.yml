@@ -1,0 +1,8 @@
+notifications:
+  email: false
+
+language: node_js
+node_js:
+  - "node"
+install: null
+script: node ./test.js

@@ -1,4 +1,4 @@
-# Skymode4
+# Skymode4 [![Build Status](https://travis-ci.org/misode/Skymode4.svg?branch=master)](https://travis-ci.org/misode/Skymode4)
 
 Skymode4 is a project started by [misode](https://twitter.com/misoloo) in 2017. It's a custom skyblock map. It features lots of [modules](https://github.com/misode/Skymode4/wiki/Modules) made by the community, [Gamemode 4](https://gm4.co/modules/) and custom made for this project. The first alpha releases are out now. Feel free to look around on the [wiki](https://github.com/misode/Skymode4/wiki) or in the code. Please report bugs [here](https://github.com/misode/Skymode4/issues)
 
