@@ -1,0 +1,1 @@
+scoreboard objectives add mysticDropper minecraft.custom:minecraft.inspect_dropper

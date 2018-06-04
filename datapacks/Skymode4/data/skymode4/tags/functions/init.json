@@ -7,7 +7,6 @@
     "skymode4:modules/crusher/init",
     "skymode4:modules/twerk/init",
     "skymode4:modules/cobble_gen/init",
-    "skymode4:modules/fan/init",
     "skymode4:modules/vertical_rails/init",
     "skymode4:modules/heart_canisters/init",
     "skymode4:modules/trapped_signs/init",
@@ -16,6 +15,7 @@
     "skymode4:modules/electric_furnace/init",
     "skymode4:modules/energy/init",
     "skymode4:modules/xp_collector/init",
-    "skymode4:modules/mystic_core/init"
+    "skymode4:modules/mystic_core/init",
+    "skymode4:modules/mystic_placer/init"
   ]
 }

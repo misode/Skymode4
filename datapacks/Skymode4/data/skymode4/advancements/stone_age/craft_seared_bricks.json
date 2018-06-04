@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:red_glazed_terracotta"
+      "item": "minecraft:dead_brain_coral_block"
     },
     "title": "Smeltery?",
     "description": "Craft seared bricks\n▶ Metal Age",
@@ -14,7 +14,7 @@
       "conditions": {
         "items": [
           {
-            "item": "minecraft:red_glazed_terracotta"
+            "item": "minecraft:dead_brain_coral_block"
           }
         ]
       }

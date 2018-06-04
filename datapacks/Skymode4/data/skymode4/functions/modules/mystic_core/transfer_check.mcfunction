@@ -1,4 +1,5 @@
 tag @e[type=armor_stand,tag=mysticCore,distance=..0.0001] add mysticTemp
+tag @e[type=armor_stand,tag=mysticPlacer,distance=..0.0001] add mysticTemp
 
 scoreboard players operation @e[tag=mysticTemp] mysticTemp = @e[tag=mysticTemp] mysticPower
 scoreboard players operation @e[tag=mysticTemp] mysticTemp -= @s mysticPower
