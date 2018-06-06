@@ -7,3 +7,4 @@ execute at @e[type=armor_stand,tag=mysticCore,distance=..8.1,scores={mysticPower
 
 execute if entity @e[type=item,nbt={Item:{tag:{crystalDestruction:1b}}},distance=..0.5,limit=1,sort=nearest] run function skymode4:modules/mystic_core/crystal_destruction
 execute if entity @e[type=item,nbt={Item:{tag:{crystalTransformation:1b}}},distance=..0.5,limit=1,sort=nearest] run function skymode4:modules/mystic_core/crystal_transformation
+execute if entity @e[type=item,nbt={Item:{tag:{crystalCreation:1b}}},distance=..0.5,limit=1,sort=nearest] run function skymode4:modules/mystic_core/crystal_creation
