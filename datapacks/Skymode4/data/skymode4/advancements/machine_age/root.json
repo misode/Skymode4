@@ -20,7 +20,6 @@
     }
   },
   "rewards": {
-    "function": "skymode4:advancements/reward/machine_age/root",
     "recipes": ["skymode4:farming_station","skymode4:capacitor_bank","skymode4:stirling_generator","skymode4:electric_furnace","skymode4:energy_cable","skymode4:solar_panel"]
   }
 }

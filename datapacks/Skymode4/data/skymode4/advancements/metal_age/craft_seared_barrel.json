@@ -20,7 +20,6 @@
 		}
 	},
 	"rewards": {
-		"function": "skymode4:advancements/reward/metal_age/craft_seared_barrel",
 		"recipes": ["skymode4:xp_collector","skymode4:steel_block"]
 	}
 }

@@ -18,8 +18,5 @@
 				]
 			}
 		}
-	},
-	"rewards": {
-		"function": "skymode4:advancements/reward/machine_age/craft_stirling_generator"
 	}
 }

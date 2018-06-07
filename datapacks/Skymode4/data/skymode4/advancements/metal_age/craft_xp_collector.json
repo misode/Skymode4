@@ -18,8 +18,5 @@
 				]
 			}
 		}
-	},
-	"rewards": {
-		"function": "skymode4:advancements/reward/metal_age/craft_xp_collector"
 	}
 }

@@ -20,7 +20,6 @@
     }
   },
   "rewards": {
-    "function": "skymode4:advancements/reward/metal_age/root",
     "recipes": ["skymode4:seared_barrel","skymode4:seared_cast","skymode4:filter","skymode4:tool_forge"]
   }
 }

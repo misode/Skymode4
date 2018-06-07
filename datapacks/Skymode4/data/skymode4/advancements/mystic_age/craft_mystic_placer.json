@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:red_glazed_terracotta"
+		},
+		"title": "Mystic Placer",
+		"description": "Craft a mystic placer"
+	},
+	"parent": "skymode4:mystic_age/craft_mystic_core",
+	"criteria": {
+		"craft": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:red_glazed_terracotta"
+					}
+				]
+			}
+		}
+	}
+}

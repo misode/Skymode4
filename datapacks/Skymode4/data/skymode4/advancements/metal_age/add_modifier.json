@@ -11,8 +11,5 @@
 		"craft": {
 			"trigger": "minecraft:impossible"
 		}
-	},
-	"rewards": {
-		"function": "skymode4:advancements/reward/metal_age/add_modifier"
 	}
 }

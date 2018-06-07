@@ -11,8 +11,5 @@
     "criteria": {
       "trigger": "minecraft:impossible"
     }
-  },
-  "rewards": {
-    "function": "skymode4:advancements/reward/nether_age/fire_heat"
   }
 }
