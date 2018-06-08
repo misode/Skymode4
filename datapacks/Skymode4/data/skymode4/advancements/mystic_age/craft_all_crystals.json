@@ -1,0 +1,66 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:prismarine_brick_slab"
+		},
+		"title": "Crystal Master",
+		"description": "Craft all mystic crystals"
+	},
+	"parent": "skymode4:mystic_age/root",
+	"criteria": {
+		"crystal1": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:structure_block"
+					}
+				]
+			}
+		},
+    "crystal2": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:diamond_sword",
+            "nbt": "{mysticCrystal:1b,crystalDestruction:1b}"
+					}
+				]
+			}
+		},
+    "crystal3": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:diamond_sword",
+            "nbt": "{mysticCrystal:1b,crystalTransformation:1b}"
+					}
+				]
+			}
+		},
+    "crystal4": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:diamond_sword",
+            "nbt": "{mysticCrystal:1b,crystalCreation:1b}"
+					}
+				]
+			}
+		},
+    "crystal5": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:diamond_sword",
+            "nbt": "{mysticCrystal:1b,crystalAttraction:1b}"
+					}
+				]
+			}
+		}
+	}
+}
