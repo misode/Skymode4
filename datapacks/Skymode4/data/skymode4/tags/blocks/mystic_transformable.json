@@ -1,5 +1,9 @@
 {
   "values": [
-    "minecraft:sand"
+    "minecraft:sand",
+    "minecraft:netherrack",
+    "minecraft:dirt",
+    "minecraft:cobblestone",
+    "minecraft:stone_bricks"
   ]
 }
