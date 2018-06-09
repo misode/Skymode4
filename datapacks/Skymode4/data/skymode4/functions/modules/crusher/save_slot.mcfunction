@@ -10,4 +10,15 @@ execute if block ~ ~ ~ hopper{Items:[{Slot:0b,id:"minecraft:acacia_log"}]} run s
 execute if block ~ ~ ~ hopper{Items:[{Slot:0b,id:"minecraft:dark_oak_log"}]} run scoreboard players set @s crusherType 10
 execute if block ~ ~ ~ hopper{Items:[{Slot:0b,id:"minecraft:coal"}]} run scoreboard players set @s crusherType 11
 
+execute if block ~ ~ ~ hopper{Items:[{Slot:0b,id:"minecraft:dandelion"}]} run scoreboard players set @s crusherType 12
+execute if block ~ ~ ~ hopper{Items:[{Slot:0b,id:"minecraft:poppy"}]} run scoreboard players set @s crusherType 13
+execute if block ~ ~ ~ hopper{Items:[{Slot:0b,id:"minecraft:blue_orchid"}]} run scoreboard players set @s crusherType 14
+execute if block ~ ~ ~ hopper{Items:[{Slot:0b,id:"minecraft:allium"}]} run scoreboard players set @s crusherType 15
+execute if block ~ ~ ~ hopper{Items:[{Slot:0b,id:"minecraft:azure_bluet"}]} run scoreboard players set @s crusherType 16
+execute if block ~ ~ ~ hopper{Items:[{Slot:0b,id:"minecraft:red_tulip"}]} run scoreboard players set @s crusherType 17
+execute if block ~ ~ ~ hopper{Items:[{Slot:0b,id:"minecraft:orange_tulip"}]} run scoreboard players set @s crusherType 18
+execute if block ~ ~ ~ hopper{Items:[{Slot:0b,id:"minecraft:white_tulip"}]} run scoreboard players set @s crusherType 19
+execute if block ~ ~ ~ hopper{Items:[{Slot:0b,id:"minecraft:pink_tulip"}]} run scoreboard players set @s crusherType 20
+execute if block ~ ~ ~ hopper{Items:[{Slot:0b,id:"minecraft:oxeye_daisy"}]} run scoreboard players set @s crusherType 21
+
 execute store result score @s crusherCount run data get block ~ ~ ~ Items[0].Count
