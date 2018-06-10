@@ -40,7 +40,8 @@
     }
   },
   "rewards": {
-    "function": "skymode4:advancements/reward/wooden_age/craft_sword"
+    "function": "skymode4:advancements/reward/wooden_age/craft_sword",
+    "recipes": ["skymode4:wooden_spike"]
   },
   "requirements": [
     ["craft1","craft2","craft3"]
