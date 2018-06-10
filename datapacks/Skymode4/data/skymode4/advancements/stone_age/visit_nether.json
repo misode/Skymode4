@@ -1,0 +1,19 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:obsidian"
+    },
+    "title": "The Nether?",
+    "description": "Visit the nether dimension\n▶ Nether Age",
+    "frame": "goal"
+  },
+  "parent": "skymode4:stone_age/make_lava",
+  "criteria": {
+    "pickup": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "to": "the_nether"
+      }
+    }
+  }
+}

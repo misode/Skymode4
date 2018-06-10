@@ -3,10 +3,11 @@
     "icon": {
       "item": "minecraft:structure_block"
     },
-    "title": "Mystic Age",
-    "description": "Obtain mystic crystal",
-    "background": "minecraft:textures/blocks/skymode4/mystic_stone.png"
+    "title": "Mystic Crystal",
+    "description": "Obtain mystic crystal\n▶ Mystic Age",
+    "frame": "goal"
   },
+  "parent": "skymode4:stone_age/craft_crusher",
   "criteria": {
     "craft": {
       "trigger": "minecraft:inventory_changed",
@@ -18,11 +19,5 @@
         ]
       }
     }
-  },
-  "rewards": {
-    "recipes": [
-      "skymode4:mystic_stone",
-      "skymode4:mystic_core"
-    ]
   }
 }

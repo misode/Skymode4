@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:oak_log"
+    },
+    "title": "Wooden Age",
+    "description": "Punch a tree\n▶ Wooden Age",
+    "frame": "goal"
+  },
+  "parent": "skymode4:main/root",
+  "criteria": {
+    "pickup": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:oak_log"
+          }
+        ]
+      }
+    }
+  }
+}
