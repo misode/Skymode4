@@ -12,3 +12,6 @@ scoreboard players remove @s[tag=barrelTemp] barrelCount 1
 scoreboard players set @s[tag=barrelTemp] barrelTime 0
 scoreboard players set @s[tag=barrelTemp,scores={barrelCount=0}] barrelContent 0
 tag @s[tag=barrelTemp] remove barrelTemp
+
+# Check rain
+execute if entity @s[scores={barrelCount=..7}] run function skymode4:modules/barrel/add/rain_init

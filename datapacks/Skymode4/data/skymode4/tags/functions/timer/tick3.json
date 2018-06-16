@@ -1,5 +1,6 @@
 {
   "values": [
-    "skymode4:modules/trapped_signs/main"
+    "skymode4:modules/trapped_signs/main",
+    "skymode4:modules/wooden_shears/main"
   ]
 }
