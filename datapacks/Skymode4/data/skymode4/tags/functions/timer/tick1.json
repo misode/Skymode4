@@ -1,6 +1,5 @@
 {
   "values": [
-    "skymode4:modules/twerk/main",
     "skymode4:modules/farming_station/main"
   ]
 }

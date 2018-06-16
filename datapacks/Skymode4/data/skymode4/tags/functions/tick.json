@@ -2,6 +2,7 @@
   "values": [
     "skymode4:modules/invisible_minecarts/tick",
     "skymode4:modules/graves/tick",
+    "skymode4:modules/twerk/tick",
     "skymode4:modules/wrench/tick",
     "skymode4:modules/barrel/tick",
     "skymode4:modules/crusher/tick",
