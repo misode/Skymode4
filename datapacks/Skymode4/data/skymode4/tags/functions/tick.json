@@ -21,8 +21,6 @@
     "skymode4:modules/solar_panel/tick",
     "skymode4:modules/xp_collector/tick",
     "skymode4:modules/mystic_core/tick",
-    "skymode4:modules/mystic_placer/tick",
-    "skymode4:modules/spike/tick",
-    "skymode4:modules/wooden_shears/tick"
+    "skymode4:modules/mystic_placer/tick"
   ]
 }

@@ -7,5 +7,5 @@ data merge entity @e[limit=1,type=item,nbt={Item:{Count:64b,id:"minecraft:player
 data remove entity @e[limit=1,type=item,nbt={Item:{id:"minecraft:cobblestone",tag:{skymode4Rock:1b}}}] Item.tag
 
 # Fix broken skulls
-data merge entity @e[limit=1,type=item,nbt={Item:{id:"minecraft:player_head",tag:{SkullOwner:"Cobble"}}}] {Item:{tag:{skymode4Rock:1b,display:{Name:"{\"text\":\"Rock\",\"italic\":false}"},SkullOwner:"Cobble"}}}
-data merge entity @e[limit=1,type=item,nbt={Item:{id:"minecraft:player_head",tag:{SkullOwner:{Name:"Cobble"}}}}] {Item:{tag:{skymode4Rock:1b,display:{Name:"{\"text\":\"Rock\",\"italic\":false}"},SkullOwner:"Cobble"}}}
+data merge entity @e[limit=1,type=item,nbt={Item:{id:"minecraft:player_head",tag:{SkullOwner:"Cobble"}}}] {Item:{tag:{skymode4Rock:1b,display:{Name:"{\"text\": \"Rock\",\"italic\": false}"},SkullOwner:"Cobble"}}}
+data merge entity @e[limit=1,type=item,nbt={Item:{id:"minecraft:player_head",tag:{SkullOwner:{Name:"Cobble"}}}}] {Item:{tag:{skymode4Rock:1b,display:{Name:"{\"text\": \"Rock\",\"italic\": false}"},SkullOwner:"Cobble"}}}
