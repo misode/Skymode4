@@ -1,0 +1,16 @@
+fill ~ 0 ~ ~15 15 ~15 air
+fill ~ 16 ~ ~15 31 ~15 air
+fill ~ 32 ~ ~15 47 ~15 air
+fill ~ 48 ~ ~15 63 ~15 air
+fill ~ 64 ~ ~15 79 ~15 air
+fill ~ 80 ~ ~15 95 ~15 air
+fill ~ 96 ~ ~15 111 ~15 air
+fill ~ 112 ~ ~15 127 ~15 air
+fill ~ 128 ~ ~15 143 ~15 air
+fill ~ 144 ~ ~15 159 ~15 air
+fill ~ 160 ~ ~15 175 ~15 air
+fill ~ 176 ~ ~15 191 ~15 air
+fill ~ 192 ~ ~15 207 ~15 air
+fill ~ 208 ~ ~15 223 ~15 air
+fill ~ 224 ~ ~15 139 ~15 air
+fill ~ 240 ~ ~15 255 ~15 air
