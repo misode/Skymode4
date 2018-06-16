@@ -4,6 +4,9 @@
 scoreboard players set @s barrelHeat -5
 execute if entity @s[scores={barrelCount=1..,barrelTime=..200}] run function skymode4:modules/barrel/detect_heat
 
+## rain check ##
+execute if entity @s[tag=barrelRainCheck] positioned ~ 300 ~ at @e[tag=barrelRainDetect,limit=1,distance=..1] run function skymode4:modules/barrel/add/rain_check
+
 ## update specific content ##
 execute if entity @s[tag=barrelWooden] run function skymode4:modules/barrel/update/wooden
 execute if entity @s[tag=barrelStone] run function skymode4:modules/barrel/update/stone
