@@ -1,0 +1,15 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:dead_bubble_coral_block"
+    },
+    "title": "Elevated",
+    "description": "Use an elevator block"
+  },
+  "parent": "skymode4:wooden_age/craft_sword",
+  "criteria": {
+    "craft": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

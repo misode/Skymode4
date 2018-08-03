@@ -5,11 +5,11 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:dark_oak_bark"
+      "item": "minecraft:oak_wood"
     }
   },
   "result": {
-    "item": "minecraft:dark_oak_log",
+    "item": "minecraft:oak_log",
     "count": 4
   }
 }

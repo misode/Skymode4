@@ -1,5 +1,6 @@
 {
   "values": [
-    "skymode4:modules/capacitor_bank/main"
+    "skymode4:modules/capacitor_bank/main",
+    "skymode4:modules/spike/main"
   ]
 }

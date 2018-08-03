@@ -1,0 +1,22 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:purple_glazed_terracotta"
+    },
+    "title": "Spiky",
+    "description": "Craft a wooden spike"
+  },
+  "parent": "skymode4:wooden_age/craft_sword",
+  "criteria": {
+    "craft": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:purple_glazed_terracotta"
+          }
+        ]
+      }
+    }
+  }
+}

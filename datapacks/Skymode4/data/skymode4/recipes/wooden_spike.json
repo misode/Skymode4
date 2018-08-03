@@ -1,0 +1,23 @@
+{
+  "type": "crafting_shaped",
+  "pattern": [
+    " S ",
+    "SLS",
+    "LPL"
+  ],
+  "key": {
+    "S": {
+      "item": "minecraft:wooden_sword"
+    },
+    "L": {
+      "tag": "minecraft:logs"
+    },
+    "P": {
+      "tag": "minecraft:planks"
+    }
+  },
+  "result": {
+    "item": "minecraft:purple_glazed_terracotta",
+    "count": 3
+  }
+}
