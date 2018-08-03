@@ -8,7 +8,7 @@ scoreboard objectives add timer dummy
 scoreboard players set @e[type=bat,tag=main] timer 0
 
 team add no_collision
-team option no_collision collisionRule never
+team modify no_collision collisionRule never
 
 function #skymode4:init
 
