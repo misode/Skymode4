@@ -5,7 +5,7 @@
     },
     "title": "Metal Age",
     "description": "Craft seared bricks\n▶ Island",
-    "background": "minecraft:textures/blocks/skymode4/seared_bricks.png"
+    "background": "minecraft:textures/block/skymode4/seared_bricks.png"
   },
   "criteria": {
     "craft": {

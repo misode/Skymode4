@@ -5,7 +5,7 @@
     },
     "title": "Farming Age",
     "description": "Craft a hoe to farm crops\n▶ Island\n▶ Water Source",
-    "background": "minecraft:textures/blocks/farmland_moist.png"
+    "background": "minecraft:textures/block/farmland_moist.png"
   },
   "criteria": {
     "impossible": {

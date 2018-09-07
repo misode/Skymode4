@@ -5,7 +5,7 @@
     },
     "title": "Stone Age",
     "description": "Mine cobblestone\n▶ Stone Pickaxe",
-    "background": "minecraft:textures/blocks/stone.png"
+    "background": "minecraft:textures/block/stone.png"
   },
   "criteria": {
     "craft": {

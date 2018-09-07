@@ -5,7 +5,7 @@
     },
     "title": "Skymode 4",
     "description": "Join the world\n▶ Spawn Island\n▶ Manual",
-    "background": "minecraft:textures/blocks/dirt.png"
+    "background": "minecraft:textures/block/dirt.png"
   },
   "criteria": {
     "join": {

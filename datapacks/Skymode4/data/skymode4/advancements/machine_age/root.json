@@ -5,7 +5,7 @@
     },
     "title": "Age of Machines",
     "description": "Craft a solar panel",
-    "background": "minecraft:textures/blocks/skymode4/steel_block.png"
+    "background": "minecraft:textures/block/skymode4/steel_block.png"
   },
   "criteria": {
     "craft": {

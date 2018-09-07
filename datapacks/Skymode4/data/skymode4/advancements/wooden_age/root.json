@@ -5,7 +5,7 @@
     },
     "title": "Wooden Age",
     "description": "Punch a tree\n▶ Island",
-    "background": "minecraft:textures/blocks/oak_planks.png"
+    "background": "minecraft:textures/block/oak_planks.png"
   },
   "criteria": {
     "pickup": {
