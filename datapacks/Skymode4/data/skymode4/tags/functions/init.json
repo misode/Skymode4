@@ -18,6 +18,7 @@
     "skymode4:modules/mystic_core/init",
     "skymode4:modules/mystic_placer/init",
     "skymode4:modules/wooden_shears/init",
-    "skymode4:modules/elevator/init"
+    "skymode4:modules/elevator/init",
+    "skymode4:modules/manual/init"
   ]
 }
