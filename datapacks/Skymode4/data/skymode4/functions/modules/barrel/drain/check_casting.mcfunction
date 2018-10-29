@@ -1,4 +1,5 @@
-tellraw @a[tag=debug] ["check casting"]
+# drain self for all different metal id's allowed if the mold is 0 or in range
+
 execute if entity @s[scores={barrelContent=10}] if entity @e[tag=barrelCasting,scores={barrelMold=0}] run function skymode4:modules/barrel/drain/self
 execute if entity @s[scores={barrelContent=14}] if entity @e[tag=barrelCasting,scores={barrelMold=0}] run function skymode4:modules/barrel/drain/self
 execute if entity @s[scores={barrelContent=18}] if entity @e[tag=barrelCasting,scores={barrelMold=0}] run function skymode4:modules/barrel/drain/self

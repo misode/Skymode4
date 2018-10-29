@@ -1,4 +1,3 @@
-tellraw @a[tag=debug] ["check alloy"]
 # barrelAlloy is the bottom barrel!
 
 ## Copper and tin -> Bronze

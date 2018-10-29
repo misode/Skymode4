@@ -1,7 +1,7 @@
-## tag items ##
+# tag items
 execute as @e[type=item,distance=..1] run function skymode4:modules/barrel/tag_items
 
-## item actions
+# item actions depending on which tag they got
 execute if entity @e[type=item,distance=..1,tag=barrelCompost] run function skymode4:modules/barrel/add/compost
 execute if entity @e[type=item,distance=..1,tag=barrelSand] run function skymode4:modules/barrel/remove/clay
 execute if entity @e[type=item,distance=..1,tag=barrelCobblestone] run function skymode4:modules/barrel/add/cobblestone

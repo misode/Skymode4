@@ -1,3 +1,4 @@
+# if the barrel has some water, remove a layer and change the item to a clay_ball
 tag @s[type=armor_stand,scores={barrelContent=3,barrelCount=1..}] add barrelTemp
 execute at @s[tag=barrelTemp] positioned ~ ~0.5 ~ run data merge entity @e[sort=nearest,limit=1,distance=..1,type=item,tag=barrelSand] {Item:{id:clay_ball}}
 execute at @s[tag=barrelTemp] positioned ~ ~0.5 ~ run tag @e[sort=nearest,limit=1,distance=..1,type=item,tag=barrelSand] remove barrelSand
