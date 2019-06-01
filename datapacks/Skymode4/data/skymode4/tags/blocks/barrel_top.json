@@ -6,7 +6,7 @@
     "minecraft:lava",
     "#minecraft:leaves",
     "minecraft:wall_torch",
-    "minecraft:wall_sign",
+    "#minecraft:wall_signs",
     "minecraft:redstone_wall_torch",
     "#minecraft:glass",
     "#minecraft:glass_panes",
