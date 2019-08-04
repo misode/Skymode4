@@ -8,6 +8,6 @@
     }
   },
   "rewards": {
-    "function": "skymode4:modules/crusher/place_crusher"
+    "function": "sm4_crusher:place_crusher"
   }
 }

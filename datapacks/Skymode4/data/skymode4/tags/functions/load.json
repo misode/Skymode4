@@ -1,5 +1,6 @@
 {
   "values": [
-    "sm4_barrel:load"
+    "sm4_barrel:load",
+    "sm4_crusher:load"
   ]
 }

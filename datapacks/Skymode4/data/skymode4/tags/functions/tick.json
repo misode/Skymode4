@@ -5,7 +5,7 @@
     "skymode4:modules/twerk/tick",
     "skymode4:modules/wrench/tick",
     "sm4_barrel:tick",
-    "skymode4:modules/crusher/tick",
+    "sm4_crusher:tick",
     "skymode4:modules/filter/tick",
     "skymode4:modules/cobble_gen/tick",
     "skymode4:modules/fan/tick",

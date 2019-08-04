@@ -1,6 +1,5 @@
 {
   "values": [
-    "skymode4:modules/crusher/main",
     "skymode4:modules/mystic_placer/main"
   ]
 }
