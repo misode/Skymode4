@@ -1,0 +1,17 @@
+{
+  "values": [
+    "minecraft:air",
+    "minecraft:water",
+    "minecraft:lava",
+    "#minecraft:leaves",
+    "minecraft:wall_torch",
+    "#minecraft:wall_signs",
+    "minecraft:redstone_wall_torch",
+    "#minecraft:glass",
+    "#minecraft:glass_panes",
+    "#minecraft:buttons",
+    "minecraft:lever",
+    "minecraft:tripwire",
+    "minecraft:cobweb"
+  ]
+}

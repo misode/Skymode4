@@ -1,6 +1,5 @@
 {
   "values": [
-    "skymode4:modules/sweathearts/main",
     "skymode4:modules/solar_panel/main"
   ]
 }

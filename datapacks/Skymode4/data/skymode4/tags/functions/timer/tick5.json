@@ -1,6 +1,5 @@
 {
   "values": [
-    "skymode4:modules/heart_canisters/main",
     "skymode4:modules/stirling_generator/main"
   ]
 }
