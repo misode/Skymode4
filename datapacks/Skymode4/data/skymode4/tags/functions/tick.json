@@ -7,7 +7,7 @@
     "sm4_barrel:tick",
     "sm4_crusher:tick",
     "skymode4:modules/filter/tick",
-    "skymode4:modules/cobble_gen/tick",
+    "sm4_cobble_gen:tick",
     "skymode4:modules/fan/tick",
     "skymode4:modules/tool_forge/tick",
     "skymode4:modules/farming_station/tick",

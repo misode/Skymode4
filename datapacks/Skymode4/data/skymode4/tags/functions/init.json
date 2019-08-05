@@ -3,7 +3,6 @@
     "skymode4:advancements/triggers/init",
     "skymode4:modules/graves/init",
     "skymode4:modules/wrench/init",
-    "skymode4:modules/cobble_gen/init",
     "skymode4:modules/tool_forge/init",
     "skymode4:modules/electric_furnace/init",
     "skymode4:modules/energy/init",

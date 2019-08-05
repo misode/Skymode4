@@ -8,6 +8,6 @@
     }
   },
   "rewards": {
-    "function": "skymode4:modules/cobble_gen/place_cobble_gen"
+    "function": "sm4_cobble_gen:place_cobble_gen"
   }
 }
