@@ -5,7 +5,8 @@
     },
     "title": "Nether Age",
     "description": "Visit the nether dimension\n▶ Resistance",
-    "background": "minecraft:textures/block/netherrack.png"
+    "background": "minecraft:textures/block/netherrack.png",
+    "announce_to_chat": false
   },
   "criteria": {
     "pickup": {

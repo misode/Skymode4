@@ -5,7 +5,8 @@
     },
     "title": "Mystic Age",
     "description": "Obtain mystic crystal",
-    "background": "minecraft:textures/block/skymode4/mystic_stone.png"
+    "background": "minecraft:textures/block/skymode4/mystic_stone.png",
+    "announce_to_chat": false
   },
   "criteria": {
     "craft": {
