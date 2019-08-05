@@ -1,6 +1,5 @@
 {
   "values": [
-    "skymode4:modules/rocks/main",
     "skymode4:modules/electric_furnace/main"
   ]
 }
