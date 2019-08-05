@@ -6,6 +6,7 @@ gamerule spawnRadius 0
 setworldspawn 0 64 0
 
 scoreboard objectives add timer dummy
+scoreboard objectives add terrain dummy
 
 team add noCollision
 team modify noCollision collisionRule never
