@@ -8,6 +8,6 @@
     }
   },
   "rewards": {
-    "function": "skymode4:modules/fan/place_fan"
+    "function": "sm4_fan:place_fan"
   }
 }
