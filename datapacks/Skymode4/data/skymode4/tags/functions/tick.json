@@ -6,7 +6,6 @@
     "skymode4:modules/wrench/tick",
     "sm4_barrel:tick",
     "sm4_crusher:tick",
-    "skymode4:modules/filter/tick",
     "sm4_cobble_gen:tick",
     "sm4_fan:tick",
     "skymode4:modules/tool_forge/tick",
