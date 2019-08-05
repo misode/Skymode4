@@ -1,6 +1,6 @@
 {
   "values": [
-    "skymode4:modules/invisible_minecarts/tick",
+    "invisible_minecarts:tick",
     "sm4_graves:tick",
     "sm4_twerk:tick",
     "skymode4:modules/wrench/tick",
