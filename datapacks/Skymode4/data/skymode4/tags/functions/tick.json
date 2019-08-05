@@ -3,7 +3,7 @@
     "invisible_minecarts:tick",
     "sm4_graves:tick",
     "sm4_twerk:tick",
-    "skymode4:modules/wrench/tick",
+    "sm4_wrench:tick",
     "sm4_barrel:tick",
     "sm4_crusher:tick",
     "sm4_cobble_gen:tick",

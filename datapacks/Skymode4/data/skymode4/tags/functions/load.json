@@ -7,6 +7,7 @@
     "sm4_graves:load",
     "sm4_spike:load",
     "sm4_twerk:load",
-    "sm4_wooden_shears:load"
+    "sm4_wooden_shears:load",
+    "sm4_wrench:load"
   ]
 }
