@@ -8,6 +8,7 @@
     "sm4_crusher:tick",
     "sm4_cobble_gen:tick",
     "sm4_fan:tick",
+    "sm4_part_builder:tick",
     "sm4_tool_forge:tick",
     "skymode4:modules/farming_station/tick",
     "skymode4:modules/stirling_generator/tick",
