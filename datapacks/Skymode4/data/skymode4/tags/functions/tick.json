@@ -15,7 +15,7 @@
     "skymode4:modules/capacitor_bank/tick",
     "skymode4:modules/energy/tick",
     "skymode4:modules/solar_panel/tick",
-    "skymode4:modules/xp_collector/tick",
+    "sm4_xp_collector:tick",
     "skymode4:modules/mystic_core/tick",
     "skymode4:modules/mystic_placer/tick",
     "sm4_wooden_shears:tick",

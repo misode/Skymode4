@@ -9,6 +9,7 @@
     "sm4_tool_forge:load",
     "sm4_twerk:load",
     "sm4_wooden_shears:load",
-    "sm4_wrench:load"
+    "sm4_wrench:load",
+    "sm4_xp_collector:load"
   ]
 }

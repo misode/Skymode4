@@ -3,11 +3,11 @@
     "place": {
       "trigger": "minecraft:placed_block",
       "conditions": {
-        "block": "minecraft:pink_glazed_terracotta"
+        "block": "minecraft:dark_prismarine"
       }
     }
   },
   "rewards": {
-    "function": "skymode4:modules/filter/place_filter"
+    "function": "sm4_xp_collector:place_xp_collector"
   }
 }
