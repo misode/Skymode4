@@ -1,4 +1,4 @@
-# split function depending on wether thhis was triggered by a hopper or by a player
+# split function depending on whether this was triggered by a hopper or by a player
 execute if entity @s[tag=!barrelHopperOut] run function sm4_barrel:top/item
 execute if entity @s[tag=barrelHopperOut] run function sm4_barrel:top/hopper
 

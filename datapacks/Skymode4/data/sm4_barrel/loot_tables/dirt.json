@@ -1,0 +1,62 @@
+{
+	"pools":[
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:dirt",
+					"functions": [
+						{
+              "function": "minecraft:set_count",
+              "count": 8
+          	}
+					]
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+        {
+					"type": "item",
+					"name": "minecraft:player_head",
+					"weight": 1,
+					"functions": [
+						{
+              "function": "minecraft:set_nbt",
+              "tag": "{SkullOwner:{Id:\"e9827f24-7505-47a6-acc5-c993aa3a1d3a\",Properties:{textures:[{Signature:\"TXash3RKaf3AQVH6zL6Q7IRqDaUab/i7ItmZ4DEGcdt3UdU4sY2oEk8NOMW9JbKTP7Bp2foDQG5j6QHzqCLMpNY1X04KI2tZd4XD5FK2oUPbzin15I0MgvelJZMFgJeCizmvI8foz3zcj42ZwIu5AfNTOy6veN4TpP7tkxlYB/WG8vKsVbpEcbfBttkhwebxOAFnBoyyKhucZhYC79JJIvaqy674f3vY38bmm8oZh22q2qLVF4xNQ0cuKVQwWVZtkHNihsOHWscRd+lKSdPVm05dJsHIRWV+sPp58y+ab9N/Ehgbxp/aEpbpVPfuM6HMs9TuFiCq7603SO/WyZTouJjo5W15jqBPkMFKVg88yKs9relFq/MU9SPWh4tuHtpNAUI17nEW2Lv1fRjooH+AS0ClN+dXpyXBxU4+6KfVpmdFDQSm2eh5Gt7fU4VwNz86oKQlFM4BLISizv8SwIMVqOJJNG+uM3A/232m82fxMUgDZz8I++2yJdQGwHcMe9PpGn/fLEsZYLPmjyMEEch3bbMaLGJuIVSEEyj1E0+Aw5rmaSIbI+f755ui0PsaalLjQo8tOhc1ZqM1ABHidXvPRxpGaIhfc9JMvkqdQfuVqeJ7jwFW/CyteMEx+YeYi7PndznqIhXxrC2454ULnDeww/HoAQfCrb83qdrESyviT6g=\",Value:\"eyJ0aW1lc3RhbXAiOjE1MjkxNzE4NjAzODAsInByb2ZpbGVJZCI6ImU5ODI3ZjI0NzUwNTQ3YTZhY2M1Yzk5M2FhM2ExZDNhIiwicHJvZmlsZU5hbWUiOiJDb2JibGUiLCJzaWduYXR1cmVSZXF1aXJlZCI6dHJ1ZSwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzE1Njc4NTQ3OTNjYjgxYjUyOGU2ZDE1YzM5MTliMTAzNTIyNjFjY2NiOWY0OGE1ZmY1M2QwZDYxNTMxZDY3ZjgifX19\"}]},Name:\"Cobble\"},display:{Name:\"{\\\"text\\\": \\\"Rock\\\",\\\"italic\\\": false}\"},skymode4Rock:1b}"
+            },
+            {
+              "function": "minecraft:set_count",
+              "count": {
+								"min": 0,
+								"max": 2
+							}
+          	}
+      		]
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "empty",
+					"weight": 15
+				},
+				{
+					"type": "item",
+					"name": "minecraft:repeating_command_block",
+					"weight": 1,
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{display:{Lore:[\"Contains iron\"]},Iron:1b}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

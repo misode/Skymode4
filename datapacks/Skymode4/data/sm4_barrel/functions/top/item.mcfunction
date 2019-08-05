@@ -1,6 +1,5 @@
 # give item to nearest player if the barrel has a specific content and count
 execute if entity @s[tag=!barrelCast,scores={barrelContent=2,barrelCount=8}] run function sm4_barrel:remove/dirt
-execute if entity @s[tag=!barrelCast,scores={barrelContent=2,barrelCount=8}] run advancement grant @p only skymode4:wooden_age/compost
 execute if entity @s[tag=!barrelCast,scores={barrelContent=5,barrelCount=8}] run give @p obsidian
 execute if entity @s[tag=!barrelCast,scores={barrelContent=6,barrelCount=1..}] run give @p cobblestone
 execute if entity @s[tag=barrelCast,scores={barrelMold=0,barrelContent=11,barrelCount=1..}] run give @p iron_ingot
