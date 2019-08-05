@@ -1,4 +1,4 @@
-function skymode4:modules/tool_forge/tool/get_slot
+function sm4_tool_forge:tool/get_slot
 execute store result score @s[scores={toolSlot=0}] toolLuck run data get entity @s Inventory[0].tag.ToolLuck
 execute store result score @s[scores={toolSlot=1}] toolLuck run data get entity @s Inventory[1].tag.ToolLuck
 execute store result score @s[scores={toolSlot=2}] toolLuck run data get entity @s Inventory[2].tag.ToolLuck

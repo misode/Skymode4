@@ -8,6 +8,6 @@
     }
   },
   "rewards": {
-    "function": "skymode4:modules/tool_forge/place_tool_forge"
+    "function": "sm4_tool_forge:place_tool_forge"
   }
 }

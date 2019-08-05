@@ -1,3 +1,7 @@
+# run from #skymode4:load
+
+scoreboard players set tool_forge timer 15
+
 scoreboard objectives add toolSpeed dummy
 scoreboard objectives add toolDurability dummy
 scoreboard objectives add toolDamage dummy
@@ -9,7 +13,7 @@ scoreboard players set #one toolTemp 1
 scoreboard players set #two toolTemp 2
 scoreboard players set #three toolTemp 3
 
-function skymode4:modules/tool_forge/config
+function sm4_tool_forge:config
 
 ## tool used detection
 scoreboard objectives add toolShovel1 minecraft.used:minecraft.wooden_shovel

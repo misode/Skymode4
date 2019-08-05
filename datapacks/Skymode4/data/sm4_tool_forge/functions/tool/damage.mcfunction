@@ -1,4 +1,4 @@
-function skymode4:modules/tool_forge/tool/get_slot
+function sm4_tool_forge:tool/get_slot
 
 execute store result score @s[scores={toolSlot=0}] toolDurability run data get entity @s Inventory[0].tag.Durability
 execute store result score @s[scores={toolSlot=1}] toolDurability run data get entity @s Inventory[1].tag.Durability
@@ -20,7 +20,7 @@ execute store result entity @s[scores={toolSlot=6}] Inventory[6].tag.Durability 
 execute store result entity @s[scores={toolSlot=7}] Inventory[7].tag.Durability int 1 run scoreboard players remove @s toolDurability 1
 execute store result entity @s[scores={toolSlot=8}] Inventory[8].tag.Durability int 1 run scoreboard players remove @s toolDurability 1
 
-execute if entity @s[scores={toolDurability=..-1}] run function skymode4:modules/tool_forge/tool/break
+execute if entity @s[scores={toolDurability=..-1}] run function sm4_tool_forge:tool/break
 title @s[scores={toolDurability=0..}] actionbar [{"score":{"name":"@s","objective":"toolDurability"},"color":"gray"}]
 
 scoreboard players set @s toolPickaxe1 0

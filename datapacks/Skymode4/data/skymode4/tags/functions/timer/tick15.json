@@ -1,6 +1,5 @@
 {
   "values": [
-    "skymode4:modules/tool_forge/main",
     "skymode4:modules/energy/main"
   ]
 }
