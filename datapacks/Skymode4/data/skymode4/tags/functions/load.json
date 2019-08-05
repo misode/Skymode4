@@ -5,6 +5,7 @@
     "sm4_crusher:load",
     "sm4_elevator:load",
     "sm4_spike:load",
-    "sm4_twerk:load"
+    "sm4_twerk:load",
+    "sm4_wooden_shears:load"
   ]
 }
