@@ -4,46 +4,42 @@
 			"rolls":1,
 			"entries":[
 				{
-					"type":"item",
+					"type":"minecraft:item",
 					"name":"minecraft:stick",
-					"weight":1,
 					"functions":[
 						{
 							"function":"minecraft:set_nbt",
-							"tag":"{twerkRandom1:1b}"
+							"tag":"{twerkRandom:{value:1b}}"
 						}
 					]
 				},
 				{
-					"type":"item",
+					"type":"minecraft:item",
 					"name":"minecraft:stick",
-					"weight":1,
 					"functions":[
 						{
 							"function":"minecraft:set_nbt",
-							"tag":"{twerkRandom2:1b}"
+							"tag":"{twerkRandom:{value:2b}}"
 						}
 					]
 				},
 				{
-					"type":"item",
+					"type":"minecraft:item",
 					"name":"minecraft:stick",
-					"weight":1,
 					"functions":[
 						{
 							"function":"minecraft:set_nbt",
-							"tag":"{twerkRandom3:1b}"
+							"tag":"{twerkRandom:{value:3b}}"
 						}
 					]
 				},
 				{
-					"type":"item",
+					"type":"minecraft:item",
 					"name":"minecraft:stick",
-					"weight":1,
 					"functions":[
 						{
 							"function":"minecraft:set_nbt",
-							"tag":"{twerkRandom4:1b}"
+							"tag":"{twerkRandom:{value:4b}}"
 						}
 					]
 				}
