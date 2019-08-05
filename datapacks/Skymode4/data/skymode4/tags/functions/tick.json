@@ -20,7 +20,7 @@
     "skymode4:modules/mystic_core/tick",
     "skymode4:modules/mystic_placer/tick",
     "skymode4:modules/wooden_shears/tick",
-    "skymode4:modules/spike/tick",
+    "sm4_spike:tick",
     "sm4_elevator:tick",
     "skymode4:modules/manual/tick"
   ]

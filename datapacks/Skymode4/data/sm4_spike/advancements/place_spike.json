@@ -8,6 +8,6 @@
     }
   },
   "rewards": {
-    "function": "skymode4:modules/spike/place_spike"
+    "function": "sm4_spike:place_spike"
   }
 }
