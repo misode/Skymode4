@@ -10,7 +10,7 @@
     "sm4_fan:tick",
     "sm4_part_builder:tick",
     "sm4_tool_forge:tick",
-    "skymode4:modules/farming_station/tick",
+    "sm4_farming_station:tick",
     "sm4_stirling_generator:tick",
     "sm4_electric_furnace:tick",
     "sm4_capacitor_bank:tick",

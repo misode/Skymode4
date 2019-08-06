@@ -8,6 +8,6 @@
     }
   },
   "rewards": {
-    "function": "skymode4:modules/farming_station/place_farming_station"
+    "function": "sm4_farming_station:place_farming_station"
   }
 }
