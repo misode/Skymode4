@@ -8,6 +8,8 @@ setworldspawn 0 64 0
 scoreboard objectives add timer dummy
 scoreboard objectives add terrain dummy
 
+scoreboard objectives add triggerDeaths minecraft.custom:minecraft.deaths
+
 team add noCollision
 team modify noCollision collisionRule never
 
