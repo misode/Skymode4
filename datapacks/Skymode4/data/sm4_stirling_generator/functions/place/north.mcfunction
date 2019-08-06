@@ -1,2 +1,2 @@
 summon armor_stand ~ ~ ~ {Invisible:1,NoGravity:1,Marker:1,Tags:[stirlingGeneratorInit,stirlingGeneratorRot3],Rotation:[180f]}
-execute as @e[type=armor_stand,tag=stirlingGeneratorInit] at @s run function skymode4:modules/stirling_generator/create
+execute as @e[type=armor_stand,tag=stirlingGeneratorInit] at @s run function sm4_stirling_generator:create

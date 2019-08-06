@@ -4,11 +4,11 @@ execute if entity @s[tag=electricFurnaceRot1] run setblock ~ ~ ~ furnace[facing=
 execute if entity @s[tag=electricFurnaceRot2] run setblock ~ ~ ~ furnace[facing=west]{CustomName:"{\"text\":\"Electric Furnace\"}"}
 data merge entity @s {Fire:50,ArmorItems:[{},{},{},{id:"minecraft:brown_glazed_terracotta",Count:1b}]}
 scoreboard players set @s energy 0
-scoreboard players set @s energyMax 1000
+scoreboard players set @s energyMax 16
 scoreboard players set @s energyIn 10
 scoreboard players set @s energyNetwork -1
 scoreboard players set @s furnaceTime 0
 tag @s remove electricFurnaceInit
 tag @s add electricFurnace
 tag @s add energyReceive
-function skymode4:modules/energy/update_network
+function sm4_energy:update_network

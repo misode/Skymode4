@@ -3,11 +3,11 @@
     "place": {
       "trigger": "minecraft:placed_block",
       "conditions": {
-        "block": "minecraft:brown_glazed_terracotta"
+        "block": "minecraft:blue_glazed_terracotta"
       }
     }
   },
   "rewards": {
-    "function": "skymode4:modules/electric_furnace/place_electric_furnace"
+    "function": "sm4_stirling_generator:place_stirling_generator"
   }
 }
