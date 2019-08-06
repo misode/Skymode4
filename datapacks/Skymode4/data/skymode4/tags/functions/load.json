@@ -9,6 +9,7 @@
     "sm4_energy:load",
     "sm4_farming_station:load",
     "sm4_graves:load",
+    "sm4_manual:load",
     "sm4_mystic_core:load",
     "sm4_mystic_placer:load",
     "sm4_part_builder:load",

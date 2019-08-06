@@ -22,6 +22,6 @@
     "sm4_wooden_shears:tick",
     "sm4_spike:tick",
     "sm4_elevator:tick",
-    "skymode4:modules/manual/tick"
+    "sm4_manual:tick"
   ]
 }

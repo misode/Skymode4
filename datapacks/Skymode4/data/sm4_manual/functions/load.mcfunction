@@ -1,3 +1,5 @@
+# run from #skymode4:load
+
 scoreboard objectives add manualPage dummy
 scoreboard objectives add manualScroll dummy
 scoreboard objectives add manualRotX dummy

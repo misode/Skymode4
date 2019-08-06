@@ -15,10 +15,10 @@ scoreboard players operation @s manualRotY = temp manualRotY
 scoreboard players operation @s manualRotX = temp manualRotX
 
 # go to menu
-execute if entity @s[scores={manualSneak=1..}] run function skymode4:modules/manual/back
+execute if entity @s[scores={manualSneak=1..}] run function sm4_manual:back
 
 # check click events
-execute if entity @s[scores={manualClick=1..}] run function skymode4:modules/manual/click
+execute if entity @s[scores={manualClick=1..}] run function sm4_manual:click
 
 # limit page and scroll range
 scoreboard players set @s[scores={manualPage=..-1}] manualPage 0
@@ -26,4 +26,4 @@ scoreboard players set @s[scores={manualPage=32..}] manualPage 31
 scoreboard players set @s[scores={manualScroll=..-1}] manualScroll 0
 
 # draw the correct page
-function skymode4:modules/manual/set_page
+function sm4_manual:set_page
