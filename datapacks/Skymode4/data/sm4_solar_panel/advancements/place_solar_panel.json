@@ -8,6 +8,6 @@
     }
   },
   "rewards": {
-    "function": "skymode4:modules/solar_panel/place_solar_panel"
+    "function": "sm4_solar_panel:place_solar_panel"
   }
 }

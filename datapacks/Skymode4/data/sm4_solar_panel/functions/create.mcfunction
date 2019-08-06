@@ -7,4 +7,4 @@ scoreboard players set @s energyNetwork -1
 tag @s remove solarPanelInit
 tag @s add solarPanel
 tag @s add energyTransmit
-function skymode4:modules/energy/update_network
+function sm4_energy:update_network

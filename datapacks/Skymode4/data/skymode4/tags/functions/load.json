@@ -8,6 +8,7 @@
     "sm4_energy:load",
     "sm4_graves:load",
     "sm4_part_builder:load",
+    "sm4_solar_panel:load",
     "sm4_spike:load",
     "sm4_tool_forge:load",
     "sm4_twerk:load",
