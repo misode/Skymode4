@@ -8,6 +8,6 @@
     }
   },
   "rewards": {
-    "function": "skymode4:modules/capacitor_bank/place_capacitor_bank"
+    "function": "sm4_capacitor_bank:place_capacitor_bank"
   }
 }

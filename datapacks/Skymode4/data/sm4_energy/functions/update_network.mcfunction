@@ -1,4 +1,4 @@
-function skymode4:modules/energy/detect_network
+function sm4_energy:detect_network
 
 scoreboard players set #current energyNetwork -1
 scoreboard players operation #current energyNetwork > @e[tag=energyNetwork] energyNetwork

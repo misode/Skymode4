@@ -2,7 +2,6 @@
   "values": [
     "skymode4:advancements/triggers/init",
     "skymode4:modules/electric_furnace/init",
-    "skymode4:modules/energy/init",
     "skymode4:modules/mystic_core/init",
     "skymode4:modules/mystic_placer/init",
     "skymode4:modules/manual/init"

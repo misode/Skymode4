@@ -8,6 +8,6 @@
     }
   },
   "rewards": {
-    "function": "skymode4:modules/energy/place_energy_cable"
+    "function": "sm4_energy:place_energy_cable"
   }
 }

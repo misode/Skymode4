@@ -9,4 +9,4 @@ tag @s remove capacitorBankInit
 tag @s add capacitorBank
 tag @s add energyTransmit
 tag @s add energyReceive
-function skymode4:modules/energy/update_network
+function sm4_energy:update_network

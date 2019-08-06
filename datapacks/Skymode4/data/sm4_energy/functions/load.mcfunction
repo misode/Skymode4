@@ -1,3 +1,7 @@
+# run from #skymode4:load
+
+scoreboard players set energy timer 15
+
 scoreboard objectives add energy dummy
 scoreboard objectives add energyMax dummy
 scoreboard objectives add energyIn dummy
