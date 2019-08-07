@@ -1,5 +1,4 @@
 scoreboard players set @s manualClick 0
-scoreboard players operation manualOldPage manualPage = @s manualPage
 
 # categories are reverted so they don't trigger twice per click
 
@@ -32,6 +31,5 @@ execute if score @s manualPage matches 1 if score @s manualScroll matches 0 run 
 execute if score @s manualPage matches 1 if score @s manualScroll matches 1 run scoreboard players set @s manualPage 3
 execute if score @s manualPage matches 1 if score @s manualScroll matches 2 run scoreboard players set @s manualPage 6
 execute if score @s manualPage matches 1 if score @s manualScroll matches 3 run scoreboard players set @s manualPage 12
-
-# set scroll to 0 on click event success
-#execute unless score @s manualPage = manualOldPage manualPage run scoreboard players set @s manualScroll 0
+execute if score @s manualPage matches 1 if score @s manualScroll matches 4 run scoreboard players set @s manualPage 20
+execute if score @s manualPage matches 1 if score @s manualScroll matches 5 run scoreboard players set @s manualPage 26

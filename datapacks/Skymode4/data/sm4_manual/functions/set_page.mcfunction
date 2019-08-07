@@ -49,14 +49,14 @@ execute if score @s manualPage matches 12 if score @s manualScroll matches 2 run
 execute if score @s manualPage matches 12 if score @s manualScroll matches 3 run title @s actionbar ""
 execute if score @s manualPage matches 12 if score @s manualScroll matches 4 run title @s actionbar ""
 execute if score @s manualPage matches 12 if score @s manualScroll matches 5 run title @s actionbar ""
-# seared barrel D
+# seared bricks D
 execute if score @s manualPage matches 13 run title @s actionbar ""
+# seared barrel E
 execute if score @s manualPage matches 14 run title @s actionbar ""
-# casting table F
 execute if score @s manualPage matches 15 run title @s actionbar ""
-# tool forge 10
+# casting table 10
 execute if score @s manualPage matches 16 run title @s actionbar ""
-# filter 11
+# tool forge 11
 execute if score @s manualPage matches 17 run title @s actionbar ""
 # farming station 12
 execute if score @s manualPage matches 18 run title @s actionbar ""
